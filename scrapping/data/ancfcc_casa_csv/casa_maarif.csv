@@ -1,0 +1,594 @@
+﻿Zone,Préfecture/Province,Arrondissement/Commune,Famille des consistances,Consistance,Affectation,Superficie / étages,Valeur en DH/m²,CC-MA10,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,20000,Conservation_scrapee
+CC-MA10,,,Terrain nu,Terrain nu équipé,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA10,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,30000,,,,,,,,,CASA MAARIF
+CC-MA10,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,35000,,,,,,,,,CASA MAARIF
+CC-MA10,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,17000,,,,,,,,,CASA MAARIF
+CC-MA10,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,15000,,,,,,,,,CASA MAARIF
+CC-MA10,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA10,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA10,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA10,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA10,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA10,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,8500,,,,,,,,,CASA MAARIF
+CC-MA10,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,7500,,,,,,,,,CASA MAARIF
+CC-MA10,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,6500,,,,,,,,,CASA MAARIF
+CC-MA10,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA10,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA10,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA10,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA10,,,Terrain nu,Terrain nu non équipé,,Inférieure à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA10,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,18000,,,,,,,,,CASA MAARIF
+CC-MA10,,,Immeubles construits,Construction à usage commercial,,*****,22000,,,,,,,,,CASA MAARIF
+CC-MA10,,,Immeubles construits,Construction à usage touristique,,*****,22000,,,,,,,,,CASA MAARIF
+CC-MA10,,,Immeubles construits,Villa,,*****,11000,,,,,,,,,CASA MAARIF
+CC-MA10,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA10,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,20000,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu équipé,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,30000,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,17000,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,15000,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,12000,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,8500,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,6500,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu non équipé,,Inférieure à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA11,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 500 m²,8000,,,,,,,,,CASA MAARIF
+CC-MA11,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,19000,,,,,,,,,CASA MAARIF
+CC-MA11,,,Immeubles construits,Construction à usage commercial,,*****,23000,,,,,,,,,CASA MAARIF
+CC-MA11,,,Immeubles construits,Villa,,*****,11000,,,,,,,,,CASA MAARIF
+CC-MA11,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA11,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,20000,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu équipé,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,30000,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,35000,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,17000,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,15000,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,12000,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,8500,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,7500,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,6500,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu non équipé,,Inférieure à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA12,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 500 m²,8000,,,,,,,,,CASA MAARIF
+CC-MA12,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,19000,,,,,,,,,CASA MAARIF
+CC-MA12,,,Immeubles construits,Construction à usage commercial,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA12,,,Immeubles construits,Construction à usage touristique,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA12,,,Immeubles construits,Villa,,*****,13000,,,,,,,,,CASA MAARIF
+CC-MA12,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,20000,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu équipé,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,30000,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,35000,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,17000,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,15000,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,12000,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,8500,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,7500,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,6500,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA13,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 500 m²,8000,,,,,,,,,CASA MAARIF
+CC-MA13,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,19000,,,,,,,,,CASA MAARIF
+CC-MA13,,,Immeubles construits,Construction à usage commercial,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA13,,,Immeubles construits,Construction à usage touristique,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA13,,,Immeubles construits,Villa,,*****,13000,,,,,,,,,CASA MAARIF
+CC-MA13,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA13,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,20000,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu équipé,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,35000,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,17000,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,15000,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,12000,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,7500,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,6500,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu non équipé,,Inférieure à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA14,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 500 m²,8000,,,,,,,,,CASA MAARIF
+CC-MA14,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,18000,,,,,,,,,CASA MAARIF
+CC-MA14,,,Immeubles construits,Construction à usage touristique,,*****,23000,,,,,,,,,CASA MAARIF
+CC-MA14,,,Immeubles construits,Villa,,*****,13000,,,,,,,,,CASA MAARIF
+CC-MA14,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA14,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,20000,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu équipé,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,30000,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,35000,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,17000,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,12000,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,8500,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,7500,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,6500,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu non équipé,,Inférieure à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA15,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 500 m²,8000,,,,,,,,,CASA MAARIF
+CC-MA15,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,19000,,,,,,,,,CASA MAARIF
+CC-MA15,,,Immeubles construits,Construction à usage commercial,,*****,22000,,,,,,,,,CASA MAARIF
+CC-MA15,,,Immeubles construits,Construction à usage touristique,,*****,22000,,,,,,,,,CASA MAARIF
+CC-MA15,,,Immeubles construits,Villa,,*****,11000,,,,,,,,,CASA MAARIF
+CC-MA15,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,25000,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu équipé,,*****,30000,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,35000,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,40000,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,17500,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,15500,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,13500,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,12000,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,8500,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,7500,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,6500,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,35000,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,33000,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,35000,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu non équipé,,Inférieure à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA16,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 500 m²,8000,,,,,,,,,CASA MAARIF
+CC-MA16,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,20000,,,,,,,,,CASA MAARIF
+CC-MA16,,,Immeubles construits,Construction à usage commercial,,*****,24000,,,,,,,,,CASA MAARIF
+CC-MA16,,,Immeubles construits,Construction à usage touristique,,*****,24000,,,,,,,,,CASA MAARIF
+CC-MA16,,,Immeubles construits,Villa,,*****,11000,,,,,,,,,CASA MAARIF
+CC-MA16,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA16,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,20000,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,30000,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,35000,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,17000,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,15000,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,12000,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,8500,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,7500,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,6500,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu non équipé,,Inférieure à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA17,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 500 m²,8000,,,,,,,,,CASA MAARIF
+CC-MA17,,,Immeubles construits,Construction à usage commercial,,*****,22000,,,,,,,,,CASA MAARIF
+CC-MA17,,,Immeubles construits,Construction à usage touristique,,*****,22000,,,,,,,,,CASA MAARIF
+CC-MA17,,,Immeubles construits,Villa,,*****,11000,,,,,,,,,CASA MAARIF
+CC-MA17,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA17,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,25000,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu équipé,,*****,30000,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,35000,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,40000,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,15500,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,13500,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,12000,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,8500,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,7500,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,35000,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,33000,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,35000,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,33000,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu non équipé,,Inférieure à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA18,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 500 m²,8000,,,,,,,,,CASA MAARIF
+CC-MA18,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,20000,,,,,,,,,CASA MAARIF
+CC-MA18,,,Immeubles construits,Construction à usage commercial,,*****,24000,,,,,,,,,CASA MAARIF
+CC-MA18,,,Immeubles construits,Construction à usage touristique,,*****,24000,,,,,,,,,CASA MAARIF
+CC-MA18,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA18,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,20000,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu équipé,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,30000,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,35000,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,17000,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,15000,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,12000,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,8500,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,7500,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,6500,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu non équipé,,Inférieure à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA19,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 500 m²,8000,,,,,,,,,CASA MAARIF
+CC-MA19,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,18000,,,,,,,,,CASA MAARIF
+CC-MA19,,,Immeubles construits,Construction à usage commercial,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA19,,,Immeubles construits,Construction à usage touristique,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA19,,,Immeubles construits,Villa,,*****,11000,,,,,,,,,CASA MAARIF
+CC-MA19,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA19,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA20,,,Terrain nu,Terrain nu équipé,,*****,22000,,,,,,,,,CASA MAARIF
+CC-MA20,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,27000,,,,,,,,,CASA MAARIF
+CC-MA20,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,32000,,,,,,,,,CASA MAARIF
+CC-MA20,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,15500,,,,,,,,,CASA MAARIF
+CC-MA20,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,13500,,,,,,,,,CASA MAARIF
+CC-MA20,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,11500,,,,,,,,,CASA MAARIF
+CC-MA20,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA20,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA20,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA20,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,12000,,,,,,,,,CASA MAARIF
+CC-MA20,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,9000,,,,,,,,,CASA MAARIF
+CC-MA20,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,8000,,,,,,,,,CASA MAARIF
+CC-MA20,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,7000,,,,,,,,,CASA MAARIF
+CC-MA20,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA20,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,26000,,,,,,,,,CASA MAARIF
+CC-MA20,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA20,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,26000,,,,,,,,,CASA MAARIF
+CC-MA20,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 100 m²,8000,,,,,,,,,CASA MAARIF
+CC-MA20,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,18000,,,,,,,,,CASA MAARIF
+CC-MA20,,,Immeubles construits,Construction à usage commercial,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA20,,,Immeubles construits,Construction à usage touristique,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA20,,,Immeubles construits,Villa,,*****,10000,,,,,,,,,CASA MAARIF
+CC-MA20,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA20,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,22000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé,,*****,27000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,32000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,18000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,16000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,14000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,12000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,9000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,7000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,32000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,32000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 100 m²,8000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 100 m²,7000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,19000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Immeubles construits,Construction à usage commercial,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Immeubles construits,Villa,,*****,9000,,,,,,,,,CASA MAARIF
+CC-MA21,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA21,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,22000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé,,*****,27000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,32000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,37000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,18000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,16000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,12000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,9000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,8000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,7000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,32000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,32000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 100 m²,8000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 100 m²,7000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,22000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Immeubles construits,Construction à usage commercial,,*****,30000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Immeubles construits,Construction à usage touristique,,*****,30000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Immeubles construits,Villa,,*****,9000,,,,,,,,,CASA MAARIF
+CC-MA22,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,22000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé,,*****,27000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,32000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,37000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,18000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,16000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,14000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,12000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,9000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,8000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,7000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,32000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,32000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 100 m²,7000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,19000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Immeubles construits,Construction à usage commercial,,*****,30000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Immeubles construits,Construction à usage touristique,,*****,30000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Immeubles construits,Villa,,*****,10000,,,,,,,,,CASA MAARIF
+CC-MA23,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA23,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA24,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,20000,,,,,,,,,CASA MAARIF
+CC-MA24,,,Terrain nu,Terrain nu équipé,,*****,26000,,,,,,,,,CASA MAARIF
+CC-MA24,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,32000,,,,,,,,,CASA MAARIF
+CC-MA24,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,18000,,,,,,,,,CASA MAARIF
+CC-MA24,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,16000,,,,,,,,,CASA MAARIF
+CC-MA24,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,14000,,,,,,,,,CASA MAARIF
+CC-MA24,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA24,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA24,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA24,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,15000,,,,,,,,,CASA MAARIF
+CC-MA24,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA24,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,9500,,,,,,,,,CASA MAARIF
+CC-MA24,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,8500,,,,,,,,,CASA MAARIF
+CC-MA24,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA24,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA24,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA24,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA24,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,18000,,,,,,,,,CASA MAARIF
+CC-MA24,,,Immeubles construits,Construction à usage commercial,,*****,30000,,,,,,,,,CASA MAARIF
+CC-MA24,,,Immeubles construits,Construction à usage touristique,,*****,30000,,,,,,,,,CASA MAARIF
+CC-MA24,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA24,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,20000,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Terrain nu,Terrain nu équipé,,*****,26000,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,29000,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,32000,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,18000,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,16000,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,14000,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,15000,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,10500,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,9500,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,8500,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,18000,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Immeubles construits,Construction à usage commercial,,*****,30000,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Immeubles construits,Construction à usage touristique,,*****,30000,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Immeubles construits,Villa,,*****,10000,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA24BIS,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA25,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,20000,,,,,,,,,CASA MAARIF
+CC-MA25,,,Terrain nu,Terrain nu équipé,,*****,26000,,,,,,,,,CASA MAARIF
+CC-MA25,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,32000,,,,,,,,,CASA MAARIF
+CC-MA25,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,18000,,,,,,,,,CASA MAARIF
+CC-MA25,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,16000,,,,,,,,,CASA MAARIF
+CC-MA25,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,14000,,,,,,,,,CASA MAARIF
+CC-MA25,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA25,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA25,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA25,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,15000,,,,,,,,,CASA MAARIF
+CC-MA25,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA25,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,9500,,,,,,,,,CASA MAARIF
+CC-MA25,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,8500,,,,,,,,,CASA MAARIF
+CC-MA25,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA25,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA25,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA25,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA25,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,17000,,,,,,,,,CASA MAARIF
+CC-MA25,,,Immeubles construits,Construction à usage commercial,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA25,,,Immeubles construits,Construction à usage touristique,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA25,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA25,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA26,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,20000,,,,,,,,,CASA MAARIF
+CC-MA26,,,Terrain nu,Terrain nu équipé,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA26,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,30000,,,,,,,,,CASA MAARIF
+CC-MA26,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,35000,,,,,,,,,CASA MAARIF
+CC-MA26,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,17000,,,,,,,,,CASA MAARIF
+CC-MA26,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,15000,,,,,,,,,CASA MAARIF
+CC-MA26,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA26,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA26,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA26,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,18000,,,,,,,,,CASA MAARIF
+CC-MA26,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,16000,,,,,,,,,CASA MAARIF
+CC-MA26,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,12500,,,,,,,,,CASA MAARIF
+CC-MA26,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,11500,,,,,,,,,CASA MAARIF
+CC-MA26,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,10500,,,,,,,,,CASA MAARIF
+CC-MA26,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA26,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA26,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA26,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,18000,,,,,,,,,CASA MAARIF
+CC-MA26,,,Immeubles construits,Construction à usage commercial,,*****,32000,,,,,,,,,CASA MAARIF
+CC-MA26,,,Immeubles construits,Construction à usage touristique,,*****,32000,,,,,,,,,CASA MAARIF
+CC-MA26,,,Immeubles construits,Villa,,*****,10000,,,,,,,,,CASA MAARIF
+CC-MA26,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA26,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA27,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,20000,,,,,,,,,CASA MAARIF
+CC-MA27,,,Terrain nu,Terrain nu équipé,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA27,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,35000,,,,,,,,,CASA MAARIF
+CC-MA27,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,17500,,,,,,,,,CASA MAARIF
+CC-MA27,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,15500,,,,,,,,,CASA MAARIF
+CC-MA27,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,13500,,,,,,,,,CASA MAARIF
+CC-MA27,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA27,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA27,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA27,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,15000,,,,,,,,,CASA MAARIF
+CC-MA27,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA27,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,9500,,,,,,,,,CASA MAARIF
+CC-MA27,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,8500,,,,,,,,,CASA MAARIF
+CC-MA27,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,35000,,,,,,,,,CASA MAARIF
+CC-MA27,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA27,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,35000,,,,,,,,,CASA MAARIF
+CC-MA27,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA27,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,19000,,,,,,,,,CASA MAARIF
+CC-MA27,,,Immeubles construits,Construction à usage commercial,,*****,30000,,,,,,,,,CASA MAARIF
+CC-MA27,,,Immeubles construits,Construction à usage touristique,,*****,30000,,,,,,,,,CASA MAARIF
+CC-MA27,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA27,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,20000,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Terrain nu,Terrain nu équipé,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,30000,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,35000,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,17500,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,15500,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,13500,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,15000,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,10500,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,9500,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,8500,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,35000,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,21000,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Immeubles construits,Construction à usage commercial,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Immeubles construits,Construction à usage touristique,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Immeubles construits,Villa,,*****,10000,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA27BIS,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA28,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,20000,,,,,,,,,CASA MAARIF
+CC-MA28,,,Terrain nu,Terrain nu équipé,,*****,27000,,,,,,,,,CASA MAARIF
+CC-MA28,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,35000,,,,,,,,,CASA MAARIF
+CC-MA28,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,18000,,,,,,,,,CASA MAARIF
+CC-MA28,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,16000,,,,,,,,,CASA MAARIF
+CC-MA28,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,14000,,,,,,,,,CASA MAARIF
+CC-MA28,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA28,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA28,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA28,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,15000,,,,,,,,,CASA MAARIF
+CC-MA28,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA28,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,9500,,,,,,,,,CASA MAARIF
+CC-MA28,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,8500,,,,,,,,,CASA MAARIF
+CC-MA28,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,35000,,,,,,,,,CASA MAARIF
+CC-MA28,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA28,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,35000,,,,,,,,,CASA MAARIF
+CC-MA28,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA28,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,19000,,,,,,,,,CASA MAARIF
+CC-MA28,,,Immeubles construits,Construction à usage commercial,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA28,,,Immeubles construits,Construction à usage touristique,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA28,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA28,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,17000,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Terrain nu,Terrain nu équipé,,*****,22000,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,25000,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,28000,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,15500,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,13500,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,11500,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,15000,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,10500,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,9500,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,8500,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,35000,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,18000,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Immeubles construits,Construction à usage commercial,,*****,30000,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Immeubles construits,Construction à usage touristique,,*****,30000,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Immeubles construits,Villa,,*****,10000,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA28BIS,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,20000,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu équipé,,*****,25000,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,35000,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,17000,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,15000,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,12000,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,7500,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,6500,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,28000,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu non équipé,,Inférieure à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 500 m²,8000,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,19000,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Immeubles construits,Construction à usage touristique,,*****,23000,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Immeubles construits,Villa,,*****,11000,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA28TER,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,25000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu équipé,,*****,30000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,35000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,40000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,21000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,17000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,17000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,15000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,12000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,11000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,35000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 250 m²,30000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu non équipé,,Inférieure à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 500 m²,8000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,24000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Immeubles construits,Construction à usage commercial,,*****,35000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Immeubles construits,Construction à usage touristique,,*****,35000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Immeubles construits,Villa,,*****,10000,,,,,,,,,CASA MAARIF
+CC-MA29,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,25000,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu équipé,,*****,35000,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,40000,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,45000,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,24500,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,22500,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,20500,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 500 m²,20000,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 500 m²,18000,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,14000,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,13000,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,12000,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 250 m²,35000,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 250 m²,32000,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 250 m²,35000,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu non équipé,,Inférieure à 500 m²,10000,,,,,,,,,CASA MAARIF
+CC-MA9,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 500 m²,8000,,,,,,,,,CASA MAARIF
+CC-MA9,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,26000,,,,,,,,,CASA MAARIF
+CC-MA9,,,Immeubles construits,Construction à usage commercial,,*****,35000,,,,,,,,,CASA MAARIF
+CC-MA9,,,Immeubles construits,Construction à usage touristique,,*****,35000,,,,,,,,,CASA MAARIF
+CC-MA9,,,Immeubles construits,Villa,,*****,12000,,,,,,,,,CASA MAARIF
+CC-MA9,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA MAARIF
+CC-MA9,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA MAARIF

@@ -1,0 +1,1535 @@
+{
+  "CC-SB1": {
+    "lat": 33.6057698,
+    "lon": -7.6290611,
+    "geocode_query": "Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Poste Maroc, Rue de Tiznit, Sour Jdid, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat,"
+  },
+  "CC-SB2": {
+    "lat": 33.5869623,
+    "lon": -7.6215965,
+    "geocode_query": "Avenue Hassan II, Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Avenue Hassan II, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20130, Maroc"
+  },
+  "CC-SB3": {
+    "lat": 33.5967566,
+    "lon": -7.5964595,
+    "geocode_query": "Avenue Pasteur, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Avenue Pasteur, Assoukhour Assawda, Arrondissement des Roches noires, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-S"
+  },
+  "CC-SB4": {
+    "lat": 33.6057698,
+    "lon": -7.6290611,
+    "geocode_query": "Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Poste Maroc, Rue de Tiznit, Sour Jdid, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat,"
+  },
+  "CC-SB5": {
+    "lat": 33.6057698,
+    "lon": -7.6290611,
+    "geocode_query": "Boulevard Anfa, Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Poste Maroc, Rue de Tiznit, Sour Jdid, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat,"
+  },
+  "CC-SB6": {
+    "lat": 33.594162,
+    "lon": -7.6108473,
+    "geocode_query": "Boulevard Mohammed V, Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Boulevard Mohammed V, Ancienne Medina, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat,"
+  },
+  "CC-SB7": {
+    "lat": 33.6057698,
+    "lon": -7.6290611,
+    "geocode_query": "Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Poste Maroc, Rue de Tiznit, Sour Jdid, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat,"
+  },
+  "CC-SB8": {
+    "lat": 33.5907065,
+    "lon": -7.6212303,
+    "geocode_query": "Boulevard Rachidi, Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Boulevard Rachidi, Ancienne Medina, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20"
+  },
+  "CC-SB9": {
+    "lat": 33.5951287,
+    "lon": -7.6330441,
+    "geocode_query": "Boulevard Ziraoui, Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Boulevard Ziraoui, Sour Jdid, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20053, M"
+  },
+  "CC-SB10": {
+    "lat": 33.5881538,
+    "lon": -7.6125987,
+    "geocode_query": "Alsace Lorraine, Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Brasserie Alsace Lorraine, Boulevard Rahal El Meskini, Ancienne Medina, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture "
+  },
+  "CC-SB11": {
+    "lat": 33.6057698,
+    "lon": -7.6290611,
+    "geocode_query": "Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Poste Maroc, Rue de Tiznit, Sour Jdid, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat,"
+  },
+  "CC-SB12": {
+    "lat": 33.6057698,
+    "lon": -7.6290611,
+    "geocode_query": "Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Poste Maroc, Rue de Tiznit, Sour Jdid, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat,"
+  },
+  "CC-SB13": {
+    "lat": 33.6057698,
+    "lon": -7.6290611,
+    "geocode_query": "Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Poste Maroc, Rue de Tiznit, Sour Jdid, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat,"
+  },
+  "CC-SB14": {
+    "lat": 33.6057698,
+    "lon": -7.6290611,
+    "geocode_query": "Ancienne Médina, Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Poste Maroc, Rue de Tiznit, Sour Jdid, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat,"
+  },
+  "CC-SB15": {
+    "lat": 33.6057698,
+    "lon": -7.6290611,
+    "geocode_query": "Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Poste Maroc, Rue de Tiznit, Sour Jdid, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat,"
+  },
+  "CC-SB16": {
+    "lat": 33.6057698,
+    "lon": -7.6290611,
+    "geocode_query": "Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Poste Maroc, Rue de Tiznit, Sour Jdid, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat,"
+  },
+  "CC-SB17": {
+    "lat": 33.6057698,
+    "lon": -7.6290611,
+    "geocode_query": "Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Poste Maroc, Rue de Tiznit, Sour Jdid, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat,"
+  },
+  "CC-SB18": {
+    "lat": 33.6057698,
+    "lon": -7.6290611,
+    "geocode_query": "Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Poste Maroc, Rue de Tiznit, Sour Jdid, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat,"
+  },
+  "CC-SB19": {
+    "lat": 33.6059185,
+    "lon": -7.6207842,
+    "geocode_query": "Marina de Casablanca, Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Marina, Boulevard Sidi Mohammed Ben Abdellah, Ancienne Medina, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casabl"
+  },
+  "CC-SB20": {
+    "lat": 33.6057698,
+    "lon": -7.6290611,
+    "geocode_query": "Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Poste Maroc, Rue de Tiznit, Sour Jdid, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat,"
+  },
+  "CC-SB21": {
+    "lat": 33.6057698,
+    "lon": -7.6290611,
+    "geocode_query": "Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Poste Maroc, Rue de Tiznit, Sour Jdid, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat,"
+  },
+  "CC-SB22": {
+    "lat": 33.5830575,
+    "lon": -7.615788,
+    "geocode_query": "Boulevard Mohamed Zerktouni, Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Boulevard Mohamed Zerktouni, Les Hôpitaux, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Set"
+  },
+  "CC-SB23": {
+    "lat": 33.6057698,
+    "lon": -7.6290611,
+    "geocode_query": "Sidi Belyout, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Poste Maroc, Rue de Tiznit, Sour Jdid, Arrondissement de Sidi Belyout, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat,"
+  },
+  "CC-AN1": {
+    "lat": 33.59536,
+    "lon": -7.6394317,
+    "geocode_query": "Boulevard Ain Taoujtate, Anfa, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Boulevard Ain Taoujtate, Bourgogne, Arrondissement d'Anfa, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20053, Maro"
+  },
+  "CC-AN2": {
+    "lat": 33.5960913,
+    "lon": -7.6668325,
+    "geocode_query": "Boulevard de la Corniche, Anfa, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Boulevard de la Corniche, Anfa Supérieur, Arrondissement d'Anfa, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20180"
+  },
+  "CC-AN3": {
+    "lat": 33.5945144,
+    "lon": -7.6200284,
+    "geocode_query": "Anfa, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CC-AN4": {
+    "lat": 33.5945144,
+    "lon": -7.6200284,
+    "geocode_query": "Anfa, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CC-AN5": {
+    "lat": 33.5945144,
+    "lon": -7.6200284,
+    "geocode_query": "Anfa, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CC-AN6": {
+    "lat": 33.5945144,
+    "lon": -7.6200284,
+    "geocode_query": "Anfa, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CC-AN7": {
+    "lat": 33.5945144,
+    "lon": -7.6200284,
+    "geocode_query": "Anfa, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CC-AN8": {
+    "lat": 33.5945144,
+    "lon": -7.6200284,
+    "geocode_query": "Anfa, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CC-AN9": {
+    "lat": 33.5945144,
+    "lon": -7.6200284,
+    "geocode_query": "Anfa, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CC-AN10": {
+    "lat": 33.5945144,
+    "lon": -7.6200284,
+    "geocode_query": "Anfa, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CC-AN11": {
+    "lat": 33.5945144,
+    "lon": -7.6200284,
+    "geocode_query": "Anfa, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CC-AN12": {
+    "lat": 33.5945144,
+    "lon": -7.6200284,
+    "geocode_query": "Anfa, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CC-AN13": {
+    "lat": 33.5890411,
+    "lon": -7.6638742,
+    "geocode_query": "Anfa Supérieur, Anfa, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Anfa Supérieur, Arrondissement d'Anfa, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20170, Maroc"
+  },
+  "CC-AN14": {
+    "lat": 33.5811626,
+    "lon": -7.6843877,
+    "geocode_query": "Ain Diab, Anfa, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Ain Diab, Arrondissement d'Anfa, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20052, Maroc"
+  },
+  "CC-AN15": {
+    "lat": 33.598333,
+    "lon": -7.6642509,
+    "geocode_query": "Anfa Place, Anfa, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Anfaplace Mall, Boulevard de la Corniche, Anfa Supérieur, Arrondissement d'Anfa, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablan"
+  },
+  "CC-AN16": {
+    "lat": 33.6005591,
+    "lon": -7.6391406,
+    "geocode_query": "Boulevard Mohamed Zerktouni, Anfa, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Boulevard Mohamed Zerktouni, Bourgogne, Arrondissement d'Anfa, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 10011, "
+  },
+  "CC-MA1": {
+    "lat": 33.5795673,
+    "lon": -7.6151744,
+    "geocode_query": "Avenue 2 Mars, Maârif, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Avenue 2 Mars, Les Hôpitaux, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20503, Maroc"
+  },
+  "CC-MA2": {
+    "lat": 33.5813893,
+    "lon": -7.6242167,
+    "geocode_query": "Boulevard Abdelmoumen, Maârif, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Boulevard Abdelmoumen, Palmiers, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20340, Maroc"
+  },
+  "CC-MA3": {
+    "lat": 33.5869593,
+    "lon": -7.632345,
+    "geocode_query": "Boulevard Al Massira Al Khadra, Maârif, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Boulevard Al Massira Al Khadra, راسين, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20400, M"
+  },
+  "CC-MA4": {
+    "lat": 33.5633734,
+    "lon": -7.6277594,
+    "geocode_query": "Boulevard Ghandi, Maârif, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Boulevard Ghandi, Bachkou, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20076, Maroc"
+  },
+  "CC-MA5": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA7": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA9": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA11": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA12": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA13": {
+    "lat": 33.5811427,
+    "lon": -7.6431756,
+    "geocode_query": "Résidence Al Mawlid, Maârif, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Résidence Al Mawlid IX, 134, Rue Brahim Nakhai, Maârif Extension, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, "
+  },
+  "CC-MA14": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA15": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA16": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA17": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA18": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA19": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA20": {
+    "lat": 33.5727285,
+    "lon": -7.6436131,
+    "geocode_query": "Quartier Berger, Maârif, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Berger, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20026, Maroc"
+  },
+  "CC-MA21": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA22": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA23": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA24": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA25": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA26": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Quartier Maârif, Maârif, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA27": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA28": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA29": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA30": {
+    "lat": 33.5836296,
+    "lon": -7.6367005,
+    "geocode_query": "Maârif, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Maârif, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20330, Maroc"
+  },
+  "CC-MA31": {
+    "lat": 33.5954933,
+    "lon": -7.6464075,
+    "geocode_query": "Résidence Yasmina, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Résidence Yasmina, Avenue Docteur Mohamed Sijelmassi, Bourgogne, Arrondissement d'Anfa, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, C"
+  },
+  "CC-MA32": {
+    "lat": 33.590767,
+    "lon": -7.6358778,
+    "geocode_query": "Boulevard Mohamed Zerktouni, Maârif, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Boulevard Mohamed Zerktouni, Les Arènes, راسين, Arrondissement Maârif, Préfecture d'arrondissements de Casablanca-Anfa, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat,"
+  },
+  "CC-MS1": {
+    "lat": 33.5729225,
+    "lon": -7.6144443,
+    "geocode_query": "Avenue 2 Mars, Mers Sultan, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Avenue 2 Mars, Mers Sultan, Arrondissement de Mers Sultan, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20503, Mar"
+  },
+  "CC-MS2": {
+    "lat": 33.5795067,
+    "lon": -7.6143649,
+    "geocode_query": "Rue de Madrid, Mers Sultan, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Rue de Madrid, Mers Sultan, Arrondissement de Mers Sultan, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20503, Mar"
+  },
+  "CC-MS3": {
+    "lat": 33.5800962,
+    "lon": -7.6119554,
+    "geocode_query": "Rue de Rome, Mers Sultan, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Rue de Rome, Mers Sultan, Arrondissement de Mers Sultan, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20490, Maroc"
+  },
+  "CC-MS4": {
+    "lat": 33.5697456,
+    "lon": -7.6087962,
+    "geocode_query": "Mers Sultan, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Mers Sultan, Rue 1, Mers Sultan, Arrondissement de Mers Sultan, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20502"
+  },
+  "CC-MS5": {
+    "lat": 33.5697456,
+    "lon": -7.6087962,
+    "geocode_query": "Mers Sultan, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Mers Sultan, Rue 1, Mers Sultan, Arrondissement de Mers Sultan, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20502"
+  },
+  "CC-MS6": {
+    "lat": 33.5686383,
+    "lon": -7.6040064,
+    "geocode_query": "Derb Bouchentouf, Mers Sultan, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Derb Bouchentouf, Boulevard El Fida, Mers Sultan, Arrondissement de Mers Sultan, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casabla"
+  },
+  "CC-MS8": {
+    "lat": 33.5757681,
+    "lon": -7.5999288,
+    "geocode_query": "Quartier Mers Sultan, Mers Sultan, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Mers Sultan, Arrondissement de Mers Sultan, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20504, Maroc"
+  },
+  "CC-MS9": {
+    "lat": 33.5774555,
+    "lon": -7.6063917,
+    "geocode_query": "Quartier Habous, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Habous ⵍⵃⵓⴱⵓⵙ الحبوس, Méchouar de Casablanca, Pachalik de Méchouar de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20504, Maroc"
+  },
+  "CC-MS10": {
+    "lat": 33.5697456,
+    "lon": -7.6087962,
+    "geocode_query": "Mers Sultan, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Mers Sultan, Rue 1, Mers Sultan, Arrondissement de Mers Sultan, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20502"
+  },
+  "CC-MS12": {
+    "lat": 33.5697456,
+    "lon": -7.6087962,
+    "geocode_query": "Mers Sultan, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Mers Sultan, Rue 1, Mers Sultan, Arrondissement de Mers Sultan, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20502"
+  },
+  "CC-AF1": {
+    "lat": 33.5649078,
+    "lon": -7.5965827,
+    "geocode_query": "Al Fida, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Al Fida, Arrondissement d'Al Fida, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20552, Maroc"
+  },
+  "CC-AF2": {
+    "lat": 33.5649078,
+    "lon": -7.5965827,
+    "geocode_query": "Al Fida, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Al Fida, Arrondissement d'Al Fida, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20552, Maroc"
+  },
+  "CC-AF3": {
+    "lat": 33.5649078,
+    "lon": -7.5965827,
+    "geocode_query": "Al Fida, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Al Fida, Arrondissement d'Al Fida, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20552, Maroc"
+  },
+  "CC-AF4": {
+    "lat": 33.5623115,
+    "lon": -7.6072607,
+    "geocode_query": "Hay El Masjid, Al Fida, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Hay El Masjid, Boulevard Modibo Keita, Bouchentouf, Al Fida, Arrondissement d'Al Fida, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, C"
+  },
+  "CC-AF5": {
+    "lat": 33.5649078,
+    "lon": -7.5965827,
+    "geocode_query": "Al Fida, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Al Fida, Arrondissement d'Al Fida, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20552, Maroc"
+  },
+  "CC-AF6": {
+    "lat": 33.5716601,
+    "lon": -7.5863452,
+    "geocode_query": "Hay EL Farah, Al Fida, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Hay el Farah, Boulevard El Fida, Aîn-Chifaa, Arrondissement d'Al Fida, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat"
+  },
+  "CC-AF7": {
+    "lat": 33.5649078,
+    "lon": -7.5965827,
+    "geocode_query": "Al Fida, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Al Fida, Arrondissement d'Al Fida, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20552, Maroc"
+  },
+  "CC-AF8": {
+    "lat": 33.5649078,
+    "lon": -7.5965827,
+    "geocode_query": "Al Fida, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Al Fida, Arrondissement d'Al Fida, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20552, Maroc"
+  },
+  "CC-AF9": {
+    "lat": 33.5649078,
+    "lon": -7.5965827,
+    "geocode_query": "Al Fida, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Al Fida, Arrondissement d'Al Fida, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20552, Maroc"
+  },
+  "CN-RN1": {
+    "lat": 33.5967566,
+    "lon": -7.5964595,
+    "geocode_query": "Avenue Pasteur, Roches Noires, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Avenue Pasteur, Assoukhour Assawda, Arrondissement des Roches noires, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-S"
+  },
+  "CN-RN2": {
+    "lat": 33.5931914,
+    "lon": -7.5957822,
+    "geocode_query": "Roches Noires, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Assoukhour Assawda, Arrondissement des Roches noires, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20082, Maroc"
+  },
+  "CN-RN3": {
+    "lat": 33.5921816,
+    "lon": -7.5956449,
+    "geocode_query": "Boulevard Mohammed V, Roches Noires, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Boulevard Mohammed V, Assoukhour Assawda, Arrondissement des Roches noires, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casabl"
+  },
+  "CN-RN4": {
+    "lat": 33.5937905,
+    "lon": -7.5961104,
+    "geocode_query": "Hay Roches Noires, Roches Noires, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Stock bureaux du Maroc, Rue Rethel, Assoukhour Assawda, Arrondissement des Roches noires, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casa"
+  },
+  "CN-RN5": {
+    "lat": 33.5931914,
+    "lon": -7.5957822,
+    "geocode_query": "Roches Noires, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Assoukhour Assawda, Arrondissement des Roches noires, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20082, Maroc"
+  },
+  "CN-RN6": {
+    "lat": 33.5931914,
+    "lon": -7.5957822,
+    "geocode_query": "Roches Noires, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Assoukhour Assawda, Arrondissement des Roches noires, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20082, Maroc"
+  },
+  "CN-RN7": {
+    "lat": 33.5931914,
+    "lon": -7.5957822,
+    "geocode_query": "Roches Noires, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Assoukhour Assawda, Arrondissement des Roches noires, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20082, Maroc"
+  },
+  "CN-RN8": {
+    "lat": 33.5931914,
+    "lon": -7.5957822,
+    "geocode_query": "Roches Noires, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Assoukhour Assawda, Arrondissement des Roches noires, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20082, Maroc"
+  },
+  "CN-RN9": {
+    "lat": 33.5931914,
+    "lon": -7.5957822,
+    "geocode_query": "Roches Noires, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Assoukhour Assawda, Arrondissement des Roches noires, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20082, Maroc"
+  },
+  "CN-RN10": {
+    "lat": 33.5931914,
+    "lon": -7.5957822,
+    "geocode_query": "Roches Noires, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Assoukhour Assawda, Arrondissement des Roches noires, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20082, Maroc"
+  },
+  "CN-RN11": {
+    "lat": 33.5931914,
+    "lon": -7.5957822,
+    "geocode_query": "Roches Noires, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Assoukhour Assawda, Arrondissement des Roches noires, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20082, Maroc"
+  },
+  "CN-RN12": {
+    "lat": 33.5931914,
+    "lon": -7.5957822,
+    "geocode_query": "Roches Noires, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Assoukhour Assawda, Arrondissement des Roches noires, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20082, Maroc"
+  },
+  "CN-RN13": {
+    "lat": 33.5872272,
+    "lon": -7.5953783,
+    "geocode_query": "Hay Hakam, Roches Noires, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Hay Hakam, Boulevard Youssef Ibn Tachafine, Assoukhour Assawda, Arrondissement des Roches noires, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture"
+  },
+  "CN-HM1": {
+    "lat": 33.5841444,
+    "lon": -7.5569559,
+    "geocode_query": "Hay Mohammadi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Hay Mohammadi, Arrondissement de Hay Mohammadi, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20570, Maroc"
+  },
+  "CN-HM2": {
+    "lat": 33.5841444,
+    "lon": -7.5569559,
+    "geocode_query": "Hay Mohammadi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Hay Mohammadi, Arrondissement de Hay Mohammadi, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20570, Maroc"
+  },
+  "CN-HM3": {
+    "lat": 33.5841444,
+    "lon": -7.5569559,
+    "geocode_query": "Hay Mohammadi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Hay Mohammadi, Arrondissement de Hay Mohammadi, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20570, Maroc"
+  },
+  "CN-HM4": {
+    "lat": 33.5841444,
+    "lon": -7.5569559,
+    "geocode_query": "Hay Mohammadi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Hay Mohammadi, Arrondissement de Hay Mohammadi, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20570, Maroc"
+  },
+  "CN-HM5": {
+    "lat": 33.5841444,
+    "lon": -7.5569559,
+    "geocode_query": "Hay Mohammadi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Hay Mohammadi, Arrondissement de Hay Mohammadi, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20570, Maroc"
+  },
+  "CN-HM6": {
+    "lat": 33.5841444,
+    "lon": -7.5569559,
+    "geocode_query": "Hay Mohammadi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Hay Mohammadi, Arrondissement de Hay Mohammadi, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20570, Maroc"
+  },
+  "CN-HM7": {
+    "lat": 33.5841444,
+    "lon": -7.5569559,
+    "geocode_query": "Hay Mohammadi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Hay Mohammadi, Arrondissement de Hay Mohammadi, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20570, Maroc"
+  },
+  "CN-HM8": {
+    "lat": 33.5696469,
+    "lon": -7.5978056,
+    "geocode_query": "Derb El Amal, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Rue Derb Chorfa, Hay El Amal, Arrondissement d'Al Fida, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20552, Maroc"
+  },
+  "CN-HM9": {
+    "lat": 33.5841444,
+    "lon": -7.5569559,
+    "geocode_query": "Hay Mohammadi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Hay Mohammadi, Arrondissement de Hay Mohammadi, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20570, Maroc"
+  },
+  "CN-AS1": {
+    "lat": 33.5601471,
+    "lon": -7.5562708,
+    "geocode_query": "Dar Salama, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Dar Chabab Hay Salama 3, Avenue du Commandant Idriss Elharti, Hay Salama 3, Sidi Othmane, Arrondissement de Sidi Othmane, Préfecture d'arrondissements de Moulay Rachid, Casablanca, Pachalik de Casabla"
+  },
+  "CN-AS3": {
+    "lat": 33.6059943,
+    "lon": -7.5387936,
+    "geocode_query": "Ain Sebaâ, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn Sebaâ, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CN-AS4": {
+    "lat": 33.6059943,
+    "lon": -7.5387936,
+    "geocode_query": "Ain Sebaâ, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn Sebaâ, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CN-AS5": {
+    "lat": 33.6059943,
+    "lon": -7.5387936,
+    "geocode_query": "Ain Sebaâ, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn Sebaâ, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CN-AS6": {
+    "lat": 33.6059943,
+    "lon": -7.5387936,
+    "geocode_query": "Ain Sebaâ, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn Sebaâ, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CN-AS7": {
+    "lat": 33.6059943,
+    "lon": -7.5387936,
+    "geocode_query": "Ain Sebaâ, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn Sebaâ, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CN-AS9": {
+    "lat": 33.6059943,
+    "lon": -7.5387936,
+    "geocode_query": "Ain Sebaâ, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn Sebaâ, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CN-AS10": {
+    "lat": 33.6059943,
+    "lon": -7.5387936,
+    "geocode_query": "Ain Sebaâ, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn Sebaâ, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CN-AS11": {
+    "lat": 33.6059943,
+    "lon": -7.5387936,
+    "geocode_query": "Ain Sebaâ, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn Sebaâ, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CN-AS12": {
+    "lat": 33.6059943,
+    "lon": -7.5387936,
+    "geocode_query": "Ain Sebaâ, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn Sebaâ, Préfecture d'arrondissements d'Aïn Sebaâ-Hay Mohammadi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CN-SB1": {
+    "lat": 33.6190686,
+    "lon": -7.5003234,
+    "geocode_query": "Sidi Bernoussi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Bernoussi, Arrondissement de Sidi Bernoussi, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20604, Maroc"
+  },
+  "CN-SB3": {
+    "lat": 33.6190686,
+    "lon": -7.5003234,
+    "geocode_query": "Sidi Bernoussi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Bernoussi, Arrondissement de Sidi Bernoussi, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20604, Maroc"
+  },
+  "CN-SB4": {
+    "lat": 33.6190686,
+    "lon": -7.5003234,
+    "geocode_query": "Sidi Bernoussi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Bernoussi, Arrondissement de Sidi Bernoussi, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20604, Maroc"
+  },
+  "CN-SB5": {
+    "lat": 33.6190686,
+    "lon": -7.5003234,
+    "geocode_query": "Sidi Bernoussi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Bernoussi, Arrondissement de Sidi Bernoussi, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20604, Maroc"
+  },
+  "CN-SB6": {
+    "lat": 33.6059992,
+    "lon": -7.5051027,
+    "geocode_query": "Mansour 1, Sidi Bernoussi, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Mansour 2, Sidi Bernoussi, Arrondissement de Sidi Bernoussi, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20605, Mar"
+  },
+  "CN-SB7": {
+    "lat": 33.6190686,
+    "lon": -7.5003234,
+    "geocode_query": "Sidi Bernoussi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Bernoussi, Arrondissement de Sidi Bernoussi, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20604, Maroc"
+  },
+  "CN-SB8": {
+    "lat": 33.6190686,
+    "lon": -7.5003234,
+    "geocode_query": "Sidi Bernoussi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Bernoussi, Arrondissement de Sidi Bernoussi, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20604, Maroc"
+  },
+  "CN-SB9": {
+    "lat": 33.6190686,
+    "lon": -7.5003234,
+    "geocode_query": "Sidi Bernoussi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Bernoussi, Arrondissement de Sidi Bernoussi, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20604, Maroc"
+  },
+  "CN-SB10": {
+    "lat": 33.6190686,
+    "lon": -7.5003234,
+    "geocode_query": "Sidi Bernoussi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Bernoussi, Arrondissement de Sidi Bernoussi, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20604, Maroc"
+  },
+  "CN-SB11": {
+    "lat": 33.6190686,
+    "lon": -7.5003234,
+    "geocode_query": "Sidi Bernoussi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Bernoussi, Arrondissement de Sidi Bernoussi, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20604, Maroc"
+  },
+  "CN-SB12": {
+    "lat": 33.6190686,
+    "lon": -7.5003234,
+    "geocode_query": "Sidi Bernoussi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Bernoussi, Arrondissement de Sidi Bernoussi, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20604, Maroc"
+  },
+  "CN-SB13": {
+    "lat": 33.6190686,
+    "lon": -7.5003234,
+    "geocode_query": "Sidi Bernoussi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Bernoussi, Arrondissement de Sidi Bernoussi, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20604, Maroc"
+  },
+  "CN-SB14": {
+    "lat": 33.6190686,
+    "lon": -7.5003234,
+    "geocode_query": "Sidi Bernoussi, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Bernoussi, Arrondissement de Sidi Bernoussi, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20604, Maroc"
+  },
+  "CN-SM1": {
+    "lat": 33.5843834,
+    "lon": -7.5072051,
+    "geocode_query": "Sidi Moumen, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Moumen, Arrondissement de Sidi Moumen, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20046, Maroc"
+  },
+  "CN-SM2": {
+    "lat": 33.60308,
+    "lon": -7.4873629,
+    "geocode_query": "Hay Al Azhar, Sidi Moumen, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Hay Al Azhar, Arrondissement de Sidi Moumen, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20603, Maroc"
+  },
+  "CN-SM4": {
+    "lat": 33.5843834,
+    "lon": -7.5072051,
+    "geocode_query": "Sidi Moumen, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Moumen, Arrondissement de Sidi Moumen, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20046, Maroc"
+  },
+  "CN-SM5": {
+    "lat": 33.5843834,
+    "lon": -7.5072051,
+    "geocode_query": "Sidi Moumen, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Moumen, Arrondissement de Sidi Moumen, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20046, Maroc"
+  },
+  "CN-SM6": {
+    "lat": 33.5843834,
+    "lon": -7.5072051,
+    "geocode_query": "Sidi Moumen, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Moumen, Arrondissement de Sidi Moumen, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20046, Maroc"
+  },
+  "CN-SM7": {
+    "lat": 33.5843834,
+    "lon": -7.5072051,
+    "geocode_query": "Sidi Moumen, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Moumen, Arrondissement de Sidi Moumen, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20046, Maroc"
+  },
+  "CN-SM8": {
+    "lat": 33.5843834,
+    "lon": -7.5072051,
+    "geocode_query": "Sidi Moumen, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Moumen, Arrondissement de Sidi Moumen, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20046, Maroc"
+  },
+  "CN-SM9": {
+    "lat": 33.5843834,
+    "lon": -7.5072051,
+    "geocode_query": "Sidi Moumen, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Moumen, Arrondissement de Sidi Moumen, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20046, Maroc"
+  },
+  "CN-SM10": {
+    "lat": 33.5843834,
+    "lon": -7.5072051,
+    "geocode_query": "Sidi Moumen, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sidi Moumen, Arrondissement de Sidi Moumen, Préfecture d'arrondissements de Sidi Bernoussi, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20046, Maroc"
+  },
+  "CS-AC1": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC2": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC5": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC6": {
+    "lat": 33.5565917,
+    "lon": -7.5985122,
+    "geocode_query": "Hay Rmila, Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Hay Rmila, Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20062, Maroc"
+  },
+  "CS-AC7": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC8": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC9": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC10": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC11": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC12": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC14": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC16": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC17": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC18": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC19": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC20": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC21": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC22": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC23": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC24": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC25": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC26": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC27": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC28": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC31": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC32": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-AC34": {
+    "lat": 33.5370603,
+    "lon": -7.5981542,
+    "geocode_query": "Ain Chock, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Arrondissement d'Aïn-Chock, Préfecture d'arrondissement d'Aïn Chock, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH1": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH2": {
+    "lat": 33.5695318,
+    "lon": -7.652312,
+    "geocode_query": "Boulevard Yacoub El Mansour, Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Boulevard Yacoub El Mansour, Beauséjour, Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20026, Maroc"
+  },
+  "CS-HH4": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH5": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH6": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH7": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH8": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH9": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH11": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH12": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH13": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH14": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH15": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH16": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH17": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH19": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH20": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH22": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH23": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH24": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH25": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH26": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH27": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH28": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH29": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH30": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH31": {
+    "lat": 33.5351648,
+    "lon": -7.6917004,
+    "geocode_query": "GH Kasbat Amine, Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "GH 38, RP3018, Hay Zoubair, Lissasfa, Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20200, Maroc"
+  },
+  "CS-HH32": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH33": {
+    "lat": 33.5702887,
+    "lon": -7.678495,
+    "geocode_query": "Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CS-HH34": {
+    "lat": 33.5711577,
+    "lon": -7.6471452,
+    "geocode_query": "Résidence Ghandi, Hay Hassani, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Résidence du Palais A, Boulevard Ghandi, Beauséjour, Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20026, Maroc"
+  },
+  "CE-BM1": {
+    "lat": 33.5542611,
+    "lon": -7.5813658,
+    "geocode_query": "Ben M'Sick, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissements de Ben M'sick, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CE-BM2": {
+    "lat": 33.5542611,
+    "lon": -7.5813658,
+    "geocode_query": "Ben M'Sick, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Préfecture d'arrondissements de Ben M'sick, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CE-SB2": {
+    "lat": 33.5386599,
+    "lon": -7.5530852,
+    "geocode_query": "Salmia 2, Sbata, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Salmia 2, Arrondissement de Sbata, Préfecture d'arrondissements de Ben M'sick, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20453, Maroc"
+  },
+  "CE-SB3": {
+    "lat": 33.5376589,
+    "lon": -7.564046,
+    "geocode_query": "Sbata, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sbata, Préfecture d'arrondissements de Ben M'sick, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20045, Maroc"
+  },
+  "CE-SB4": {
+    "lat": 33.5376589,
+    "lon": -7.564046,
+    "geocode_query": "Sbata, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Sbata, Préfecture d'arrondissements de Ben M'sick, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20045, Maroc"
+  },
+  "CE-SB5": {
+    "lat": 33.5384088,
+    "lon": -7.5746587,
+    "geocode_query": "Hay Laâlou, Sbata, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Hay Laalou, Arrondissement de Sbata, Préfecture d'arrondissements de Ben M'sick, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20480, Maroc"
+  },
+  "CE-SB6": {
+    "lat": 33.5412737,
+    "lon": -7.569497,
+    "geocode_query": "Jamila 7, Sbata, Casablanca, Maroc",
+    "geocode_quality": "ok",
+    "geocode_display": "Jamila 7, Arrondissement de Sbata, Préfecture d'arrondissements de Ben M'sick, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20045, Maroc"
+  },
+  "CE-MR1": {
+    "lat": null,
+    "lon": null,
+    "geocode_query": "Mly Rachid, Casablanca, Maroc",
+    "geocode_quality": "FAILED",
+    "geocode_display": ""
+  },
+  "CE-MR2": {
+    "lat": null,
+    "lon": null,
+    "geocode_query": "Mly Rachid, Casablanca, Maroc",
+    "geocode_quality": "FAILED",
+    "geocode_display": ""
+  },
+  "CE-MR3": {
+    "lat": null,
+    "lon": null,
+    "geocode_query": "Mly Rachid, Casablanca, Maroc",
+    "geocode_quality": "FAILED",
+    "geocode_display": ""
+  },
+  "CE-MR4": {
+    "lat": null,
+    "lon": null,
+    "geocode_query": "Mly Rachid, Casablanca, Maroc",
+    "geocode_quality": "FAILED",
+    "geocode_display": ""
+  },
+  "CE-MR6": {
+    "lat": null,
+    "lon": null,
+    "geocode_query": "Mly Rachid, Casablanca, Maroc",
+    "geocode_quality": "FAILED",
+    "geocode_display": ""
+  },
+  "CE-MR7": {
+    "lat": null,
+    "lon": null,
+    "geocode_query": "Mly Rachid, Casablanca, Maroc",
+    "geocode_quality": "FAILED",
+    "geocode_display": ""
+  },
+  "CE-MR8": {
+    "lat": null,
+    "lon": null,
+    "geocode_query": "Mly Rachid, Casablanca, Maroc",
+    "geocode_quality": "FAILED",
+    "geocode_display": ""
+  },
+  "CE-MR9": {
+    "lat": 33.5699037,
+    "lon": -7.6828591,
+    "geocode_query": "Lot Lbaraka, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Site lot lbaraka po metalique, Rue Sidi Al Khadir, Préfecture d'arrondissement de Hay Hassani, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, 20202, Maroc"
+  },
+  "CE-SO1": {
+    "lat": 33.5617797,
+    "lon": -7.5715296,
+    "geocode_query": "Sidi Othman, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "sidi othman bloc 1, Sidi Othmane, Arrondissement de Sidi Othmane, Préfecture d'arrondissements de Moulay Rachid, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CE-SO2": {
+    "lat": 33.5617797,
+    "lon": -7.5715296,
+    "geocode_query": "Sidi Othman, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "sidi othman bloc 1, Sidi Othmane, Arrondissement de Sidi Othmane, Préfecture d'arrondissements de Moulay Rachid, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CE-SO3": {
+    "lat": 33.5749192,
+    "lon": -7.603575,
+    "geocode_query": "Derb Al Baladia, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Rue Moulay Driss Derb Al Baladia, Mers Sultan, Arrondissement de Mers Sultan, Préfecture d’arrondissements Al Fida-Mers Sultan, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca"
+  },
+  "CE-SO4": {
+    "lat": 33.5617797,
+    "lon": -7.5715296,
+    "geocode_query": "Sidi Othman, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "sidi othman bloc 1, Sidi Othmane, Arrondissement de Sidi Othmane, Préfecture d'arrondissements de Moulay Rachid, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CE-SO5": {
+    "lat": 33.5617797,
+    "lon": -7.5715296,
+    "geocode_query": "Sidi Othman, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "sidi othman bloc 1, Sidi Othmane, Arrondissement de Sidi Othmane, Préfecture d'arrondissements de Moulay Rachid, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, Maroc"
+  },
+  "CE-SO6": {
+    "lat": 33.5605055,
+    "lon": -7.5581006,
+    "geocode_query": "Hay Salama I, Casablanca, Maroc",
+    "geocode_quality": "fallback",
+    "geocode_display": "Hay Salama 3, Sidi Othmane, Arrondissement de Sidi Othmane, Préfecture d'arrondissements de Moulay Rachid, Casablanca, Pachalik de Casablanca, Préfecture de Casablanca, Casablanca-Settat, 20750, Maroc"
+  }
+}

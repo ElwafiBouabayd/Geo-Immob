@@ -1,0 +1,627 @@
+﻿Zone,Préfecture/Province,Arrondissement/Commune,Famille des consistances,Consistance,Affectation,Superficie / étages,Valeur en DH/m²,CS-DB1,,,Immeubles construits,Construction à usage commercial,,*****,13000,Conservation_scrapee
+CS-DB1,,,Immeubles construits,Construction à usage touristique,,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Immeubles construits,Villa,,*****,10000,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,11000,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Immeubles construits,Villa (fermée et sécurisée),,*****,11000,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 900 m²,12500,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,12000,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,12500,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,10500,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,9500,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,,*****,9000,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,6500,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,5000,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 900 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,3200,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,4200,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3700,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,8000,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB1,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 2000 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Immeubles construits,Construction à usage commercial,,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Immeubles construits,Construction à usage touristique,,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Immeubles construits,Villa,,*****,10000,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,12000,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Immeubles construits,Villa (fermée et sécurisée),,*****,11000,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,12000,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,12500,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,12000,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,7000,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,,*****,8000,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,9000,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,8500,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,8000,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 900 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 900 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,5000,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,5500,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 2000 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB10,,,Terrain nu,Terrain nu non équipé,,Inférieure à 2000 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Immeubles construits,Construction à usage commercial,,*****,15000,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Immeubles construits,Construction à usage touristique,,*****,15000,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Immeubles construits,Villa,,*****,10000,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,14000,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 900 m²,14500,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,14000,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,14500,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,10500,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,,*****,10000,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,9500,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 900 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 900 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,1500,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 2000 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-DB11,,,Terrain nu,Terrain nu non équipé,,Inférieure à 2000 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Immeubles construits,Construction à usage commercial,,*****,14500,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Immeubles construits,Construction à usage touristique,,*****,14500,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Immeubles construits,Villa,,*****,9500,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,12500,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Immeubles construits,Villa (fermée et sécurisée),,*****,11500,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 900 m²,14000,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,13500,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,13500,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,14000,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,9000,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,10000,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,10500,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 900 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 900 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4100,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,3600,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,5500,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 2000 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-DB12,,,Terrain nu,Terrain nu non équipé,,Inférieure à 2000 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Immeubles construits,Construction à usage touristique,,*****,15000,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Immeubles construits,Villa,,*****,10000,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Immeubles construits,Villa (fermée et sécurisée),,*****,14000,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Immeubles construits,Construction à usage commercial,,*****,15000,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain agricole,Appartement (fermé et sécurisé),,*****,14000,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 900 m²,15000,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,14000,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,14000,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,15000,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,14000,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,9000,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,15000,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 900 m²,3500,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 900 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,7500,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,8500,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu non équipé,,Inférieure à 2000 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-DB2,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 2000 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Immeubles construits,Construction à usage touristique,,*****,15000,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Immeubles construits,Villa,,*****,10000,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,14000,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Immeubles construits,Villa (fermée et sécurisée),,*****,14000,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,14000,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 900 m²,15000,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,15000,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,,*****,11000,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,11500,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,12000,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,12000,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,7500,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,8000,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 900 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,4600,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,5100,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,5600,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,7500,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-DB3,,,Terrain nu,Terrain nu non équipé,,Inférieure à 2000 m²,3500,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Immeubles construits,Construction à usage commercial,,*****,15000,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Immeubles construits,Construction à usage touristique,,*****,15000,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Immeubles construits,Villa,,*****,10000,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Immeubles construits,Villa (fermée et sécurisée),,*****,12000,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,14000,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,14000,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,14500,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,11000,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,10500,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,,*****,10000,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,9500,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 900 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 900 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,1500,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 2000 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-DB3Bis,,,Terrain nu,Terrain nu non équipé,,Inférieure à 2000 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Immeubles construits,Construction à usage commercial,,*****,14000,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Immeubles construits,Construction à usage touristique,,*****,14000,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Immeubles construits,Villa,,*****,9500,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 900 m²,14000,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,13500,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,14000,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,13500,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,10000,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,9500,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,,*****,9000,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 900 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 900 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,3600,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4100,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,4600,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,1500,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 2000 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-DB3Ter,,,Terrain nu,Terrain nu non équipé,,Inférieure à 2000 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Immeubles construits,Construction à usage commercial,,*****,15000,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Immeubles construits,Construction à usage touristique,,*****,15000,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Immeubles construits,Villa,,*****,10000,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Immeubles construits,Villa (fermée et sécurisée),,*****,12000,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 900 m²,14500,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,14000,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,14000,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,14500,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,10500,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,11000,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,,*****,10000,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 900 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 900 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,1500,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu non équipé,,Inférieure à 2000 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB4,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 2000 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Immeubles construits,Construction à usage commercial,,*****,15000,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Immeubles construits,Construction à usage touristique,,*****,15000,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,14000,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Immeubles construits,Villa (fermée et sécurisée),,*****,14000,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,,*****,9000,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 900 m²,13000,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,14000,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,13000,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,9000,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,13500,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,12500,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,8000,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,8500,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,6300,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 900 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,5800,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,14000,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,7500,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,400,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,1500,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu équipé non immatriculé,Zone industrielle ou artisanale,Supérieure ou égale à 900 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu non équipé,,Inférieure à 2000 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB6,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 400 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Immeubles construits,Construction à usage touristique,,*****,13500,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Immeubles construits,Villa,,*****,9000,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,10500,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Immeubles construits,Villa (fermée et sécurisée),,*****,9500,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,12500,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 900 m²,13000,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,12500,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,11500,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,,*****,11000,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,8500,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,12000,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 900 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,7500,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,8000,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB7,,,Terrain nu,Terrain nu non équipé,,Inférieure à 2000 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Immeubles construits,Construction à usage commercial,,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Immeubles construits,Construction à usage touristique,,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Immeubles construits,Villa,,*****,10000,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,12000,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Immeubles construits,Villa (fermée et sécurisée),,*****,11000,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,12000,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,12000,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,12500,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,7000,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,,*****,8000,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,8500,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,9000,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,8500,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 900 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 900 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,5500,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,5000,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu non équipé,,Inférieure à 2000 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-DB8,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 2000 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Immeubles construits,Construction à usage commercial,,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Immeubles construits,Construction à usage touristique,,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Immeubles construits,Villa,,*****,11000,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,12000,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 900 m²,12000,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,11500,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,11500,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,12000,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,,*****,8000,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,9000,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,9500,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,8000,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,7500,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 900 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 900 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,5100,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,4600,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,5600,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 2000 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-DB9,,,Terrain nu,Terrain nu non équipé,,Inférieure à 2000 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Immeubles construits,Construction à usage commercial,,*****,12000,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Immeubles construits,Construction à usage touristique,,*****,12000,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Immeubles construits,Villa,,*****,8000,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,10500,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Immeubles construits,Villa (fermée et sécurisée),,*****,9000,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,900,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,1000,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,1200,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,12500,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 900 m²,13000,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,12500,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,13000,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,10000,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,9500,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,,*****,9000,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,8500,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 900 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,3600,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4100,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,4600,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-OA1,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 2000 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Immeubles construits,Construction à usage commercial,,*****,12500,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Immeubles construits,Construction à usage touristique,,*****,12500,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Immeubles construits,Villa,,*****,11000,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,11500,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Immeubles construits,Villa (fermée et sécurisée),,*****,12000,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,1100,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,1000,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,12500,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 900 m²,13000,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,12500,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,13000,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,8500,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,10000,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,9500,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 900 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 900 m²,2200,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu non équipé,,Inférieure à 2000 m²,3000,,,,,,,,,DAR BOUAZZA
+CS-OA2,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 2000 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Immeubles construits,Construction à usage commercial,,*****,14000,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Immeubles construits,Construction à usage touristique,,*****,14000,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Immeubles construits,Villa,,*****,12000,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Immeubles construits,Villa (fermée et sécurisée),,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,1100,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,1000,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,1200,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 900 m²,12000,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,11000,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,11000,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,12000,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,8000,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,,*****,8500,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,9000,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,9500,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 900 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,4600,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4100,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,3600,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,8000,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-OA3,,,Terrain nu,Terrain nu non équipé,,Inférieure à 2000 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Immeubles construits,Construction à usage commercial,,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Immeubles construits,Construction à usage touristique,,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Immeubles construits,Villa,,*****,8500,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,10000,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Immeubles construits,Villa (fermée et sécurisée),,*****,9500,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,900,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,950,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,10000,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 900 m²,11000,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,11000,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,10000,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,8000,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,7500,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,6500,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 900 m²,1500,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 900 m²,1000,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,4500,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4000,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,3500,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,5500,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,1500,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 2000 m²,1500,,,,,,,,,DAR BOUAZZA
+CS-OA4,,,Terrain nu,Terrain nu non équipé,,Inférieure à 2000 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Immeubles construits,Construction à usage commercial,,*****,14000,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Immeubles construits,Construction à usage touristique,,*****,14000,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Immeubles construits,Villa,,*****,9500,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,12000,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Immeubles construits,Villa (fermée et sécurisée),,*****,10500,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,1000,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,1100,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,1200,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,13000,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 900 m²,14000,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,13000,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,14000,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,,*****,8500,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,9000,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,8000,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,9500,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,8000,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,8500,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 900 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,5500,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,5000,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,7000,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,2500,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-OA5,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 2000 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Immeubles construits,Construction à usage commercial,,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Immeubles construits,Construction à usage touristique,,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Immeubles construits,Villa,,*****,8500,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,10000,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Immeubles construits,Villa (fermée et sécurisée),,*****,9500,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,1000,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,950,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,10000,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 900 m²,11000,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,10000,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,11000,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,8000,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,6500,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,,*****,7000,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 900 m²,1000,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 900 m²,1500,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,4500,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4000,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,3500,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,5500,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,1500,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 2000 m²,1500,,,,,,,,,DAR BOUAZZA
+CS-OA6,,,Terrain nu,Terrain nu non équipé,,Inférieure à 2000 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Immeubles construits,Construction à usage commercial,,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Immeubles construits,Construction à usage touristique,,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Immeubles construits,Villa,,*****,8500,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,10000,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Immeubles construits,Villa (fermée et sécurisée),,*****,9500,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,900,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,1000,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,950,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 900 m²,11000,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,10000,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,11000,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,10000,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,6500,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,,*****,7000,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,7500,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,8000,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 900 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,4500,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4000,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,3500,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,5500,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,6000,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,1500,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-OA7,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 2000 m²,1500,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Immeubles construits,Construction à usage commercial,,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Immeubles construits,Construction à usage touristique,,*****,13000,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Immeubles construits,Villa,,*****,8500,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,11000,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Immeubles construits,Villa (fermée et sécurisée),,*****,9500,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,1000,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,900,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 900 m²,13000,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 900 m²,12000,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 900 m²,12000,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 900 m²,13000,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,9000,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,8500,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,,*****,8000,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 400 m²,7500,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 400 m²,8000,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 900 m²,1500,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 900 m²,1200,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,4500,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,5000,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,5500,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,5500,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,6500,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 400 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 400 m²,1500,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 2000 m²,2000,,,,,,,,,DAR BOUAZZA
+CS-OA8,,,Terrain nu,Terrain nu non équipé,,Inférieure à 2000 m²,2500,,,,,,,,,DAR BOUAZZA

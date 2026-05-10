@@ -1,0 +1,407 @@
+﻿Zone,Préfecture/Province,Arrondissement/Commune,Famille des consistances,Consistance,Affectation,Superficie / étages,Valeur en DH/m²,CC-AF1,,,Immeubles construits,Construction à usage commercial,,*****,18000,Conservation_scrapee
+CC-AF1,,,Immeubles construits,Construction à usage touristique,,*****,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF1,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF1,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF1,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,10000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF1,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF1,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,19000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF1,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF1,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,19000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF1,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF1,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,19000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF1,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF1,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF1,,,Terrain nu,Terrain nu équipé,,*****,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF1,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,8500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,10500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,9500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF1,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,8000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Immeubles construits,Construction à usage commercial,,*****,25000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Immeubles construits,Construction à usage touristique,,*****,25000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,11000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Terrain nu,Terrain nu équipé,,*****,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,9500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,8500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,10500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF10,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,7000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF11,,,Immeubles construits,Construction à usage commercial,,*****,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF11,,,Immeubles construits,Construction à usage touristique,,*****,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF11,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF11,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF11,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,10000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF11,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF11,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF11,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF11,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF11,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF11,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF11,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF11,,,Terrain nu,Terrain nu équipé,,*****,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF11,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,14000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF11,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF11,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,6000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF11,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,7000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF11,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,4000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Immeubles construits,Construction à usage commercial,,*****,20000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Immeubles construits,Construction à usage touristique,,*****,20000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Immeubles construits,Villa,,*****,8000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,11000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,19000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Terrain nu,Terrain nu équipé,,*****,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,19000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,13000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,8500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,9500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,10500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,8000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF2,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,7000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Immeubles construits,Construction à usage commercial,,*****,20000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Immeubles construits,Construction à usage touristique,,*****,20000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Immeubles construits,Villa,,*****,8000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,12000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,13000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,14000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,13000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,7000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF3,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,8000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Immeubles construits,Construction à usage commercial,,*****,20000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Immeubles construits,Construction à usage touristique,,*****,20000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Immeubles construits,Villa,,*****,8000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,12000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,13000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,14000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,13000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,9500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,7500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,8500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF5,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,7000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Immeubles construits,Construction à usage commercial,,*****,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Immeubles construits,Construction à usage touristique,,*****,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,11000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Terrain nu,Terrain nu équipé,,*****,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,9500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,8500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,10500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF6,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,6000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Immeubles construits,Construction à usage commercial,,*****,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Immeubles construits,Construction à usage touristique,,*****,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,13000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Terrain nu,Terrain nu équipé,,Inférieure à 200 m²,10000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Terrain nu,Terrain nu équipé,,Supérieure ou égale à 200 m²,9000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Terrain nu,Terrain nu équipé,,*****,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,14000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,9000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,10000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Immeubles construits,Construction à usage commercial,,*****,23000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Immeubles construits,Construction à usage touristique,,*****,23000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,11000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Terrain nu,Terrain nu équipé,,Supérieure ou égale à 200 m²,9000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Terrain nu,Terrain nu équipé,,Inférieure à 200 m²,10000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,14000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Terrain nu,Terrain nu équipé,,*****,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,10000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,8000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-AF8,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,9000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Immeubles construits,Construction à usage commercial,,*****,19000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Immeubles construits,Construction à usage touristique,,*****,19000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Immeubles construits,Villa,,*****,8000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Terrain nu,Terrain nu équipé,,Inférieure à 200 m²,10000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Terrain nu,Terrain nu équipé,,Supérieure ou égale à 200 m²,9000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,20000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,19000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,19000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,20000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Terrain nu,Terrain nu équipé,,*****,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,14000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,22000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,10000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,12000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,8000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,7000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS10,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,6000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Immeubles construits,Construction à usage commercial,,*****,19000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Terrain nu,Terrain nu équipé,,Supérieure ou égale à 200 m²,9000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Terrain nu,Terrain nu équipé,,Inférieure à 200 m²,10000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,19000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,19000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Terrain nu,Terrain nu équipé,,*****,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,13000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,20000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,11000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,9000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,7000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS12,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,7000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Immeubles construits,Construction à usage commercial,,*****,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Immeubles construits,Construction à usage touristique,,*****,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,11000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Terrain nu,Terrain nu équipé,,*****,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,8500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,9500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,6000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS13,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,7000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Immeubles construits,Construction à usage commercial,,*****,25000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Immeubles construits,Construction à usage touristique,,*****,25000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Immeubles construits,Villa,,*****,9000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,14000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Terrain nu,Terrain nu équipé,,Supérieure ou égale à 200 m²,7000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,20000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,19000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,20000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,19000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Terrain nu,Terrain nu équipé,,*****,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,22000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,14000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,11000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,10000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,8000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,10000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,12000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,5000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS4,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,6000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Immeubles construits,Construction à usage commercial,,*****,25000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Immeubles construits,Villa,,*****,9000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Terrain nu,Terrain nu équipé,,Supérieure ou égale à 200 m²,7000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Terrain nu,Terrain nu équipé,,Inférieure à 200 m²,8000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,25000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,24000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,24000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,23000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Terrain nu,Terrain nu équipé,,*****,20000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,26000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,11000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,10000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,12000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,14000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,5000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS5,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,6000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Immeubles construits,Construction à usage commercial,,*****,25000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Immeubles construits,Construction à usage touristique,,*****,25000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,11000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,11000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,13000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Terrain nu,Terrain nu équipé,,*****,12000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,6000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,7000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,8000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,5000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,6000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Immeubles construits,Construction à usage commercial,,*****,25000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Immeubles construits,Construction à usage touristique,,*****,25000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,12000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Terrain nu,Terrain nu équipé,,*****,13000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,14000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,8500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,7500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,6500,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,6000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS6BIS,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,5000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Immeubles construits,Construction à usage commercial,,*****,22000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Immeubles construits,Construction à usage touristique,,*****,22000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Immeubles construits,Villa,,*****,7000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,25000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,26000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,25000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,26000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,30000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Terrain nu,Terrain nu équipé,,*****,20000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,12000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,12000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,11000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,14000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,12000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,10000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,5000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Immeubles construits,Construction à usage commercial,,*****,22000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Immeubles construits,Construction à usage touristique,,*****,22000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Immeubles construits,Villa,,*****,7000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,30000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,28000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,28000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,30000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,30000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,25000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Terrain nu,Terrain nu équipé,,*****,20000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,15000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,11000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,10000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,10000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,14000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,7000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8BIS,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,8000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Immeubles construits,Construction à usage commercial,,*****,25000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Immeubles construits,Construction à usage touristique,,*****,25000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Immeubles construits,Villa,,*****,7000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,17000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,20000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,21000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,20000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Terrain nu,Terrain nu équipé,,*****,16000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,14000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,22000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,11000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,11000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,10000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,9000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,6000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS8TER,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,5000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Immeubles construits,Construction à usage commercial,,*****,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Immeubles construits,Construction à usage touristique,,*****,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,13000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,19000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,19000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,18000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Terrain nu,Terrain nu équipé,,*****,12000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,11000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,10000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,11000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,10000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,8000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,6000,,,,,,,,,CASA ELFIDA MERS SULTAN
+CC-MS9,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,6000,,,,,,,,,CASA ELFIDA MERS SULTAN

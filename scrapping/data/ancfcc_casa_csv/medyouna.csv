@@ -1,0 +1,1154 @@
+﻿Zone,Préfecture/Province,Arrondissement/Commune,Famille des consistances,Consistance,Affectation,Superficie / étages,Valeur en DH/m²,CE-CRH1,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,3500,Conservation_scrapee
+CE-CRH1,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,4000,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,4500,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,5000,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,1700,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,1400,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,1200,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,1000,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,300,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,200,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,6500,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Immeubles construits,Construction à usage commercial,,*****,8000,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRH1,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Immeubles construits,Construction à usage commercial,,*****,8000,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Immeubles construits,Construction à usage touristique,,*****,8000,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,3500,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,4000,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,4500,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,5000,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,4000,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,1700,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,1400,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,1200,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,1000,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,300,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,200,,,,,,,,,MEDYOUNA
+CE-CRH2,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,6500,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,4000,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,4500,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,5000,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,1700,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,1400,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,1200,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,1000,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,300,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,200,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,6500,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Immeubles construits,Construction à usage commercial,,*****,8000,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRH3,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,3500,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,4000,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,4500,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,5000,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,4000,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,1700,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,1400,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,1200,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,1000,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,200,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,6500,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Immeubles construits,Construction à usage commercial,,*****,8000,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Immeubles construits,Construction à usage touristique,,*****,8000,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRH3BIS,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,4000,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,4500,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,5000,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,1700,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,1400,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,1200,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,1000,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,300,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,200,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,6500,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Immeubles construits,Construction à usage commercial,,*****,8000,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRH4,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,6000,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,7000,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,8000,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,4000,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,6500,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,7000,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,6500,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,300,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,7500,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Immeubles construits,Construction à usage commercial,,*****,10000,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Immeubles construits,Construction à usage touristique,,*****,10000,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Immeubles construits,Villa (fermée et sécurisée),,*****,6000,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRH5,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,4000,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,4500,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,5000,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,1700,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,1400,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,1200,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,1000,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,300,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,200,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,6500,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Immeubles construits,Construction à usage commercial,,*****,8000,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRH6,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,3500,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,4000,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,4500,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,5000,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,4000,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,1700,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,1400,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,1200,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,1000,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,200,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,6500,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Immeubles construits,Construction à usage commercial,,*****,8000,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Immeubles construits,Construction à usage touristique,,*****,8000,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRH7,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,7000,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,8000,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,350,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,300,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,5500,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Immeubles construits,Construction à usage commercial,,*****,9000,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Immeubles construits,Villa,,*****,4000,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Immeubles construits,Villa (fermée et sécurisée),,*****,4500,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM1,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,5000,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,5500,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,6000,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,6500,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,4000,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,6000,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,7000,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,6000,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,1500,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,300,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,5500,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Immeubles construits,Construction à usage commercial,,*****,7000,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Immeubles construits,Construction à usage touristique,,*****,7000,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Immeubles construits,Villa,,*****,4000,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Immeubles construits,Villa (fermée et sécurisée),,*****,4500,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM1BIS,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,4500,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,5000,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,5500,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,6500,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,6000,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,6500,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,6000,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,1500,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,1500,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,1000,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,350,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,300,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,5500,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Immeubles construits,Construction à usage commercial,,*****,9000,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Immeubles construits,Villa,,*****,4000,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Immeubles construits,Villa (fermée et sécurisée),,*****,4500,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM2,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,4000,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,4500,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,5000,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,5500,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,4000,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,6000,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,6500,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,6000,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,1500,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,1500,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,1000,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,300,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,5500,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Immeubles construits,Construction à usage commercial,,*****,7000,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Immeubles construits,Construction à usage touristique,,*****,7000,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM3,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,4500,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,5000,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,5500,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,6500,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,6000,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,6500,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,6000,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,1500,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,1500,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,1000,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,350,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,300,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,5500,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Immeubles construits,Construction à usage commercial,,*****,7000,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM3BIS,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,7000,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,8000,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,10000,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,300,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,6500,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Immeubles construits,Construction à usage commercial,,*****,7000,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Immeubles construits,Construction à usage touristique,,*****,7000,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM4,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,8000,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,10000,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,350,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,300,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,7500,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Immeubles construits,Construction à usage commercial,,*****,10000,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM5,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,6000,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,7000,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,8000,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,4000,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,300,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,7500,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Immeubles construits,Construction à usage commercial,,*****,10000,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Immeubles construits,Construction à usage touristique,,*****,10000,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Immeubles construits,Villa,,*****,4000,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Immeubles construits,Villa (fermée et sécurisée),,*****,4500,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM6,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,7000,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,8000,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2000,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,350,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,300,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,7500,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Immeubles construits,Construction à usage commercial,,*****,10000,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Immeubles construits,Villa,,*****,4000,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Immeubles construits,Villa (fermée et sécurisée),,*****,4500,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM7,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,7000,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,8000,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,10000,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,300,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,8500,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Immeubles construits,Construction à usage commercial,,*****,10000,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Immeubles construits,Construction à usage touristique,,*****,10000,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM8,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,8000,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,10000,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,3000,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,350,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,300,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,250,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,8500,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Immeubles construits,Construction à usage commercial,,*****,10000,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-CRM9,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,7000,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,8000,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,10000,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3500,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED1,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED1,,,Immeubles construits,Construction à usage commercial,,*****,10000,,,,,,,,,MEDYOUNA
+CE-MED1,,,Immeubles construits,Construction à usage touristique,,*****,10000,,,,,,,,,MEDYOUNA
+CE-MED1,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-MED1,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-MED1,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-MED1,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,7000,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,8000,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3500,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED2,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED2,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,7500,,,,,,,,,MEDYOUNA
+CE-MED2,,,Immeubles construits,Construction à usage commercial,,*****,10000,,,,,,,,,MEDYOUNA
+CE-MED2,,,Immeubles construits,Construction à usage touristique,,*****,10000,,,,,,,,,MEDYOUNA
+CE-MED2,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-MED2,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-MED2,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-MED2,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,7000,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,10000,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3500,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED3,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED3,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,7500,,,,,,,,,MEDYOUNA
+CE-MED3,,,Immeubles construits,Construction à usage commercial,,*****,10000,,,,,,,,,MEDYOUNA
+CE-MED3,,,Immeubles construits,Construction à usage touristique,,*****,10000,,,,,,,,,MEDYOUNA
+CE-MED3,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-MED3,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-MED3,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,7000,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,8000,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,10000,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3500,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED4,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED4,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,7500,,,,,,,,,MEDYOUNA
+CE-MED4,,,Immeubles construits,Construction à usage commercial,,*****,10000,,,,,,,,,MEDYOUNA
+CE-MED4,,,Immeubles construits,Construction à usage touristique,,*****,10000,,,,,,,,,MEDYOUNA
+CE-MED4,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-MED4,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-MED4,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,7000,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,8000,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,10000,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3500,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED5,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED5,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,7500,,,,,,,,,MEDYOUNA
+CE-MED5,,,Immeubles construits,Construction à usage commercial,,*****,10000,,,,,,,,,MEDYOUNA
+CE-MED5,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-MED5,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-MED5,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-MED5,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,6000,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,7000,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,8000,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,4000,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED6,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2000,,,,,,,,,MEDYOUNA
+CE-MED6,,,Immeubles construits,Construction à usage commercial,,*****,10000,,,,,,,,,MEDYOUNA
+CE-MED6,,,Immeubles construits,Construction à usage touristique,,*****,10000,,,,,,,,,MEDYOUNA
+CE-MED6,,,Immeubles construits,Villa,,*****,4000,,,,,,,,,MEDYOUNA
+CE-MED6,,,Immeubles construits,Villa (fermée et sécurisée),,*****,4500,,,,,,,,,MEDYOUNA
+CE-MED6,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-MED6,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,6000,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,7000,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,8000,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,4000,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED7,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2000,,,,,,,,,MEDYOUNA
+CE-MED7,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,7500,,,,,,,,,MEDYOUNA
+CE-MED7,,,Immeubles construits,Construction à usage commercial,,*****,10000,,,,,,,,,MEDYOUNA
+CE-MED7,,,Immeubles construits,Construction à usage touristique,,*****,10000,,,,,,,,,MEDYOUNA
+CE-MED7,,,Immeubles construits,Villa,,*****,4000,,,,,,,,,MEDYOUNA
+CE-MED7,,,Immeubles construits,Villa (fermée et sécurisée),,*****,4500,,,,,,,,,MEDYOUNA
+CE-MED7,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-MED7,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,7000,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,10000,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3500,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED8,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED8,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,8500,,,,,,,,,MEDYOUNA
+CE-MED8,,,Immeubles construits,Construction à usage commercial,,*****,10000,,,,,,,,,MEDYOUNA
+CE-MED8,,,Immeubles construits,Construction à usage touristique,,*****,10000,,,,,,,,,MEDYOUNA
+CE-MED8,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-MED8,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-MED8,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,7000,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,8000,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,10000,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3500,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,9000,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,3000,,,,,,,,,MEDYOUNA
+CE-MED9,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-MED9,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,8500,,,,,,,,,MEDYOUNA
+CE-MED9,,,Immeubles construits,Construction à usage commercial,,*****,10000,,,,,,,,,MEDYOUNA
+CE-MED9,,,Immeubles construits,Construction à usage touristique,,*****,10000,,,,,,,,,MEDYOUNA
+CE-MED9,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-MED9,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-MED9,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,6000,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,7000,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,8000,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3500,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3000,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,8000,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,7000,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,7000,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2000,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2000,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,500,,,,,,,,,MEDYOUNA
+CE-ML1,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,450,,,,,,,,,MEDYOUNA
+CE-ML1,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,6500,,,,,,,,,MEDYOUNA
+CE-ML1,,,Immeubles construits,Construction à usage commercial,,*****,8000,,,,,,,,,MEDYOUNA
+CE-ML1,,,Immeubles construits,Construction à usage touristique,,*****,8000,,,,,,,,,MEDYOUNA
+CE-ML1,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-ML1,,,Immeubles construits,Villa (fermée et sécurisée),,*****,6000,,,,,,,,,MEDYOUNA
+CE-ML1,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-ML1,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,6000,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,7000,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3000,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,8000,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,7000,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,8000,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,7000,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2000,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2000,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,500,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,450,,,,,,,,,MEDYOUNA
+CE-ML2,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 7 Ha,400,,,,,,,,,MEDYOUNA
+CE-ML2,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,6500,,,,,,,,,MEDYOUNA
+CE-ML2,,,Immeubles construits,Construction à usage commercial,,*****,9000,,,,,,,,,MEDYOUNA
+CE-ML2,,,Immeubles construits,Construction à usage touristique,,*****,9000,,,,,,,,,MEDYOUNA
+CE-ML2,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-ML2,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-ML2,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,6000,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,7000,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,8000,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,9000,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,5000,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,4500,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3500,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3000,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,8000,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,7000,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,7000,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,2000,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,2500,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,2000,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain agricole,Terrain agricole Bour,,Inférieure à 2 Ha,500,,,,,,,,,MEDYOUNA
+CE-ML3,,,Terrain agricole,Terrain agricole Bour,,Supérieure ou égale à 2 Ha et inférieure à 7 Ha,450,,,,,,,,,MEDYOUNA
+CE-ML3,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,6500,,,,,,,,,MEDYOUNA
+CE-ML3,,,Immeubles construits,Construction à usage commercial,,*****,8000,,,,,,,,,MEDYOUNA
+CE-ML3,,,Immeubles construits,Construction à usage touristique,,*****,8000,,,,,,,,,MEDYOUNA
+CE-ML3,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-ML3,,,Immeubles construits,Villa (fermée et sécurisée),,*****,6000,,,,,,,,,MEDYOUNA
+CE-ML3,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-ML3,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,8000,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,9000,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,11000,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,6000,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,5000,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,6500,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,5500,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,11000,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,11000,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,4000,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM1,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,3000,,,,,,,,,MEDYOUNA
+CE-TM1,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,7500,,,,,,,,,MEDYOUNA
+CE-TM1,,,Immeubles construits,Construction à usage commercial,,*****,12000,,,,,,,,,MEDYOUNA
+CE-TM1,,,Immeubles construits,Construction à usage touristique,,*****,12000,,,,,,,,,MEDYOUNA
+CE-TM1,,,Immeubles construits,Villa,,*****,6000,,,,,,,,,MEDYOUNA
+CE-TM1,,,Immeubles construits,Villa (fermée et sécurisée),,*****,6500,,,,,,,,,MEDYOUNA
+CE-TM1,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-TM1,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,9000,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,10000,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,11000,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,6000,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,5000,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,5500,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,4500,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,11000,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,11000,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,4000,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM2,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,3000,,,,,,,,,MEDYOUNA
+CE-TM2,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,7500,,,,,,,,,MEDYOUNA
+CE-TM2,,,Immeubles construits,Construction à usage commercial,,*****,12000,,,,,,,,,MEDYOUNA
+CE-TM2,,,Immeubles construits,Construction à usage touristique,,*****,12000,,,,,,,,,MEDYOUNA
+CE-TM2,,,Immeubles construits,Villa,,*****,6000,,,,,,,,,MEDYOUNA
+CE-TM2,,,Immeubles construits,Villa (fermée et sécurisée),,*****,6500,,,,,,,,,MEDYOUNA
+CE-TM2,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,8000,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,9000,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,10000,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,11000,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,6000,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,5000,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,6500,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,5500,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,4500,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,11000,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,11000,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,4000,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM3,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,3000,,,,,,,,,MEDYOUNA
+CE-TM3,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,7500,,,,,,,,,MEDYOUNA
+CE-TM3,,,Immeubles construits,Construction à usage commercial,,*****,12000,,,,,,,,,MEDYOUNA
+CE-TM3,,,Immeubles construits,Construction à usage touristique,,*****,12000,,,,,,,,,MEDYOUNA
+CE-TM3,,,Immeubles construits,Villa (fermée et sécurisée),,*****,6500,,,,,,,,,MEDYOUNA
+CE-TM3,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-TM3,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,8000,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,9000,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,10000,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,11000,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,6000,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,5000,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,6500,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,5500,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,4500,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,11000,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,11000,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,4000,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM4,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,3000,,,,,,,,,MEDYOUNA
+CE-TM4,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,7500,,,,,,,,,MEDYOUNA
+CE-TM4,,,Immeubles construits,Construction à usage touristique,,*****,12000,,,,,,,,,MEDYOUNA
+CE-TM4,,,Immeubles construits,Villa,,*****,6000,,,,,,,,,MEDYOUNA
+CE-TM4,,,Immeubles construits,Villa (fermée et sécurisée),,*****,6500,,,,,,,,,MEDYOUNA
+CE-TM4,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-TM4,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,,Inférieur ou égal à 2 étages,8000,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,9000,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,10000,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,11000,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,5000,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,Villa,Inférieure à 200 m²,6500,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,5500,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,4500,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,11000,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,11000,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Supérieure ou égale à 200 m²,3000,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,4000,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM5,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM5,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,7500,,,,,,,,,MEDYOUNA
+CE-TM5,,,Immeubles construits,Construction à usage commercial,,*****,12000,,,,,,,,,MEDYOUNA
+CE-TM5,,,Immeubles construits,Construction à usage touristique,,*****,12000,,,,,,,,,MEDYOUNA
+CE-TM5,,,Immeubles construits,Villa,,*****,6000,,,,,,,,,MEDYOUNA
+CE-TM5,,,Immeubles construits,Villa (fermée et sécurisée),,*****,6500,,,,,,,,,MEDYOUNA
+CE-TM5,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-TM5,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-TM6,,,Immeubles construits,Construction équipements publics,,*****,800,,,,,,,,,MEDYOUNA
+CE-TM6,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,9000,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,10000,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,11000,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,6000,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,5000,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,4000,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,5500,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,4500,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,11000,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,11000,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,10000,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,4000,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM6,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,3000,,,,,,,,,MEDYOUNA
+CE-TM6,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,7500,,,,,,,,,MEDYOUNA
+CE-TM6,,,Immeubles construits,Construction à usage commercial,,*****,12000,,,,,,,,,MEDYOUNA
+CE-TM6,,,Immeubles construits,Construction à usage touristique,,*****,12000,,,,,,,,,MEDYOUNA
+CE-TM6,,,Immeubles construits,Villa,,*****,6000,,,,,,,,,MEDYOUNA
+CE-TM6,,,Immeubles construits,Villa (fermée et sécurisée),,*****,6500,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé,,Egal à 3 et 4 étages,4000,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé,,Egal à 5 et Inférieur ou égal à 7 étages,4500,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé,,Supérieur à 7 étages,5000,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé,Villa Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé,Equipements publics,*****,400,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé,Equipements socio-administratifs,*****,400,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé,Espaces verts et voiries,*****,400,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé,Villa,Supérieure ou égale à 200 m²,3500,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Inférieure à 2000 m²,3000,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure ou égale à 2000 m² et inférieure à 10000 m²,2500,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé,Immeuble Groupement d`habitation,Supérieure à 10000 m²,2000,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé,Activité commerciale,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé,Activité commerciale,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé,Activité touristique,Inférieure à 200 m²,5000,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé,Activité touristique,Supérieure ou égale à 200 m²,4500,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé,Zone industrielle ou artisanale,Inférieure à 200 m²,2500,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé non immatriculé,,Inférieure à 200 m²,1700,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu équipé non immatriculé,,Supérieure ou égale à 200 m²,1400,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu non équipé,,Inférieure à 1000 m²,1200,,,,,,,,,MEDYOUNA
+CE-TM7,,,Terrain nu,Terrain nu non équipé,,Supérieure ou égale à 1000 m²,1000,,,,,,,,,MEDYOUNA
+CE-TM7,,,Immeubles construits,Appartement (fermé et sécurisé),,*****,6500,,,,,,,,,MEDYOUNA
+CE-TM7,,,Immeubles construits,Construction à usage commercial,,*****,8000,,,,,,,,,MEDYOUNA
+CE-TM7,,,Immeubles construits,Construction à usage touristique,,*****,8000,,,,,,,,,MEDYOUNA
+CE-TM7,,,Immeubles construits,Villa,,*****,5000,,,,,,,,,MEDYOUNA
+CE-TM7,,,Immeubles construits,Villa (fermée et sécurisée),,*****,5500,,,,,,,,,MEDYOUNA
+CE-TM7,,,Immeubles construits,Construction socio-administratifs,,*****,800,,,,,,,,,MEDYOUNA
