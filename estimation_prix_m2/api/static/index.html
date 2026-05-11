@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Estimation Immobilière — Casablanca</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy:        #0a2540;
+    --navy-soft:   #14365e;
+    --accent:      #2563eb;
+    --accent-soft: #eff4ff;
+    --bg:          #f6f8fb;
+    --surface:     #ffffff;
+    --border:      #e3e8ef;
+    --text:        #0f172a;
+    --text-muted:  #64748b;
+    --success:     #047857;
+    --danger:      #b91c1c;
+    --radius:      6px;
+    --shadow:      0 1px 2px rgba(15,23,42,.04), 0 4px 12px rgba(15,23,42,.05);
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Header */
+  header {
+    background: var(--navy);
+    color: #fff;
+    padding: 18px 32px;
+    border-bottom: 3px solid var(--accent);
+  }
+  header .brand {
+    max-width: 1280px; margin: 0 auto;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  header h1 {
+    margin: 0; font-size: 17px; font-weight: 600; letter-spacing: .2px;
+  }
+  header .subtitle {
+    font-size: 12px; color: rgba(255,255,255,.65); margin-top: 2px;
+  }
+  header .meta {
+    font-size: 12px; color: rgba(255,255,255,.7);
+    text-align: right;
+  }
+  header .meta strong { color: #fff; font-weight: 600; }
+
+  /* Layout */
+  main {
+    max-width: 1280px;
+    margin: 28px auto;
+    padding: 0 32px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 420px;
+    gap: 24px;
+  }
+  @media (max-width: 980px) {
+    main { grid-template-columns: 1fr; }
+  }
+
+  /* Card */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+  .card-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: baseline; justify-content: space-between;
+  }
+  .card-header h2 {
+    margin: 0; font-size: 13px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .8px; color: var(--text-muted);
+  }
+  .card-header .hint { font-size: 12px; color: var(--text-muted); }
+  .card-body { padding: 20px; }
+
+  /* Form */
+  .field { margin-bottom: 16px; }
+  .field label {
+    display: block;
+    font-size: 12px; font-weight: 500; color: var(--text);
+    margin-bottom: 6px;
+  }
+  .field .label-row {
+    display: flex; justify-content: space-between; align-items: baseline;
+  }
+  .field .label-help {
+    font-size: 11px; color: var(--text-muted); font-weight: 400;
+  }
+  select, input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 9px 11px;
+    font-family: inherit; font-size: 14px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: #fff;
+    color: var(--text);
+    transition: border-color .15s, box-shadow .15s;
+  }
+  select:focus, input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, .12);
+  }
+
+  .row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+
+  fieldset {
+    border: none; padding: 0; margin: 0 0 24px 0;
+  }
+  fieldset legend {
+    font-size: 11px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .8px;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+    width: 100%;
+  }
+
+  /* Result panel */
+  .result-card { position: sticky; top: 20px; }
+  .result-header { background: var(--navy); color: #fff; padding: 22px 24px; }
+  .result-header .label {
+    font-size: 11px; text-transform: uppercase; letter-spacing: 1px;
+    color: rgba(255,255,255,.65); font-weight: 500;
+  }
+  .result-header .price {
+    font-size: 38px; font-weight: 700; margin-top: 4px;
+    font-variant-numeric: tabular-nums; letter-spacing: -.5px;
+  }
+  .result-header .unit { font-size: 16px; font-weight: 500; color: rgba(255,255,255,.75); }
+  .result-header .delta {
+    margin-top: 8px; font-size: 12px; color: rgba(255,255,255,.8);
+  }
+  .result-header .delta .pos { color: #6ee7b7; }
+  .result-header .delta .neg { color: #fca5a5; }
+
+  .summary {
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border);
+    background: var(--accent-soft);
+  }
+  .summary dl { margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; }
+  .summary dt { font-size: 11px; color: var(--text-muted); margin: 0; }
+  .summary dd { font-size: 13px; margin: 0; font-weight: 500; }
+
+  .contributions { padding: 16px 24px 22px; }
+  .contributions h3 {
+    margin: 0 0 12px 0; font-size: 12px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .8px; color: var(--text-muted);
+  }
+  .contrib-row {
+    display: grid;
+    grid-template-columns: 1fr 90px;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 12px;
+  }
+  .contrib-row:last-child { border: none; }
+  .contrib-row .name { font-weight: 500; color: var(--text); }
+  .contrib-row .name small { color: var(--text-muted); font-weight: 400; display: block; font-size: 11px;}
+  .contrib-row .impact {
+    text-align: right; font-variant-numeric: tabular-nums;
+    font-weight: 600;
+  }
+  .contrib-row .impact.pos { color: var(--success); }
+  .contrib-row .impact.neg { color: var(--danger); }
+
+  .bar {
+    height: 4px; background: #f1f5f9; border-radius: 2px;
+    overflow: hidden; position: relative; margin-top: 4px;
+  }
+  .bar > span { display: block; height: 100%; }
+  .bar > span.pos { background: var(--success); }
+  .bar > span.neg { background: var(--danger); }
+
+  /* status pill */
+  .status {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 11px; color: var(--text-muted);
+  }
+  .status .dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--success);
+  }
+  .status.loading .dot { background: var(--accent); animation: pulse 1s infinite; }
+  .status.error .dot { background: var(--danger); }
+  @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .3 } }
+
+  footer {
+    max-width: 1280px; margin: 32px auto;
+    padding: 12px 32px;
+    color: var(--text-muted); font-size: 11px;
+    display: flex; justify-content: space-between;
+  }
+  footer a { color: var(--text-muted); text-decoration: none; border-bottom: 1px dotted var(--border); }
+  footer a:hover { color: var(--accent); border-color: var(--accent); }
+
+  .num-input { font-variant-numeric: tabular-nums; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <div>
+      <h1>Estimation Immobilière — Casablanca</h1>
+      <div class="subtitle">Modèle prédictif XGBoost · Géomarketing immobilier</div>
+    </div>
+    <div class="meta">
+      <div><strong id="meta-r2">—</strong> R² CV · <strong id="meta-zones">—</strong> zones</div>
+      <div><span class="status" id="api-status"><span class="dot"></span><span id="status-text">Connexion API</span></span></div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- Formulaire -->
+  <section class="card">
+    <div class="card-header">
+      <h2>Caractéristiques du bien</h2>
+      <span class="hint">Estimation mise à jour en temps réel</span>
+    </div>
+    <div class="card-body">
+
+      <fieldset>
+        <legend>Localisation</legend>
+
+        <div class="field">
+          <label for="prefecture">Préfecture</label>
+          <select id="prefecture"></select>
+        </div>
+
+        <div class="field">
+          <div class="label-row">
+            <label for="zone">Zone</label>
+            <span class="label-help" id="zone-count">—</span>
+          </div>
+          <select id="zone"></select>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Type et état du bien</legend>
+
+        <div class="row-2">
+          <div class="field">
+            <label for="type_de_bien">Type de bien</label>
+            <select id="type_de_bien"></select>
+          </div>
+          <div class="field">
+            <label for="etat">État</label>
+            <select id="etat"></select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="condition_zonage">Condition / Zonage</label>
+          <select id="condition_zonage"></select>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Ajustements géographiques (facultatif)</legend>
+        <div id="adjustments" class="row-2"></div>
+      </fieldset>
+
+    </div>
+  </section>
+
+  <!-- Résultats -->
+  <aside>
+    <div class="card result-card">
+      <div class="result-header">
+        <div class="label">Prix estimé au m²</div>
+        <div>
+          <span class="price num-input" id="price">—</span>
+          <span class="unit">DH/m²</span>
+        </div>
+        <div class="delta" id="delta">vs baseline marché : —</div>
+      </div>
+
+      <div class="summary">
+        <dl>
+          <dt>Préfecture</dt><dd id="sum-pref">—</dd>
+          <dt>Arrondissement</dt><dd id="sum-arr">—</dd>
+          <dt>Type</dt><dd id="sum-type">—</dd>
+          <dt>État</dt><dd id="sum-etat">—</dd>
+        </dl>
+      </div>
+
+      <div class="contributions">
+        <h3>Facteurs d'influence (TreeSHAP)</h3>
+        <div id="contribs"></div>
+      </div>
+    </div>
+  </aside>
+</main>
+
+<footer>
+  <div>Documentation API : <a href="/docs" target="_blank">/docs</a> · Schéma OpenAPI : <a href="/openapi.json" target="_blank">/openapi.json</a></div>
+  <div>Modèle XGBoost · TreeSHAP natif</div>
+</footer>
+
+<script>
+const API_BASE = '';
+const TOP_FEATURES = ['temps_Maarif','dist_mer','nb_ecoles_1km','dist_voie_primaire_min_m',
+  'dist_autoroute_min_m','nb_restaurants_500m','surface_verte_1km','dist_parc'];
+
+let META = null;       // /metadata response
+let ZONES = [];        // /zones response
+let LAST_AUTOFILL = null;
+let DEBOUNCE = null;
+let PENDING = null;
+
+// ---------- helpers ----------
+function $(id) { return document.getElementById(id); }
+function fmtDH(n) {
+  if (n === null || n === undefined || isNaN(n)) return '—';
+  return Math.round(n).toLocaleString('fr-FR').replace(/,/g, ' ');
+}
+function fmtSigned(n) {
+  if (n === null || n === undefined || isNaN(n)) return '—';
+  const s = Math.round(n).toLocaleString('fr-FR').replace(/,/g, ' ');
+  return n >= 0 ? '+' + s : s;
+}
+
+function setStatus(state, text) {
+  const el = $('api-status');
+  el.classList.remove('loading', 'error');
+  if (state === 'loading') el.classList.add('loading');
+  if (state === 'error') el.classList.add('error');
+  $('status-text').textContent = text;
+}
+
+function fillSelect(sel, items, current) {
+  sel.innerHTML = '';
+  items.forEach(it => {
+    const o = document.createElement('option');
+    if (typeof it === 'string') { o.value = it; o.textContent = it; }
+    else { o.value = it.value; o.textContent = it.label; }
+    sel.appendChild(o);
+  });
+  if (current && items.some(i => (typeof i === 'string' ? i : i.value) === current)) {
+    sel.value = current;
+  }
+}
+
+// ---------- bootstrap ----------
+async function bootstrap() {
+  setStatus('loading', 'Chargement du modèle');
+  try {
+    const [meta, health, zones] = await Promise.all([
+      fetch(API_BASE + '/metadata').then(r => r.json()),
+      fetch(API_BASE + '/health').then(r => r.json()),
+      fetch(API_BASE + '/zones').then(r => r.json()),
+    ]);
+    META = meta;
+    ZONES = zones;
+    $('meta-r2').textContent = health.model_r2_cv.toFixed(3);
+    $('meta-zones').textContent = health.n_zones;
+
+    // Préfectures
+    const prefectures = [...new Set(zones.map(z => z.Prefecture))].sort();
+    fillSelect($('prefecture'), prefectures);
+
+    // Catégorielles
+    const cat = meta.categorical_features;
+    fillSelect($('type_de_bien'), cat['Type de bien']);
+    fillSelect($('etat'), cat['État']);
+    fillSelect($('condition_zonage'), cat['Condition / Zonage'], 'Aucune');
+
+    // Champs d'ajustement
+    const adj = $('adjustments');
+    adj.innerHTML = '';
+    TOP_FEATURES.forEach(f => {
+      if (!meta.numeric_features.includes(f)) return;
+      const wrap = document.createElement('div');
+      wrap.className = 'field';
+      wrap.innerHTML = `
+        <div class="label-row">
+          <label for="adj_${f}">${f}</label>
+          <span class="label-help">médiane zone</span>
+        </div>
+        <input type="number" step="any" class="num-input" id="adj_${f}" data-feature="${f}" />
+      `;
+      adj.appendChild(wrap);
+    });
+
+    onPrefectureChange();
+    bindEvents();
+    setStatus('ok', 'API connectée');
+  } catch (e) {
+    console.error(e);
+    setStatus('error', 'API injoignable');
+  }
+}
+
+function bindEvents() {
+  $('prefecture').addEventListener('change', onPrefectureChange);
+  $('zone').addEventListener('change', onZoneChange);
+  ['type_de_bien','etat','condition_zonage'].forEach(id => {
+    $(id).addEventListener('change', schedulePredict);
+  });
+  document.querySelectorAll('#adjustments input').forEach(inp => {
+    inp.addEventListener('input', schedulePredict);
+  });
+}
+
+function onPrefectureChange() {
+  const pref = $('prefecture').value;
+  const zonesPref = ZONES.filter(z => z.Prefecture === pref);
+  const opts = zonesPref.map(z => ({
+    value: z['Code Zone'],
+    label: `${z['Code Zone']} — ${z.Zone || z.Arrondissement}`
+  }));
+  fillSelect($('zone'), opts);
+  $('zone-count').textContent = `${zonesPref.length} zones`;
+  onZoneChange();
+}
+
+async function onZoneChange() {
+  const code = $('zone').value;
+  if (!code) return;
+  setStatus('loading', 'Chargement zone');
+  try {
+    const r = await fetch(API_BASE + '/autofill?code_zone=' + encodeURIComponent(code));
+    const data = await r.json();
+    LAST_AUTOFILL = data;
+
+    // pré-remplir catégorielles avec mode de la zone
+    if (data.modal_categorical) {
+      const m = data.modal_categorical;
+      if (m['Type de bien']) $('type_de_bien').value = m['Type de bien'];
+      if (m['État'])         $('etat').value         = m['État'];
+      const c = m['Condition / Zonage'];
+      if (c && [...$('condition_zonage').options].some(o => o.value === c)) {
+        $('condition_zonage').value = c;
+      }
+    }
+    // remplir les inputs d'ajustement avec la médiane zone
+    document.querySelectorAll('#adjustments input').forEach(inp => {
+      const f = inp.dataset.feature;
+      if (data.median_features[f] !== undefined) {
+        inp.value = Number(data.median_features[f]).toFixed(2);
+        inp.placeholder = inp.value;
+      }
+    });
+
+    $('sum-pref').textContent = data.prefecture || '—';
+    $('sum-arr').textContent  = data.arrondissement || '—';
+
+    schedulePredict(true);
+  } catch (e) {
+    console.error(e);
+    setStatus('error', 'Erreur zone');
+  }
+}
+
+// ---------- prédiction temps réel ----------
+function schedulePredict(immediate) {
+  if (DEBOUNCE) clearTimeout(DEBOUNCE);
+  const delay = immediate === true ? 0 : 120;
+  DEBOUNCE = setTimeout(runPredict, delay);
+}
+
+async function runPredict() {
+  if (PENDING) PENDING.abort?.();
+  setStatus('loading', 'Calcul en cours');
+
+  const features = {};
+  document.querySelectorAll('#adjustments input').forEach(inp => {
+    const f = inp.dataset.feature;
+    const v = parseFloat(inp.value);
+    if (!isNaN(v)) features[f] = v;
+  });
+
+  const body = {
+    code_zone: $('zone').value || null,
+    type_de_bien: $('type_de_bien').value,
+    etat: $('etat').value,
+    condition_zonage: $('condition_zonage').value,
+    features: Object.keys(features).length ? features : null,
+  };
+
+  try {
+    const ctrl = new AbortController();
+    PENDING = ctrl;
+    const r = await fetch(API_BASE + '/predict/explain?top_k=8', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+      signal: ctrl.signal,
+    });
+    if (!r.ok) {
+      const err = await r.json();
+      throw new Error(err.detail || 'Erreur API');
+    }
+    const data = await r.json();
+    renderResult(data);
+    setStatus('ok', 'À jour');
+  } catch (e) {
+    if (e.name === 'AbortError') return;
+    console.error(e);
+    setStatus('error', e.message || 'Erreur');
+  }
+}
+
+function renderResult(data) {
+  $('price').textContent = fmtDH(data.prix_m2_dh);
+  const delta = data.prix_m2_dh - data.baseline_dh;
+  const cls = delta >= 0 ? 'pos' : 'neg';
+  const sign = delta >= 0 ? '+' : '';
+  $('delta').innerHTML = `vs baseline marché (${fmtDH(data.baseline_dh)} DH) : <span class="${cls}">${sign}${fmtDH(delta)} DH</span>`;
+
+  $('sum-type').textContent = data.type_de_bien;
+  $('sum-etat').textContent = data.etat;
+
+  // contributions
+  const container = $('contribs');
+  container.innerHTML = '';
+  const maxAbs = Math.max(...data.contributions.map(c => Math.abs(c.impact_dh)), 1);
+  data.contributions.forEach(c => {
+    const cls = c.impact_dh >= 0 ? 'pos' : 'neg';
+    const w = Math.min(100, Math.abs(c.impact_dh) / maxAbs * 100);
+    const row = document.createElement('div');
+    row.className = 'contrib-row';
+    row.innerHTML = `
+      <div class="name">
+        ${c.feature}
+        <small>valeur ${Number(c.value).toFixed(2)}</small>
+        <div class="bar"><span class="${cls}" style="width:${w}%"></span></div>
+      </div>
+      <div class="impact ${cls}">${fmtSigned(c.impact_dh)}<br><small style="font-weight:400;color:var(--text-muted)">DH/m²</small></div>
+    `;
+    container.appendChild(row);
+  });
+}
+
+bootstrap();
+</script>
+</body>
+</html>
