@@ -44,8 +44,7 @@ app = FastAPI(
     title="Score d'attractivite - Casablanca",
     description=(
         "API de calcul du score d'attractivite par zone, base sur une analyse "
-        "hedonique (4 dimensions : Accessibilite, Amenites, Environnement, "
-        "SocioDemographie)."
+        "hedonique (dimensions : Accessibilite, Amenites)."
     ),
     version="1.0.0",
 )
@@ -69,12 +68,7 @@ class ScoreRequest(BaseModel):
     )
 
 
-class ScoreResponse(BaseModel):
-    Score_Accessibilite: float
-    Score_Amenites:      float
-    Score_Environnement: float
-    Score_SocioDemo:     float
-    Score_Attractivite:  float
+ScoreResponse = Dict[str, float]
 
 
 # -----------------------------------------------------------------------------
@@ -87,7 +81,7 @@ def health():
 
 @app.get("/api/dimensions")
 def get_dimensions():
-    """Retourne la structure des 4 dimensions avec leurs variables et signes."""
+    """Retourne la structure des dimensions avec leurs variables et signes."""
     out = []
     for dim, var_dict in DIMENSIONS.items():
         out.append({
@@ -173,11 +167,8 @@ def zone_detail(code_zone: str):
         "prix_m2":        info.get("Prix m2 (DH)"),
         "rang":           int(info.get("Rang", 0)),
         "scores": {
-            "Score_Accessibilite": info["Score_Accessibilite"],
-            "Score_Amenites":      info["Score_Amenites"],
-            "Score_Environnement": info["Score_Environnement"],
-            "Score_SocioDemo":     info["Score_SocioDemo"],
-            "Score_Attractivite":  info["Score_Attractivite"],
+            **{f"Score_{dim}": info[f"Score_{dim}"] for dim in DIMENSIONS},
+            "Score_Attractivite": info["Score_Attractivite"],
         },
         "features": features,
     }

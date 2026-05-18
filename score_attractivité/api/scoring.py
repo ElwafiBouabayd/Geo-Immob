@@ -2,7 +2,7 @@
 Module de calcul du score d'attractivite.
 
 Reprend la methodologie du notebook score_attractivite.ipynb :
-  - 4 dimensions : Accessibilite, Amenites, Environnement, SocioDemo
+  - dimensions : Accessibilite, Amenites
   - Normalisation MinMax variable par variable (inversion si signe negatif)
   - Sous-score = moyenne des variables normalisees de la dimension
   - Score global = combinaison ponderee (poids issus de la regression
@@ -35,23 +35,15 @@ DIMENSIONS: Dict[str, Dict[str, str]] = {
         "temps_port":                 "neg",
     },
     "Amenites": {
-        "nb_ecoles_1km":      "pos",
-        "nb_sante_1km":       "pos",
-        "nb_commerces_1km":   "pos",
-        "nb_restaurants_500m":"pos",
-        "nb_banques_1km":     "pos",
+        "nb_ecoles_1km":              "pos",
+        "nb_commerces_1km":           "pos",
+        "nb_banques_1km":             "pos",
     },
-    "Environnement": {
-        "dist_mer":          "neg",
-        "dist_parc":         "neg",
-        "surface_verte_1km": "pos",
-        "nb_nuisance_500m":  "neg",
-    },
-    "SocioDemo": {
-        "Taux_activité":                             "pos",
-        "Part_population_niveau_études_supérieur":   "pos",
-        "Taux_chômage":                              "neg",
-        "Taux_croissance":                           "pos",
+    "Prestige": {
+        "prix_m2_median_zone":        "pos",
+        "haut_standing_prop":         "pos",
+        "taux_education":             "pos",
+        "seafront":                   "pos",
     },
 }
 
@@ -74,7 +66,8 @@ COORDS_PATH  = os.path.join(BASE_DIR, "coordonnees_zones.csv")
 def load_zones() -> pd.DataFrame:
     """Agrege data_finale.csv au niveau zone (moyenne des numeriques)."""
     df = pd.read_csv(DATA_PATH)
-    df.columns = [c.strip() for c in df.columns]
+    raw_cols = [c.strip() for c in df.columns]
+    df.columns = raw_cols
     df = df[df["Prix Terrain au m² (DH)"] >= 100]
 
     num_cols = df.select_dtypes(include=[np.number]).columns.tolist()
@@ -102,6 +95,29 @@ def load_zones() -> pd.DataFrame:
         .merge(pref_label, on="Code Zone")
     )
 
+    # Prestige / standing : variables dérivées du notebook
+    prix_median = (
+        df.groupby("Code Zone")["Prix Terrain au m² (DH)"].median()
+          .reset_index(name="prix_m2_median_zone")
+    )
+    global_75 = float(df["Prix Terrain au m² (DH)"].quantile(0.75))
+    haut_prop = (
+        df.groupby("Code Zone")["Prix Terrain au m² (DH)"].apply(
+            lambda s: float((s > global_75).mean())
+        ).reset_index(name="haut_standing_prop")
+    )
+    zones = zones.merge(prix_median, on="Code Zone", how="left")
+    zones = zones.merge(haut_prop, on="Code Zone", how="left")
+
+    edu_col = next(
+        (c for c in raw_cols if c.lower().replace(" ", "").startswith("part_population_niveau") and "sup" in c.lower()),
+        None,
+    )
+    if edu_col is None:
+        raise RuntimeError("Colonne de taux d'éducation introuvable dans data_finale.csv")
+    zones["taux_education"] = zones[edu_col]
+    zones["seafront"] = (zones["dist_mer"].astype(float) < 1000).astype(int)
+
     # Verification des colonnes
     missing = [v for v in ALL_VARS if v not in zones.columns]
     if missing:
@@ -115,7 +131,6 @@ def load_weights() -> Dict[str, float]:
     p = pd.read_csv(POIDS_PATH)
     p.columns = [c.strip().lstrip("﻿") for c in p.columns]
     poids = dict(zip(p["Dimension"], p["Poids (%)"].astype(float) / 100.0))
-    # Garantir la presence des 4 dimensions
     for d in DIMENSIONS:
         if d not in poids:
             raise RuntimeError(f"Poids manquant pour la dimension : {d}")
@@ -136,7 +151,7 @@ def _minmax_bounds() -> Dict[str, Tuple[float, float]]:
 @lru_cache(maxsize=1)
 def _raw_score_bounds() -> Tuple[float, float]:
     """Min et max du score brut (avant remise a [0, 100])."""
-    sub = compute_subscores_table()  # DataFrame zones x 4 dimensions
+    sub = compute_subscores_table()
     weights = load_weights()
     w = np.array([weights[d] for d in DIMENSIONS])
     raw = sub[list(DIMENSIONS.keys())].values @ w
@@ -204,13 +219,9 @@ def score_from_variables(values: Dict[str, float]) -> Dict[str, float]:
     score_100 = (raw - lo) / rng * 100.0
     score_100 = max(0.0, min(100.0, score_100))
 
-    return {
-        "Score_Accessibilite":  round(sub_scores["Accessibilite"]  * 100, 1),
-        "Score_Amenites":       round(sub_scores["Amenites"]       * 100, 1),
-        "Score_Environnement":  round(sub_scores["Environnement"]  * 100, 1),
-        "Score_SocioDemo":      round(sub_scores["SocioDemo"]      * 100, 1),
-        "Score_Attractivite":   round(score_100, 1),
-    }
+    result = {f"Score_{dim}": round(sub_scores[dim] * 100, 1) for dim in DIMENSIONS}
+    result["Score_Attractivite"] = round(score_100, 1)
+    return result
 
 
 @lru_cache(maxsize=1)
@@ -225,16 +236,14 @@ def all_zone_scores() -> pd.DataFrame:
     rng = hi - lo if hi > lo else 1.0
     score_100 = (raw - lo) / rng * 100.0
 
+    score_cols = {f"Score_{dim}": (sub[dim] * 100).round(1) for dim in DIMENSIONS}
     out = pd.DataFrame({
         "Code Zone":           zones["Code Zone"],
         "Zone":                zones["Zone déchiffrée"],
         "Arrondissement":      zones["Arrondissement"],
         "Prefecture":          zones["Préfecture"],
         "Prix m2 (DH)":        zones["Prix Terrain au m² (DH)"].round(0),
-        "Score_Accessibilite": (sub["Accessibilite"] * 100).round(1),
-        "Score_Amenites":      (sub["Amenites"]      * 100).round(1),
-        "Score_Environnement": (sub["Environnement"] * 100).round(1),
-        "Score_SocioDemo":     (sub["SocioDemo"]     * 100).round(1),
+        **score_cols,
         "Score_Attractivite":  score_100.round(1),
     }).sort_values("Score_Attractivite", ascending=False).reset_index(drop=True)
     out.insert(0, "Rang", np.arange(1, len(out) + 1))

@@ -165,10 +165,9 @@ async function initMap() {
             <div class="popup-meta">${escapeHtml(z.Arrondissement || "")}</div>
             <div class="popup-score">Score global : <strong>${fmt(z.Score_Attractivite)}</strong> / 100</div>
             <div class="popup-meta" style="margin-top:6px">
-                Accessibilite ${fmt(z.Score_Accessibilite)}<br>
-                Amenites ${fmt(z.Score_Amenites)}<br>
-                Environnement ${fmt(z.Score_Environnement)}<br>
-                Socio-demographie ${fmt(z.Score_SocioDemo)}
+                ${state.dimensions.map(dim => `
+                    ${escapeHtml(dim.dimension)} ${fmt(z[`Score_${dim.dimension}`])}
+                `).join("<br>")}
             </div>
             <div class="popup-meta" style="margin-top:6px">Rang : ${z.Rang} / ${data.count}</div>
         `);
@@ -304,10 +303,11 @@ function renderResult(host, data) {
         </div>
 
         <div class="subscores">
-            ${subscoreBlock("Accessibilite", s.Score_Accessibilite)}
-            ${subscoreBlock("Amenites", s.Score_Amenites)}
-            ${subscoreBlock("Environnement", s.Score_Environnement)}
-            ${subscoreBlock("Socio-demographie", s.Score_SocioDemo)}
+            ${Object.keys(s)
+                .filter(key => key !== "Score_Attractivite")
+                .sort()
+                .map(key => subscoreBlock(key.replace(/^Score_/, ""), s[key]))
+                .join("")}
         </div>
     `;
     host.classList.remove("hidden");
