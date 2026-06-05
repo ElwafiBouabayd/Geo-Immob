@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Estimation Appartements — Casablanca</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy:        #0a2540;
+    --navy-soft:   #14365e;
+    --accent:      #2563eb;
+    --accent-soft: #eff4ff;
+    --bg:          #f6f8fb;
+    --surface:     #ffffff;
+    --border:      #e3e8ef;
+    --text:        #0f172a;
+    --text-muted:  #64748b;
+    --success:     #047857;
+    --danger:      #b91c1c;
+    --warning:     #92400e;
+    --radius:      6px;
+    --shadow:      0 1px 2px rgba(15,23,42,.04), 0 4px 12px rgba(15,23,42,.05);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg); color: var(--text);
+    font-size: 14px; line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── Header ─────────────────────────────────────────────────────────────── */
+  header {
+    background: var(--navy); color: #fff;
+    padding: 18px 32px;
+    border-bottom: 3px solid var(--accent);
+  }
+  header .brand {
+    max-width: 1320px; margin: 0 auto;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  header h1  { margin: 0; font-size: 17px; font-weight: 600; letter-spacing: .2px; }
+  header .subtitle { font-size: 12px; color: rgba(255,255,255,.65); margin-top: 2px; }
+  header .meta { font-size: 12px; color: rgba(255,255,255,.7); text-align: right; }
+  header .meta strong { color: #fff; font-weight: 600; }
+
+  /* ── Layout ──────────────────────────────────────────────────────────────── */
+  main {
+    max-width: 1320px; margin: 28px auto;
+    padding: 0 32px;
+    display: grid;
+    grid-template-columns: minmax(0,1fr) 460px;
+    gap: 24px;
+    align-items: start;
+  }
+  @media (max-width: 1000px) { main { grid-template-columns: 1fr; } }
+
+  /* ── Card ────────────────────────────────────────────────────────────────── */
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden;
+  }
+  .card-header {
+    padding: 16px 20px; border-bottom: 1px solid var(--border);
+    display: flex; align-items: baseline; justify-content: space-between;
+  }
+  .card-header h2 {
+    margin: 0; font-size: 12px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .8px; color: var(--text-muted);
+  }
+  .card-header .hint { font-size: 12px; color: var(--text-muted); }
+  .card-body { padding: 20px; }
+
+  /* ── Form ────────────────────────────────────────────────────────────────── */
+  .field { margin-bottom: 16px; }
+  .field label { display: block; font-size: 12px; font-weight: 500; margin-bottom: 6px; }
+  .field .label-row { display: flex; justify-content: space-between; align-items: baseline; }
+  .field .label-help { font-size: 11px; color: var(--text-muted); font-weight: 400; }
+  select, input[type="text"], input[type="number"] {
+    width: 100%; padding: 9px 11px;
+    font-family: inherit; font-size: 14px;
+    border: 1px solid var(--border); border-radius: var(--radius);
+    background: #fff; color: var(--text);
+    transition: border-color .15s, box-shadow .15s;
+  }
+  select:focus, input:focus {
+    outline: none; border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(37,99,235,.12);
+  }
+  .row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .row-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+
+  fieldset { border: none; padding: 0; margin: 0 0 20px 0; }
+  fieldset legend {
+    font-size: 11px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .8px; color: var(--text-muted);
+    margin-bottom: 12px; padding-bottom: 6px;
+    border-bottom: 1px solid var(--border); width: 100%;
+  }
+
+  /* ── Résultat panel ──────────────────────────────────────────────────────── */
+  .result-card { position: sticky; top: 20px; }
+
+  /* Prix principal */
+  .result-hero {
+    background: var(--navy); color: #fff; padding: 22px 24px;
+  }
+  .result-hero .label {
+    font-size: 11px; text-transform: uppercase; letter-spacing: 1px;
+    color: rgba(255,255,255,.6); font-weight: 500; margin-bottom: 4px;
+  }
+  .result-hero .price-main {
+    font-size: 42px; font-weight: 700;
+    font-variant-numeric: tabular-nums; letter-spacing: -.5px;
+    line-height: 1;
+  }
+  .result-hero .unit { font-size: 16px; font-weight: 500; color: rgba(255,255,255,.7); }
+
+  /* Tableau Prix/m² · Fourchette · Prix total */
+  .price-table {
+    width: 100%; border-collapse: collapse;
+    margin-top: 16px;
+  }
+  .price-table th {
+    font-size: 10px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: .8px; color: rgba(255,255,255,.5);
+    padding: 0 0 6px 0; text-align: left;
+    border-bottom: 1px solid rgba(255,255,255,.12);
+  }
+  .price-table td {
+    font-size: 13px; font-weight: 600; padding: 8px 0 0 0;
+    font-variant-numeric: tabular-nums; color: #fff;
+  }
+  .price-table td.muted { color: rgba(255,255,255,.75); font-weight: 500; }
+  .price-table td.bracket {
+    font-size: 12px; color: rgba(255,255,255,.65);
+    font-weight: 400; padding-top: 4px;
+  }
+
+  /* Récap propriété */
+  .recap {
+    padding: 14px 24px; background: var(--accent-soft);
+    border-bottom: 1px solid var(--border);
+  }
+  .recap dl { margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 6px 12px; }
+  .recap dt { font-size: 11px; color: var(--text-muted); margin: 0; }
+  .recap dd { font-size: 13px; margin: 0; font-weight: 500; }
+
+  /* Contributions SHAP */
+  .contributions { padding: 16px 24px 20px; }
+  .contributions h3 {
+    margin: 0 0 12px 0; font-size: 11px; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .8px; color: var(--text-muted);
+  }
+  .contrib-row {
+    display: grid; grid-template-columns: 1fr 100px;
+    align-items: center; gap: 8px;
+    padding: 6px 0; border-bottom: 1px solid #f1f5f9; font-size: 12px;
+  }
+  .contrib-row:last-child { border: none; }
+  .contrib-row .name { font-weight: 500; color: var(--text); }
+  .contrib-row .name small {
+    color: var(--text-muted); font-weight: 400;
+    display: block; font-size: 11px;
+  }
+  .contrib-row .impact { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+  .contrib-row .impact.pos { color: var(--success); }
+  .contrib-row .impact.neg { color: var(--danger); }
+  .bar { height: 4px; background: #f1f5f9; border-radius: 2px; overflow: hidden; margin-top: 3px; }
+  .bar > span { display: block; height: 100%; }
+  .bar > span.pos { background: var(--success); }
+  .bar > span.neg { background: var(--danger); }
+
+  /* status pill */
+  .status { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; color: rgba(255,255,255,.7); }
+  .status .dot { width: 6px; height: 6px; border-radius: 50%; background: #6ee7b7; }
+  .status.loading .dot { background: var(--accent); animation: pulse 1s infinite; }
+  .status.error   .dot { background: #fca5a5; }
+  @keyframes pulse { 0%,100% { opacity:1 } 50% { opacity:.3 } }
+
+  /* ── Details/summary toggle ─────────────────────────────────────────────── */
+  details summary {
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: .8px; color: var(--text-muted); cursor: pointer;
+    padding-bottom: 6px; border-bottom: 1px solid var(--border);
+    margin-bottom: 12px; list-style: none;
+  }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::before { content: '▶  '; font-size: 10px; }
+  details[open] summary::before { content: '▼  '; }
+
+  footer {
+    max-width: 1320px; margin: 32px auto;
+    padding: 12px 32px; color: var(--text-muted); font-size: 11px;
+    display: flex; justify-content: space-between;
+  }
+  footer a { color: var(--text-muted); text-decoration: none; border-bottom: 1px dotted var(--border); }
+  footer a:hover { color: var(--accent); }
+
+  .num-input { font-variant-numeric: tabular-nums; }
+  .required::after { content: ' *'; color: var(--danger); }
+  .placeholder { color: var(--text-muted); font-style: italic; font-size: 13px; padding: 32px 0; text-align: center; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <div>
+      <h1>Estimation Appartements — Casablanca</h1>
+      <div class="subtitle">Modèle XGBoost · Prix au m² · Avito Casablanca</div>
+    </div>
+    <div class="meta">
+      <div>
+        R² <strong id="meta-r2">—</strong> &nbsp;|&nbsp;
+        MAPE <strong id="meta-mape">—</strong> &nbsp;|&nbsp;
+        <strong id="meta-q">—</strong> quartiers
+      </div>
+      <div style="margin-top:4px">
+        <span class="status" id="api-status">
+          <span class="dot"></span>
+          <span id="status-text">Connexion API…</span>
+        </span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ── Formulaire ─────────────────────────────────────────────────────── -->
+  <section class="card">
+    <div class="card-header">
+      <h2>Caractéristiques du bien</h2>
+      <span class="hint">Estimation mise à jour en temps réel</span>
+    </div>
+    <div class="card-body">
+
+      <fieldset>
+        <legend>Localisation &amp; surface</legend>
+        <div class="row-2">
+          <div class="field">
+            <label for="quartier" class="required">Quartier</label>
+            <select id="quartier"></select>
+          </div>
+          <div class="field">
+            <label for="surface" class="required">Surface (m²)</label>
+            <input type="number" id="surface" class="num-input" min="15" max="1000" step="1" value="80" />
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Caractéristiques principales</legend>
+        <div class="row-2">
+          <div class="field">
+            <label for="type_de_bien">Type de bien</label>
+            <select id="type_de_bien"></select>
+          </div>
+          <div class="field">
+            <label for="etage">Étage</label>
+            <select id="etage"></select>
+          </div>
+        </div>
+        <div class="row-3">
+          <div class="field">
+            <label for="chambres">Chambres</label>
+            <input type="number" id="chambres" min="1" max="10" value="2" />
+          </div>
+          <div class="field">
+            <label for="sdb">Salles de bain</label>
+            <input type="number" id="sdb" min="1" max="5" value="1" />
+          </div>
+          <div class="field">
+            <label for="condition">Condition</label>
+            <select id="condition"></select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="standing">Standing</label>
+          <select id="standing"></select>
+        </div>
+      </fieldset>
+
+      <details>
+        <summary>Ajustements géographiques <span style="font-weight:400;font-size:10px">(optionnels — médianes Casablanca par défaut)</span></summary>
+        <div id="geo-fields"></div>
+      </details>
+
+    </div>
+  </section>
+
+  <!-- ── Résultat ───────────────────────────────────────────────────────── -->
+  <aside>
+    <div class="card result-card">
+
+      <div class="result-hero">
+        <div class="label">Prix estimé au m²</div>
+        <div>
+          <span class="price-main num-input" id="price-m2">—</span>
+          <span class="unit"> DH/m²</span>
+        </div>
+
+        <!-- Tableau Prix/m² · Fourchette · Prix total -->
+        <table class="price-table">
+          <thead>
+            <tr>
+              <th>Prix/m²</th>
+              <th>Fourchette (±20%)</th>
+              <th>Prix total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="tbl-m2" class="num-input">—</td>
+              <td id="tbl-fourchette" class="muted num-input">—</td>
+              <td id="tbl-total" class="num-input">—</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td id="tbl-fourchette-total" class="bracket num-input" colspan="2">—</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Récap -->
+      <div class="recap">
+        <dl>
+          <dt>Quartier</dt>   <dd id="sum-quartier">—</dd>
+          <dt>Surface</dt>    <dd id="sum-surface">—</dd>
+          <dt>Type</dt>       <dd id="sum-type">—</dd>
+          <dt>Condition</dt>  <dd id="sum-cond">—</dd>
+          <dt>Étage</dt>      <dd id="sum-etage">—</dd>
+          <dt>Standing</dt>   <dd id="sum-stand">—</dd>
+        </dl>
+      </div>
+
+      <!-- Contributions SHAP -->
+      <div class="contributions">
+        <h3>Facteurs d'influence (TreeSHAP)</h3>
+        <div id="contribs">
+          <p class="placeholder">Remplissez le formulaire pour voir l'analyse</p>
+        </div>
+      </div>
+
+    </div>
+  </aside>
+
+</main>
+
+<footer>
+  <div>
+    Docs API : <a href="/docs" target="_blank">/docs</a> &nbsp;·&nbsp;
+    OpenAPI : <a href="/openapi.json" target="_blank">/openapi.json</a> &nbsp;·&nbsp;
+    Terrain : <a href="/ui" onclick="window.location='/'" target="_self">modèle terrain →</a>
+  </div>
+  <div>XGBoost · TreeSHAP natif · R²=0.88</div>
+</footer>
+
+<script>
+const API   = '';     // même origine
+const MAPE  = 0.20;   // ±20 % fourchette affichée
+
+let META = null;
+let DEBOUNCE = null;
+
+// ── helpers ──────────────────────────────────────────────────────────────────
+const $ = id => document.getElementById(id);
+
+function fmtDH(n, decimals = 0) {
+  if (n == null || isNaN(n)) return '—';
+  return Math.round(n).toLocaleString('fr-MA') + ' DH';
+}
+function fmtM2(n) {
+  if (n == null || isNaN(n)) return '—';
+  return Math.round(n).toLocaleString('fr-MA') + ' DH/m²';
+}
+function fmtSigned(n) {
+  if (n == null || isNaN(n)) return '—';
+  const s = Math.round(Math.abs(n)).toLocaleString('fr-MA');
+  return (n >= 0 ? '+' : '−') + s + ' DH/m²';
+}
+
+function setStatus(state, text) {
+  const el = $('api-status');
+  el.classList.remove('loading', 'error');
+  if (state === 'loading') el.classList.add('loading');
+  if (state === 'error')   el.classList.add('error');
+  $('status-text').textContent = text;
+}
+
+function fillSelect(id, items, defaultVal) {
+  const sel = $(id);
+  sel.innerHTML = '';
+  items.forEach(it => {
+    const o = document.createElement('option');
+    if (typeof it === 'string') { o.value = it; o.textContent = it; }
+    else { o.value = it.value; o.textContent = it.label; }
+    sel.appendChild(o);
+  });
+  if (defaultVal != null) sel.value = defaultVal;
+}
+
+// ── bootstrap ─────────────────────────────────────────────────────────────────
+async function bootstrap() {
+  setStatus('loading', 'Chargement…');
+  try {
+    const [meta, health, qData] = await Promise.all([
+      fetch(API + '/metadata').then(r => r.json()),
+      fetch(API + '/health').then(r => r.json()),
+      fetch(API + '/quartiers').then(r => r.json()),
+    ]);
+    META = meta;
+
+    // Header stats
+    $('meta-r2').textContent   = health.test_r2.toFixed(3);
+    $('meta-mape').textContent = (health.test_mape * 100).toFixed(1) + '%';
+    $('meta-q').textContent    = health.n_quartiers;
+
+    // Sélecteurs catégoriels
+    const cat = meta.categorical_features;
+    fillSelect('quartier',     qData.quartiers, 'Maarif');
+    fillSelect('type_de_bien', cat['Type de bien'], 'Appartement');
+    fillSelect('condition',    cat['Condition'], 'Bon etat');
+    fillSelect('standing',     cat['Standing'], 'Moyen standing');
+    fillSelect('etage',        meta.etage_values, 'Etage 2');
+
+    // Champs géo
+    buildGeoFields(meta);
+
+    // Bind events
+    ['quartier','type_de_bien','etage','condition','standing'].forEach(id => {
+      $(id).addEventListener('change', schedulePredict);
+    });
+    $('surface').addEventListener('input', schedulePredict);
+    document.querySelectorAll('.geo-input').forEach(inp => {
+      inp.addEventListener('input', schedulePredict);
+    });
+
+    setStatus('ok', 'API connectée');
+    schedulePredict(true);
+
+  } catch(e) {
+    console.error(e);
+    setStatus('error', 'API injoignable');
+  }
+}
+
+// ── champs géo ────────────────────────────────────────────────────────────────
+const GEO_DISPLAY = {
+  'dist_mer_m':          { label: 'Distance à la mer (m)',          icon: '🌊' },
+  'dist_tram_m':         { label: 'Distance au tram (m)',           icon: '🚃' },
+  'tt_centre_min':       { label: 'Trajet Centre-Ville (min)',       icon: '🏙️' },
+  'tt_maarif_min':       { label: 'Trajet Maarif (min)',            icon: '📍' },
+  'dist_parc_m':         { label: 'Distance au parc (m)',           icon: '🌳' },
+  'dist_mall_m':         { label: 'Distance au mall (m)',           icon: '🛍️' },
+  'dist_ecole_m':        { label: 'Distance école (m)',             icon: '🏫' },
+  'dist_banque_m':       { label: 'Distance banque (m)',            icon: '🏦' },
+  'nuisance_route_500m': { label: 'Nuisance routière 500m (m²)',    icon: '🛣️' },
+};
+
+function buildGeoFields(meta) {
+  const container = $('geo-fields');
+  container.innerHTML = '';
+  const defaults = meta.default_geo_values;
+  const wrap = document.createElement('div');
+  wrap.className = 'row-2';
+  wrap.style.marginTop = '4px';
+
+  Object.entries(GEO_DISPLAY).forEach(([key, info]) => {
+    if (!meta.numeric_features.includes(key)) return;
+    const d = document.createElement('div');
+    d.className = 'field';
+    d.innerHTML = `
+      <div class="label-row">
+        <label for="geo_${key}">${info.label}</label>
+        <span class="label-help">défaut ${(defaults[key]||0).toLocaleString('fr-MA')}</span>
+      </div>
+      <input type="number" step="any" class="num-input geo-input"
+             id="geo_${key}" data-key="${key}"
+             value="${(defaults[key]||0).toFixed(0)}" />
+    `;
+    wrap.appendChild(d);
+  });
+  container.appendChild(wrap);
+}
+
+// ── prédiction temps réel ─────────────────────────────────────────────────────
+function schedulePredict(immediate) {
+  if (DEBOUNCE) clearTimeout(DEBOUNCE);
+  DEBOUNCE = setTimeout(runPredict, immediate === true ? 0 : 150);
+}
+
+async function runPredict() {
+  const surface = parseFloat($('surface').value);
+  const quartier = $('quartier').value;
+  if (!quartier || isNaN(surface) || surface <= 0) return;
+
+  setStatus('loading', 'Calcul…');
+
+  // Collecter overrides géo
+  const geoOverrides = {};
+  document.querySelectorAll('.geo-input').forEach(inp => {
+    const v = parseFloat(inp.value);
+    if (!isNaN(v)) geoOverrides[inp.dataset.key] = v;
+  });
+
+  const body = {
+    surface_m2:   surface,
+    quartier:     quartier,
+    etage:        $('etage').value,
+    chambres:     parseInt($('chambres').value) || 2,
+    salles_de_bain: parseInt($('sdb').value) || 1,
+    type_de_bien: $('type_de_bien').value,
+    condition:    $('condition').value,
+    standing:     $('standing').value,
+    ...geoOverrides,
+  };
+
+  try {
+    const r = await fetch(API + '/predict/explain?top_k=8', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+    if (!r.ok) {
+      const err = await r.json();
+      throw new Error(err.detail || 'Erreur API');
+    }
+    const data = await r.json();
+    renderResult(data);
+    setStatus('ok', 'À jour');
+  } catch(e) {
+    console.error(e);
+    setStatus('error', e.message || 'Erreur');
+  }
+}
+
+// ── rendu résultat ────────────────────────────────────────────────────────────
+function renderResult(d) {
+  const m2    = d.prix_m2;
+  const bas   = d.fourchette_basse;
+  const haut  = d.fourchette_haute;
+  const total = d.prix_total;
+  const tBas  = d.prix_total_bas;
+  const tHaut = d.prix_total_haut;
+
+  // Hero price
+  $('price-m2').textContent = m2.toLocaleString('fr-MA');
+
+  // Tableau Prix/m² · Fourchette · Prix total
+  $('tbl-m2').textContent         = fmtM2(m2);
+  $('tbl-fourchette').textContent = `[${Math.round(bas).toLocaleString('fr-MA')} — ${Math.round(haut).toLocaleString('fr-MA')}]`;
+  $('tbl-total').textContent      = fmtDH(total);
+  $('tbl-fourchette-total').textContent =
+    `Total : [${Math.round(tBas).toLocaleString('fr-MA')} — ${Math.round(tHaut).toLocaleString('fr-MA')}] DH`;
+
+  // Récap
+  $('sum-quartier').textContent = d.quartier;
+  $('sum-surface').textContent  = d.surface_m2 + ' m²';
+  $('sum-type').textContent     = d.type_de_bien;
+  $('sum-cond').textContent     = d.condition;
+  $('sum-etage').textContent    = d.etage;
+  $('sum-stand').textContent    = d.standing;
+
+  // SHAP contributions
+  const container = $('contribs');
+  container.innerHTML = '';
+  const maxAbs = Math.max(...d.contributions.map(c => Math.abs(c.shap_m2)), 1);
+
+  d.contributions.forEach(c => {
+    const cls = c.shap_m2 >= 0 ? 'pos' : 'neg';
+    const w   = Math.min(100, Math.abs(c.shap_m2) / maxAbs * 100);
+    const row = document.createElement('div');
+    row.className = 'contrib-row';
+    row.innerHTML = `
+      <div class="name">
+        ${c.feature}
+        <small>valeur : ${Number(c.value).toFixed(1)}</small>
+        <div class="bar"><span class="${cls}" style="width:${w}%"></span></div>
+      </div>
+      <div class="impact ${cls}">
+        ${fmtSigned(c.shap_m2)}
+        <br><small style="font-weight:400;color:var(--text-muted)">
+          (${c.impact_dh >= 0 ? '+' : ''}${Math.round(c.impact_dh).toLocaleString('fr-MA')} DH total)
+        </small>
+      </div>
+    `;
+    container.appendChild(row);
+  });
+
+  if (d.contributions.length === 0) {
+    container.innerHTML = '<p class="placeholder">Aucune contribution SHAP disponible.</p>';
+  }
+}
+
+bootstrap();
+</script>
+</body>
+</html>
