@@ -1,6 +1,6 @@
 """
 ====================================================================
- Enrichissement géomarketing du fichier `avito_casablanca_terrains_clean.xlsx`
+ Enrichissement géomarketing du fichier `.xlsx`
 ====================================================================
 
 Ce script enrichit chaque annonce (ligne) avec des variables décrivant son

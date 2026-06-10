@@ -1,0 +1,5 @@
+# Tous les caches Python du projet
+**/__pycache__/
+
+# Tous les dossiers CatBoost du projet
+**/catboost_info/
