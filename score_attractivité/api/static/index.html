@@ -3,89 +3,92 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Score d'attractivite - Casablanca</title>
-
+    <title>Score d'attractivité — Casablanca</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-          crossorigin="" />
-    <link rel="stylesheet" href="/static/style.css?v=2" />
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="/static/style.css?v=1" />
 </head>
 <body>
 
 <header class="site-header">
     <div class="container header-inner">
         <div class="brand">
-            <div class="brand-title">Score d'attractivite</div>
-            <div class="brand-subtitle">Analyse hedonique - Casablanca</div>
+            <div class="brand-title">Score d'attractivité résidentielle</div>
+            <div class="brand-subtitle">Casablanca · 4 dimensions · Données OSM + HCP</div>
         </div>
         <nav class="site-nav">
-            <button class="tab-btn active" data-tab="map">Cartographie</button>
-            <button class="tab-btn" data-tab="custom">Calculer le score d'attractivite</button>
+            <button class="tab-btn active" data-tab="map">Carte interactive</button>
+            <button class="tab-btn" data-tab="custom">Calculer un score</button>
         </nav>
     </div>
 </header>
 
 <main class="container">
 
-    <!-- ====================================================================
-         CARTOGRAPHIE
-         ==================================================================== -->
+    <!-- ── CARTE ───────────────────────────────────────────────────── -->
     <section class="panel" id="tab-map">
         <div class="panel-header">
-            <h2>Cartographie des scores d'attractivite</h2>
+            <h2>Cartographie des scores d'attractivité</h2>
             <p class="panel-desc">
-                Chaque zone est positionnee sur la carte avec un degrade de
-                couleur proportionnel au score (0 a 100).
+                Chaque zone est positionnée sur la carte avec un dégradé de couleur
+                proportionnel au score global (0 à 100). Cliquez sur un point pour
+                afficher le détail.
             </p>
         </div>
 
         <div class="legend">
-            <div class="legend-title">Score d'attractivite</div>
+            <div class="legend-title">Score d'attractivité</div>
             <div class="legend-bar"></div>
             <div class="legend-scale">
                 <span>0</span><span>25</span><span>50</span><span>75</span><span>100</span>
             </div>
         </div>
 
-        <div id="map" class="map-container"></div>
+        <div class="map-layout">
+            <div id="map" class="map-container"></div>
+            <div class="zone-list-panel">
+                <div class="zone-list-header">
+                    <span>Classement des zones</span>
+                    <input id="zone-search" type="text" placeholder="Rechercher…" />
+                </div>
+                <ul id="zone-list"></ul>
+            </div>
+        </div>
 
         <div id="map-empty" class="empty-state hidden">
-            <h3>Coordonnees indisponibles</h3>
+            <h3>Coordonnées indisponibles</h3>
             <p id="map-empty-msg">
-                Pour activer la carte, deposez un fichier
-                <code>coordonnees_zones.csv</code> a la racine du dossier
-                <code>score_attractivite</code> avec les colonnes :
-                <code>Code Zone</code>, <code>lat</code>, <code>lng</code>.
+                Lancez d'abord <code>collect_osm_zones.py</code> pour générer
+                <code>osm_zones_data.csv</code> avec les colonnes lat/lng.
             </p>
         </div>
     </section>
 
-    <!-- ====================================================================
-         CALCUL DU SCORE
-         ==================================================================== -->
+    <!-- ── CALCULER UN SCORE ───────────────────────────────────────── -->
     <section class="panel hidden" id="tab-custom">
         <div class="panel-header">
-            <h2>Calculer le score d'attractivite</h2>
+            <h2>Calculer le score d'attractivité</h2>
             <p class="panel-desc">
-                Renseignez les 15 variables des 3 dimensions actives (Accessibilite, Amenites, Prestige). Vous pouvez
-                pre-remplir le formulaire avec les valeurs d'une zone existante
-                puis ajuster.
+                Renseignez les variables des 4 dimensions. Pré-remplissez avec
+                une zone existante pour ajuster les valeurs.
             </p>
         </div>
 
         <div class="form-row">
-            <label for="prefill-select">Pre-remplir avec une zone</label>
+            <label for="prefill-select">Pré-remplir avec une zone :</label>
             <select id="prefill-select">
-                <option value="">-- Optionnel --</option>
+                <option value="">-- Sélectionner (optionnel) --</option>
             </select>
-            <button id="prefill-btn" class="btn-secondary">Pre-remplir</button>
-            <button id="reset-btn" class="btn-secondary">Effacer</button>
+            <button id="prefill-btn" class="btn-secondary">Pré-remplir</button>
+            <button id="reset-btn"   class="btn-secondary">Effacer</button>
         </div>
 
         <form id="custom-form" class="dimensions-form"></form>
 
         <div class="form-actions">
-            <button id="calc-btn" class="btn-primary">Calculer le score</button>
+            <button id="calc-btn" class="btn-primary" style="width:100%;padding:12px">
+                Calculer le score d'attractivité
+            </button>
         </div>
 
         <div id="custom-result" class="result-card hidden"></div>
@@ -95,14 +98,13 @@
 
 <footer class="site-footer">
     <div class="container">
-        <span>Score d'attractivite - Casablanca</span>
-        <span class="muted">API locale - FastAPI</span>
+        <span>Score d'attractivité résidentielle — Casablanca v2</span>
+        <span class="muted">API locale · FastAPI · port 8001</span>
     </div>
 </footer>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-        crossorigin=""></script>
-<script src="/static/app.js?v=2"></script>
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="/static/app.js?v=1"></script>
 </body>
 </html>

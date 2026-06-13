@@ -13,9 +13,9 @@ from catboost import CatBoostRegressor, Pool
 SCORE_API_DIR = Path(__file__).parent.parent / "score_attractivité" / "api"
 sys.path.insert(0, str(SCORE_API_DIR))
 from scoring import (
-    ALL_VARS, DIMENSIONS, DIMENSIONS_VAR_SIGN,
+    ALL_VARS, DIMENSIONS, DIMENSIONS_VAR_SIGN, WEIGHTS,
     all_zone_scores, get_zone_features,
-    load_coordinates, load_weights, load_zones,
+    load_coordinates, load_zone_data,
     score_from_variables,
 )
 
@@ -92,41 +92,31 @@ def predict(req:PredictRequest):
 
 @app.get("/api/dimensions")
 def get_dims():
-    return safe_json([{"dimension":d,"variables":[{"name":v,"sign":s,"direction":"négatif" if s=="neg" else "positif"} for v,s in vd.items()]} for d,vd in DIMENSIONS.items()])
+    return safe_json([{"dimension":d,"poids_dimension":round(WEIGHTS[d]*100,0),"variables":[{"name":v,"sign":sign,"direction":"négatif" if sign=="neg" else "positif","poids_intra":round(w_intra*100,0)} for v,(sign,w_intra) in vd.items()]} for d,vd in DIMENSIONS.items()])
 @app.get("/api/weights")
 def get_weights():
-    w=load_weights();return safe_json([{"dimension":d,"poids":round(w[d]*100,2)} for d in DIMENSIONS])
+    return safe_json([{"dimension":d,"poids":round(WEIGHTS[d]*100,2)} for d in DIMENSIONS])
 @app.get("/api/zones")
 def list_zones():
-    z=load_zones()[["Code Zone","Zone déchiffrée","Arrondissement","Préfecture"]].rename(columns={"Zone déchiffrée":"Zone","Préfecture":"Prefecture"})
-    return safe_json(z.to_dict(orient="records"))
+    df=load_zone_data()
+    cols=[c for c in ["Code Zone","Zone","Arrondissement"] if c in df.columns]
+    return safe_json(df[cols].fillna("").drop_duplicates("Code Zone").to_dict(orient="records"))
 @app.get("/api/zones/scores")
 def all_scores():return safe_json(all_zone_scores().to_dict(orient="records"))
-SCORES_CSV = Path(__file__).parent.parent / "score_attractivité" / "score_attractivite_zones_avec_coords.csv"
 
 @app.get("/api/zones/map")
 def zones_map():
-    if not SCORES_CSV.exists():
-        return safe_json({"available":False,"zones":[]})
-    df = pd.read_csv(SCORES_CSV, encoding='utf-8-sig')
-    df.columns = [c.strip() for c in df.columns]
-    df = df.dropna(subset=["lat","lng"])
-    records=[]
-    for _,r in df.iterrows():
-        records.append({
-            "code_zone":           str(r["Code Zone"]),
-            "zone":                str(r["Zone"]),
-            "arrondissement":      str(r["Arrondissement"]),
-            "rang":                int(r["Rang"]),
-            "score_attractivite":  float(r["Score_Attractivite"]),
-            "score_accessibilite": float(r["Score_Accessibilite"]),
-            "score_amenites":      float(r["Score_Amenites"]),
-            "score_environnement": float(r["Score_Environnement"]),
-            "score_prestige":      float(r["Score_Prestige"]),
-            "lat":                 float(r["lat"]),
-            "lng":                 float(r["lng"]),
-        })
-    return safe_json({"available":True,"count":len(records),"zones":records})
+    coords=load_coordinates()
+    if coords.empty:
+        return safe_json({"available":False,"message":"Coordonnées indisponibles dans osm_zones_data.csv.","zones":[]})
+    scores=all_zone_scores()
+    merged=scores.merge(coords,on="Code Zone",how="left")
+    if "lat_x" in merged.columns:
+        merged["lat"]=merged["lat_x"].combine_first(merged["lat_y"])
+        merged["lng"]=merged["lng_x"].combine_first(merged["lng_y"])
+        merged=merged.drop(columns=["lat_x","lat_y","lng_x","lng_y"],errors="ignore")
+    merged=merged.dropna(subset=["lat","lng"])
+    return safe_json({"available":True,"count":int(len(merged)),"zones":merged.fillna(0).to_dict(orient="records")})
 @app.get("/api/zones/{code_zone}")
 def zone_detail(code_zone:str):
     try:features=get_zone_features(code_zone)
@@ -134,7 +124,7 @@ def zone_detail(code_zone:str):
     scores=all_zone_scores();row=scores[scores["Code Zone"]==code_zone]
     if row.empty:raise HTTPException(404,"Zone non scorée")
     info=row.iloc[0].to_dict()
-    return safe_json({"code_zone":code_zone,"zone":info.get("Zone"),"arrondissement":info.get("Arrondissement"),"prix_m2":info.get("Prix m2 (DH)"),"rang":int(info.get("Rang",0)),"scores":{**{f"Score_{d}":info[f"Score_{d}"] for d in DIMENSIONS},"Score_Attractivite":info["Score_Attractivite"]},"features":features})
+    return safe_json({"code_zone":code_zone,"zone":info.get("Zone"),"arrondissement":info.get("Arrondissement"),"prix_m2_moyen":info.get("prix_m2_moyen"),"rang":int(info.get("Rang",0)),"scores":{**{f"Score_{d}":info.get(f"Score_{d}",0) for d in DIMENSIONS},"Score_Attractivite":info.get("Score_Attractivite",0)},"features":features})
 @app.post("/api/score")
 def compute_score(req:ScoreRequest):
     try:result=score_from_variables(req.values)

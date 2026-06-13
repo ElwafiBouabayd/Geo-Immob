@@ -1,279 +1,354 @@
 """
-Module de calcul du score d'attractivite.
+Module de calcul du score d'attractivite residentielle — Casablanca v2.
 
-Reprend la methodologie du notebook score_attractivite.ipynb :
-  - dimensions : Accessibilite, Amenites
-  - Normalisation MinMax variable par variable (inversion si signe negatif)
-  - Sous-score = moyenne des variables normalisees de la dimension
-  - Score global = combinaison ponderee (poids issus de la regression
-    hedonique Ridge -- fichier poids_dimensions.csv) puis remise a [0, 100]
-    sur l'echelle des zones existantes.
+4 dimensions :
+  Dynamisme      (35%) : prix_m2_moyen, nb_annonces
+  Socioeco       (25%) : 5 variables HCP
+  Accessibilite  (20%) : distance centre-ville, temps, transports
+  Equipements    (20%) : POI OSM (ecoles, sante, commerces, …)
+
+Normalisation : MinMax variable par variable (inversion si signe negatif),
+puis combinaison ponderee → remise a [0, 100] sur l'echelle des zones existantes.
 """
 
 from __future__ import annotations
 
 import os
 from functools import lru_cache
-from typing import Dict, List, Tuple
+from math import atan2, cos, radians, sin, sqrt
+from typing import Dict, List, Optional, Tuple
 
 import numpy as np
 import pandas as pd
 
-
-# -----------------------------------------------------------------------------
-# Definition des dimensions (identique au notebook)
-# -----------------------------------------------------------------------------
-DIMENSIONS: Dict[str, Dict[str, str]] = {
+# ─────────────────────────────────────────────────────────────────────────────
+# Dimensions :  variable → (signe, poids_intra_dimension)
+# ─────────────────────────────────────────────────────────────────────────────
+DIMENSIONS: Dict[str, Dict[str, Tuple[str, float]]] = {
+    "Dynamisme": {
+        "prix_m2_moyen": ("pos", 0.60),
+        "nb_annonces":   ("pos", 0.40),
+    },
+    "Socioeco": {
+        "Densite_pop_km2":                          ("pos", 0.15),
+        "Taille_de_menage":                         ("neg", 0.20),
+        "Taux_activite":                            ("pos", 0.25),
+        "Part_salaries_parmi_actifs":               ("pos", 0.20),
+        "Part_population_niveau_etudes_superieur":  ("pos", 0.20),
+    },
     "Accessibilite": {
-        "dist_tram":                  "neg",
-        "dist_voie_primaire_min_m":   "neg",
-        "dist_voie_secondaire_min_m": "neg",
-        "temps_transport_centre":     "neg",
-        "temps_CFC":                  "neg",
-        "temps_Maarif":               "neg",
-        "temps_SidiMaarouf":          "neg",
-        "temps_port":                 "neg",
+        "distance_vol_oiseau_km":   ("neg", 0.30),
+        "temps_voiture_estime_min": ("neg", 0.30),
+        "nb_arrets_bus_500m":       ("pos", 0.20),
+        "nb_arrets_tramway_500m":   ("pos", 0.15),
+        "nb_taxis_500m":            ("pos", 0.05),
     },
-    "Amenites": {
-        "nb_ecoles_1km":              "pos",
-        "nb_commerces_1km":           "pos",
-        "nb_banques_1km":             "pos",
+    "Equipements": {
+        "nb_ecoles_1km":       ("pos", 0.20),
+        "nb_sante_2km":        ("pos", 0.20),
+        "nb_pharmacies_500m":  ("pos", 0.15),
+        "nb_commerce_500m":    ("pos", 0.15),
+        "nb_banques_1km":      ("pos", 0.15),
+        "nb_mosquees_500m":    ("pos", 0.10),
+        "nb_restaurants_500m": ("pos", 0.05),
     },
-    "Prestige": {
-        "prix_m2_median_zone":        "pos",
-        "haut_standing_prop":         "pos",
-        "taux_education":             "pos",
-        "seafront":                   "pos",
-    },
+}
+
+WEIGHTS: Dict[str, float] = {
+    "Dynamisme":    0.35,
+    "Socioeco":     0.25,
+    "Accessibilite":0.20,
+    "Equipements":  0.20,
 }
 
 ALL_VARS: List[str] = [v for d in DIMENSIONS.values() for v in d]
 
+DIMENSIONS_VAR_SIGN: Dict[str, str] = {
+    v: sign for d in DIMENSIONS.values() for v, (sign, _) in d.items()
+}
 
-# -----------------------------------------------------------------------------
+# ─────────────────────────────────────────────────────────────────────────────
 # Chemins
-# -----------------------------------------------------------------------------
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_PATH    = os.path.join(BASE_DIR, "data_finale.csv")
-POIDS_PATH   = os.path.join(BASE_DIR, "poids_dimensions.csv")
-COORDS_PATH  = os.path.join(BASE_DIR, "coordonnees_zones.csv")
+# ─────────────────────────────────────────────────────────────────────────────
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # dossier scoring/
+
+_UPLOADS_FALLBACK = os.path.join(
+    os.path.expandvars(r"%APPDATA%"),
+    r"Claude\local-agent-mode-sessions"
+    r"\4103bc82-d774-43a4-9fc0-c62fad4e5874"
+    r"\c6ecfecd-958e-45bc-a0b7-0120f68de213"
+    r"\local_411d6805-f5e3-4df0-a751-593f0b2572e3\uploads",
+)
+
+OSM_PATH      = os.path.join(BASE_DIR, "osm_zones_data.csv")
+ANNONCES_PATH = os.path.join(BASE_DIR, "data_annonces.csv")
+HCP_PATH      = os.path.join(BASE_DIR, "data_hcp.csv")
+
+# Mapping arrondissement Zones.csv → commune data_hcp.csv
+ARROND_MAPPING: Dict[str, str] = {
+    "Anfa":           "Anfa",
+    "Maârif":         "Maârif",
+    "Sidi Belyout":   "Sidi Belyout",
+    "Ben M'Sick":     "Ben M'Sick",
+    "Sbata":          "Sbata",
+    "Sidi Bernoussi": "Sidi Bernoussi",
+    "Sidi Moumen":    "Sidi Moumen",
+    "Mly Rachid":     "Mly Rachid",
+    "Sidi Othman":    "Sidi Othman",
+    "Roches Noires":  "Roches Noires",
+    "Hay Mohammadi":  "Hay Mohammadi",
+    "Ain Sebaâ":      "Ain Sebaâ",
+    "Al Fida":        "Al Fida",
+    "Mers Sultan":    "Mers Sultan",
+    "Ain Chock":      "Ain Chock",
+    "Hay Hassani":    "Hay Hassani",
+}
+
+# Colonnes HCP utilisees (noms normalises sans accents pour l'API)
+HCP_RAW_TO_CLEAN = {
+    "Densite_pop_km2":                          "Densite_pop_km2",
+    "Taille_de_ménage":                         "Taille_de_menage",
+    "Taux_activité":                            "Taux_activite",
+    "Part_salariés_parmi_actifs":               "Part_salaries_parmi_actifs",
+    "Part_population_niveau_études_supérieur":  "Part_population_niveau_etudes_superieur",
+}
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Chargements internes
+# ─────────────────────────────────────────────────────────────────────────────
+
+def _haversine(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
+    R = 6371.0
+    dlat = radians(lat2 - lat1)
+    dlng = radians(lng2 - lng1)
+    a = sin(dlat / 2) ** 2 + cos(radians(lat1)) * cos(radians(lat2)) * sin(dlng / 2) ** 2
+    return 2 * R * atan2(sqrt(a), sqrt(1 - a))
 
 
-# -----------------------------------------------------------------------------
-# Chargements (mis en cache)
-# -----------------------------------------------------------------------------
+def _find_zones_csv() -> pd.DataFrame:
+    """Trouve Zones.csv avec Code Zone, Zone, Arrondissement."""
+    candidates = [
+        os.path.join(BASE_DIR, "Zones.csv"),
+        os.path.join(_UPLOADS_FALLBACK, "Zones.csv"),
+    ]
+    for path in candidates:
+        if os.path.exists(path):
+            df = pd.read_csv(path)
+            df.columns = df.columns.str.strip()
+            if "Arrondissement" in df.columns:
+                return df
+    raise FileNotFoundError(
+        "Zones.csv introuvable ou sans colonne 'Arrondissement'. "
+        "Placez le fichier dans le dossier scoring/."
+    )
+
+
 @lru_cache(maxsize=1)
-def load_zones() -> pd.DataFrame:
-    """Agrege data_finale.csv au niveau zone (moyenne des numeriques)."""
-    df = pd.read_csv(DATA_PATH)
-    raw_cols = [c.strip() for c in df.columns]
-    df.columns = raw_cols
-    df = df[df["Prix Terrain au m² (DH)"] >= 100]
+def load_zone_data() -> pd.DataFrame:
+    """
+    Assemble un DataFrame zone-level avec toutes les variables brutes.
+    Index : Code Zone.
+    """
+    # 1. OSM data
+    osm = pd.read_csv(OSM_PATH)
+    osm.columns = osm.columns.str.strip()
 
-    num_cols = df.select_dtypes(include=[np.number]).columns.tolist()
-    zones = df.groupby("Code Zone", as_index=False)[num_cols].mean()
+    # Variables derivees
+    osm["nb_sante_2km"]    = osm["nb_hopitaux_2km"].fillna(0) + osm["nb_cliniques_2km"].fillna(0)
+    osm["nb_commerce_500m"] = osm["nb_supermarches_500m"].fillna(0) + osm["nb_epiceries_500m"].fillna(0)
 
-    zone_label = (
-        df.groupby("Code Zone")["Zone déchiffrée"]
-          .agg(lambda s: s.mode().iat[0] if not s.mode().empty else s.iloc[0])
-          .reset_index()
-    )
-    arr_label = (
-        df.groupby("Code Zone")["Arrondissement"]
-          .agg(lambda s: s.mode().iat[0] if not s.mode().empty else s.iloc[0])
-          .reset_index()
-    )
-    pref_label = (
-        df.groupby("Code Zone")["Préfecture"]
-          .agg(lambda s: s.mode().iat[0] if not s.mode().empty else s.iloc[0])
-          .reset_index()
-    )
-    zones = (
-        zones
-        .merge(zone_label, on="Code Zone")
-        .merge(arr_label,  on="Code Zone")
-        .merge(pref_label, on="Code Zone")
+    # 2. Zones meta (nom + arrondissement)
+    zones_meta = _find_zones_csv()
+    osm = osm.merge(
+        zones_meta[["Code Zone", "Zone", "Arrondissement"]],
+        on="Code Zone", how="left",
     )
 
-    # Prestige / standing : variables dérivées du notebook
-    prix_median = (
-        df.groupby("Code Zone")["Prix Terrain au m² (DH)"].median()
-          .reset_index(name="prix_m2_median_zone")
+    # 3. HCP (normalise noms colonnes)
+    hcp_raw = pd.read_csv(HCP_PATH)
+    hcp_raw.columns = hcp_raw.columns.str.strip()
+    hcp = hcp_raw[["commune"] + list(HCP_RAW_TO_CLEAN.keys())].copy()
+    hcp = hcp.rename(columns=HCP_RAW_TO_CLEAN)
+
+    osm["commune_hcp"] = osm["Arrondissement"].map(ARROND_MAPPING)
+    osm = osm.merge(hcp, left_on="commune_hcp", right_on="commune", how="left")
+    osm = osm.drop(columns=["commune"], errors="ignore")
+
+    # 4. Dynamisme : agreger annonces par quartier, puis joindre par Haversine
+    ann = pd.read_csv(ANNONCES_PATH)
+    ann.columns = ann.columns.str.strip()
+    agg = ann.groupby("quartier").agg(
+        lat_q         = ("latitude",  "mean"),
+        lng_q         = ("longitude", "mean"),
+        prix_m2_moyen = ("prix_m2",   "mean"),
+        nb_annonces   = ("prix_m2",   "count"),
+    ).reset_index()
+
+    def nearest_quartier(lat: float, lng: float) -> str:
+        dists = agg.apply(
+            lambda r: _haversine(lat, lng, r["lat_q"], r["lng_q"]), axis=1
+        )
+        return agg.loc[dists.idxmin(), "quartier"]
+
+    osm["quartier_proche"] = osm.apply(
+        lambda r: nearest_quartier(r["lat"], r["lng"]), axis=1
     )
-    global_75 = float(df["Prix Terrain au m² (DH)"].quantile(0.75))
-    haut_prop = (
-        df.groupby("Code Zone")["Prix Terrain au m² (DH)"].apply(
-            lambda s: float((s > global_75).mean())
-        ).reset_index(name="haut_standing_prop")
-    )
-    zones = zones.merge(prix_median, on="Code Zone", how="left")
-    zones = zones.merge(haut_prop, on="Code Zone", how="left")
+    osm = osm.merge(
+        agg[["quartier", "prix_m2_moyen", "nb_annonces"]],
+        left_on="quartier_proche", right_on="quartier", how="left",
+    ).drop(columns=["quartier"], errors="ignore")
 
-    edu_col = next(
-        (c for c in raw_cols if c.lower().replace(" ", "").startswith("part_population_niveau") and "sup" in c.lower()),
-        None,
-    )
-    if edu_col is None:
-        raise RuntimeError("Colonne de taux d'éducation introuvable dans data_finale.csv")
-    zones["taux_education"] = zones[edu_col]
-    zones["seafront"] = (zones["dist_mer"].astype(float) < 1000).astype(int)
-
-    # Verification des colonnes
-    missing = [v for v in ALL_VARS if v not in zones.columns]
-    if missing:
-        raise RuntimeError(f"Colonnes manquantes dans data_finale.csv : {missing}")
-    return zones
+    return osm.reset_index(drop=True)
 
 
-@lru_cache(maxsize=1)
-def load_weights() -> Dict[str, float]:
-    """Charge les poids depuis poids_dimensions.csv (Poids en %)."""
-    p = pd.read_csv(POIDS_PATH)
-    p.columns = [c.strip().lstrip("﻿") for c in p.columns]
-    poids = dict(zip(p["Dimension"], p["Poids (%)"].astype(float) / 100.0))
-    for d in DIMENSIONS:
-        if d not in poids:
-            raise RuntimeError(f"Poids manquant pour la dimension : {d}")
-    return poids
-
+# ─────────────────────────────────────────────────────────────────────────────
+# Normalisation
+# ─────────────────────────────────────────────────────────────────────────────
 
 @lru_cache(maxsize=1)
 def _minmax_bounds() -> Dict[str, Tuple[float, float]]:
-    """Pour chaque variable : (min, max) calcules sur l'ensemble des zones."""
-    zones = load_zones()
+    df = load_zone_data()
     bounds: Dict[str, Tuple[float, float]] = {}
     for v in ALL_VARS:
-        col = zones[v].astype(float)
+        if v not in df.columns:
+            bounds[v] = (0.0, 1.0)
+            continue
+        col = df[v].dropna().astype(float)
         bounds[v] = (float(col.min()), float(col.max()))
     return bounds
 
 
-@lru_cache(maxsize=1)
-def _raw_score_bounds() -> Tuple[float, float]:
-    """Min et max du score brut (avant remise a [0, 100])."""
-    sub = compute_subscores_table()
-    weights = load_weights()
-    w = np.array([weights[d] for d in DIMENSIONS])
-    raw = sub[list(DIMENSIONS.keys())].values @ w
-    return float(raw.min()), float(raw.max())
-
-
-@lru_cache(maxsize=1)
-def compute_subscores_table() -> pd.DataFrame:
-    """Calcule la table des sous-scores [0,1] pour chaque zone (cache)."""
-    zones = load_zones()
-    bounds = _minmax_bounds()
-
-    sub = pd.DataFrame(index=zones.index)
-    for dim, var_dict in DIMENSIONS.items():
-        cols = []
-        for var, sign in var_dict.items():
-            lo, hi = bounds[var]
-            rng = hi - lo if hi > lo else 1.0
-            x = (zones[var].astype(float).values - lo) / rng
-            if sign == "neg":
-                x = 1.0 - x
-            cols.append(x)
-        sub[dim] = np.mean(np.column_stack(cols), axis=1)
-    sub["Code Zone"] = zones["Code Zone"].values
-    return sub
-
-
-# -----------------------------------------------------------------------------
-# Fonctions de calcul exposees
-# -----------------------------------------------------------------------------
-def normalize_one(var: str, value: float) -> float:
-    """Normalise une variable selon les bornes des zones existantes."""
+def _normalize(var: str, value: float, clip: bool = True) -> float:
     lo, hi = _minmax_bounds()[var]
     rng = hi - lo if hi > lo else 1.0
     x = (float(value) - lo) / rng
-    x = max(0.0, min(1.0, x))  # clip dans [0,1] pour points hors-borne
+    if clip:
+        x = max(0.0, min(1.0, x))
+    sign, _ = DIMENSIONS_VAR_SIGN[var], None
     if DIMENSIONS_VAR_SIGN[var] == "neg":
         x = 1.0 - x
     return x
 
 
+@lru_cache(maxsize=1)
+def _raw_score_bounds() -> Tuple[float, float]:
+    sub = compute_subscores_table()
+    w = np.array([WEIGHTS[d] for d in DIMENSIONS])
+    raw = sub[[f"raw_{d}" for d in DIMENSIONS]].values @ w
+    return float(raw.min()), float(raw.max())
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Calcul des sous-scores
+# ─────────────────────────────────────────────────────────────────────────────
+
+@lru_cache(maxsize=1)
+def compute_subscores_table() -> pd.DataFrame:
+    df = load_zone_data()
+    out = pd.DataFrame({"Code Zone": df["Code Zone"]})
+
+    for dim, var_dict in DIMENSIONS.items():
+        dim_score = np.zeros(len(df))
+        for var, (sign, w_intra) in var_dict.items():
+            if var not in df.columns:
+                continue
+            col = df[var].fillna(0).astype(float).values
+            lo, hi = _minmax_bounds()[var]
+            rng = hi - lo if hi > lo else 1.0
+            x = (col - lo) / rng
+            x = np.clip(x, 0, 1)
+            if sign == "neg":
+                x = 1.0 - x
+            dim_score += x * w_intra
+        out[f"raw_{dim}"] = dim_score
+
+    return out
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Fonctions publiques
+# ─────────────────────────────────────────────────────────────────────────────
+
+@lru_cache(maxsize=1)
+def all_zone_scores() -> pd.DataFrame:
+    """Table complete des scores par zone, normalisee [0-100], triee par rang."""
+    df   = load_zone_data()
+    sub  = compute_subscores_table()
+    w    = np.array([WEIGHTS[d] for d in DIMENSIONS])
+    raw  = sub[[f"raw_{d}" for d in DIMENSIONS]].values @ w
+    lo, hi = float(raw.min()), float(raw.max())
+    rng  = hi - lo if hi > lo else 1.0
+    score_100 = (raw - lo) / rng * 100.0
+
+    # Sous-scores normalises [0-100]
+    sub_norm = {}
+    for d in DIMENSIONS:
+        col = sub[f"raw_{d}"].values
+        lo_d, hi_d = float(col.min()), float(col.max())
+        rng_d = hi_d - lo_d if hi_d > lo_d else 1.0
+        sub_norm[f"Score_{d}"] = ((col - lo_d) / rng_d * 100).round(1)
+
+    result = pd.DataFrame({
+        "Code Zone":       df["Code Zone"],
+        "Zone":            df.get("Zone",            pd.Series([""] * len(df))),
+        "Arrondissement":  df.get("Arrondissement",  pd.Series([""] * len(df))),
+        "lat":             df.get("lat",             pd.Series([None] * len(df))),
+        "lng":             df.get("lng",             pd.Series([None] * len(df))),
+        **sub_norm,
+        "Score_Attractivite": score_100.round(1),
+        "prix_m2_moyen":  df.get("prix_m2_moyen", pd.Series([None] * len(df))).round(0),
+    }).sort_values("Score_Attractivite", ascending=False).reset_index(drop=True)
+
+    result.insert(0, "Rang", np.arange(1, len(result) + 1))
+    return result
+
+
 def score_from_variables(values: Dict[str, float]) -> Dict[str, float]:
     """
-    Calcule le score complet pour un point custom defini par ses variables.
-
-    Args:
-        values: dict variable -> valeur (toutes les variables de ALL_VARS).
-
-    Returns:
-        dict avec sous-scores (0-100) + score global (0-100).
+    Calcule le score pour un jeu de variables custom.
+    Normalisation basee sur les bornes des zones existantes.
     """
     missing = [v for v in ALL_VARS if v not in values]
     if missing:
         raise ValueError(f"Variables manquantes : {missing}")
 
-    weights = load_weights()
     sub_scores: Dict[str, float] = {}
     for dim, var_dict in DIMENSIONS.items():
-        normed = [normalize_one(var, values[var]) for var in var_dict]
-        sub_scores[dim] = float(np.mean(normed))
+        dim_val = sum(
+            _normalize(var, values[var]) * w_intra
+            for var, (_, w_intra) in var_dict.items()
+        )
+        sub_scores[dim] = float(dim_val)
 
-    raw = sum(weights[d] * sub_scores[d] for d in DIMENSIONS)
+    raw = sum(WEIGHTS[d] * sub_scores[d] for d in DIMENSIONS)
     lo, hi = _raw_score_bounds()
     rng = hi - lo if hi > lo else 1.0
-    score_100 = (raw - lo) / rng * 100.0
-    score_100 = max(0.0, min(100.0, score_100))
+    score_100 = max(0.0, min(100.0, (raw - lo) / rng * 100.0))
 
-    result = {f"Score_{dim}": round(sub_scores[dim] * 100, 1) for dim in DIMENSIONS}
+    result = {f"Score_{d}": round(sub_scores[d] * 100, 1) for d in DIMENSIONS}
     result["Score_Attractivite"] = round(score_100, 1)
     return result
 
 
-@lru_cache(maxsize=1)
-def all_zone_scores() -> pd.DataFrame:
-    """Table complete des scores par zone, triee, avec rang."""
-    zones = load_zones()
-    sub = compute_subscores_table()
-    weights = load_weights()
-    w = np.array([weights[d] for d in DIMENSIONS])
-    raw = sub[list(DIMENSIONS.keys())].values @ w
-    lo, hi = float(raw.min()), float(raw.max())
-    rng = hi - lo if hi > lo else 1.0
-    score_100 = (raw - lo) / rng * 100.0
-
-    score_cols = {f"Score_{dim}": (sub[dim] * 100).round(1) for dim in DIMENSIONS}
-    out = pd.DataFrame({
-        "Code Zone":           zones["Code Zone"],
-        "Zone":                zones["Zone déchiffrée"],
-        "Arrondissement":      zones["Arrondissement"],
-        "Prefecture":          zones["Préfecture"],
-        "Prix m2 (DH)":        zones["Prix Terrain au m² (DH)"].round(0),
-        **score_cols,
-        "Score_Attractivite":  score_100.round(1),
-    }).sort_values("Score_Attractivite", ascending=False).reset_index(drop=True)
-    out.insert(0, "Rang", np.arange(1, len(out) + 1))
-    return out
-
-
 def get_zone_features(code_zone: str) -> Dict[str, float]:
-    """Renvoie le dict variable -> valeur pour une zone (utile pour pre-remplir)."""
-    zones = load_zones()
-    row = zones[zones["Code Zone"] == code_zone]
+    """Variables brutes d'une zone (pour pre-remplir le formulaire)."""
+    df = load_zone_data()
+    row = df[df["Code Zone"] == code_zone]
     if row.empty:
-        raise KeyError(f"Code Zone introuvable : {code_zone}")
-    return {v: float(row.iloc[0][v]) for v in ALL_VARS}
+        raise KeyError(f"Zone introuvable : {code_zone}")
+    return {
+        v: round(float(row.iloc[0][v]), 4) if v in row.columns and not pd.isna(row.iloc[0][v]) else 0.0
+        for v in ALL_VARS
+    }
 
 
 def load_coordinates() -> pd.DataFrame:
-    """
-    Charge coordonnees_zones.csv si disponible.
-    Format attendu : colonnes 'Code Zone', 'lat', 'lng' (et optionnellement
-    'geometry' pour un polygone GeoJSON).
-    Renvoie un DataFrame vide si le fichier n'existe pas.
-    """
-    if not os.path.exists(COORDS_PATH):
-        return pd.DataFrame(columns=["Code Zone", "lat", "lng"])
-    df = pd.read_csv(COORDS_PATH)
-    df.columns = [c.strip() for c in df.columns]
-    return df
-
-
-# Index inverse variable -> signe (pour normalize_one)
-DIMENSIONS_VAR_SIGN: Dict[str, str] = {
-    v: sign for d in DIMENSIONS.values() for v, sign in d.items()
-}
+    """Coordonnees lat/lng par zone (depuis osm_zones_data.csv)."""
+    try:
+        df = pd.read_csv(OSM_PATH)
+        df.columns = df.columns.str.strip()
+        if "lat" in df.columns and "lng" in df.columns:
+            return df[["Code Zone", "lat", "lng"]]
+    except Exception:
+        pass
+    return pd.DataFrame(columns=["Code Zone", "lat", "lng"])
