@@ -1,0 +1,30 @@
+{
+  "features": [
+    "quartier",
+    "surface_m2",
+    "chambres_total",
+    "salles_de_bain",
+    "piscine",
+    "jardin",
+    "garage",
+    "securite"
+  ],
+  "cat_features": [
+    "quartier"
+  ],
+  "target": "prix_m2",
+  "test_metrics": {
+    "MAE": 1973285.94,
+    "RMSE": 2830147.85,
+    "R2": 0.6794
+  },
+  "best_params": {
+    "iterations": 551,
+    "learning_rate": 0.15242391728466367,
+    "depth": 5,
+    "l2_leaf_reg": 4.597505784732165,
+    "bagging_temperature": 0.31171107608941095,
+    "random_strength": 1.0401360423556216,
+    "border_count": 154
+  }
+}

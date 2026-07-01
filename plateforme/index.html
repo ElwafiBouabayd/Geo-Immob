@@ -62,23 +62,24 @@ header {
   margin-bottom: -3px; transition: color .15s, border-color .15s;
 }
 .nav-tab .t1 { font-weight: 600; color: rgba(255,255,255,.8); }
-.nav-tab .t2 { font-size: 11px; color: rgba(255,255,255,.4); }
 .nav-tab:hover .t1 { color: #fff; }
 .nav-tab.active { border-bottom-color: var(--accent); }
 .nav-tab.active .t1 { color: #fff; }
-.nav-tab.active .t2 { color: rgba(255,255,255,.7); }
 
-.hdr-meta {
-  margin-left: auto; display: flex; align-items: center; gap: 16px;
-  font-size: 12px; color: rgba(255,255,255,.6); padding-left: 24px;
-  border-left: 1px solid rgba(255,255,255,.12);
+.nav-tab-group { position: relative; display: flex; }
+.nav-dropdown {
+  display: none; position: absolute; top: 100%; left: 0; min-width: 180px;
+  background: var(--navy-soft); border: 1px solid rgba(255,255,255,.12);
+  border-top: none; box-shadow: var(--shadow); z-index: 50; padding: 6px 0;
 }
-.hdr-meta strong { color: #fff; font-weight: 600; }
-.status-pill { display: inline-flex; align-items: center; gap: 5px; }
-.status-dot  { width: 7px; height: 7px; border-radius: 50%; background: var(--teal-light); }
-.status-dot.loading { background: var(--accent); animation: blink 1s infinite; }
-.status-dot.error   { background: #fca5a5; }
-@keyframes blink { 0%,100%{opacity:1} 50%{opacity:.3} }
+.nav-tab-group:hover .nav-dropdown { display: block; }
+.nav-dropdown-item {
+  display: block; width: 100%; text-align: left; background: none; border: none;
+  color: rgba(255,255,255,.7); font-family: 'Inter', sans-serif; font-size: 13px;
+  padding: 9px 18px; cursor: pointer; transition: background .12s, color .12s;
+}
+.nav-dropdown-item:hover { background: rgba(255,255,255,.08); color: #fff; }
+.nav-dropdown-item.active { color: #fff; font-weight: 600; }
 
 /* ── PANELS ── */
 .main { max-width: 1320px; margin: 0 auto; padding: 28px 32px; }
@@ -243,6 +244,42 @@ details[open] summary::before { content: '▼  '; }
 
 .map-layout { display: grid; grid-template-columns: 1fr 260px; gap: 14px; align-items: start; }
 #map { width: 100%; height: 560px; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+
+/* ══════════════════════════════════════════════
+   MODULE — CARTE DES PRIX PAR QUARTIER
+   ══════════════════════════════════════════════ */
+.pm-layout { display: grid; grid-template-columns: 380px 1fr; gap: 20px; align-items: start; }
+@media (max-width: 1050px) { .pm-layout { grid-template-columns: 1fr; } }
+.pm-side { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px; min-height: 560px; }
+.pm-search label { display: block; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .8px; color: var(--text-muted); margin-bottom: 6px; }
+.pm-search { position: relative; }
+.pm-search input { width: 100%; padding: 9px 11px; font-family: 'Inter', sans-serif; font-size: 13px; border: 1px solid var(--border); border-radius: var(--radius); }
+.pm-search input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(37,99,235,.12); }
+.pm-suggest { position: absolute; top: 100%; left: 0; right: 0; margin-top: 4px; background: #fff; border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); max-height: 280px; overflow-y: auto; z-index: 20; }
+.pm-suggest-item { padding: 9px 12px; font-size: 13px; cursor: pointer; }
+.pm-suggest-item:hover { background: var(--accent-soft); }
+.pm-back { display: block; font-size: 12px; color: var(--accent); text-decoration: none; margin-bottom: 14px; }
+.pm-back:hover { text-decoration: underline; }
+#pm-title { font-size: 19px; font-weight: 700; line-height: 1.3; margin-bottom: 6px; }
+.pm-sub { font-size: 12px; color: var(--text-muted); margin-bottom: 18px; }
+.pm-cards { display: flex; flex-direction: column; gap: 16px; }
+.pm-card { border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; }
+.pm-card-hdr { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--text-muted); margin-bottom: 10px; }
+.pm-card-ic { font-size: 16px; }
+.pm-card-price { font-size: 24px; font-weight: 700; color: var(--text); font-variant-numeric: tabular-nums; }
+.pm-card-sub { font-size: 11px; color: var(--text-muted); margin-bottom: 12px; }
+.pm-range-bar { position: relative; height: 8px; border-radius: 4px; background: linear-gradient(to right,#1f5c3f 0%,#5fa57e 30%,#d8b96a 60%,#8c3a2e 100%); margin-bottom: 6px; }
+.pm-range-dot { position: absolute; top: 50%; width: 10px; height: 10px; border-radius: 50%; background: #0a2540; border: 2px solid #fff; box-shadow: 0 0 0 1px rgba(0,0,0,.2); transform: translate(-50%,-50%); }
+.pm-range-labels { display: flex; justify-content: space-between; font-size: 11px; font-weight: 600; color: var(--text-muted); }
+.pm-conf { display: flex; justify-content: space-between; align-items: baseline; margin-top: 12px; font-size: 12px; color: var(--text-muted); }
+.pm-conf strong { color: var(--text); font-size: 13px; }
+.pm-map-wrap { display: flex; flex-direction: column; gap: 10px; }
+.pm-map-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
+.pm-seg-toggle { display: flex; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.pm-seg-btn { padding: 8px 16px; background: var(--surface); border: none; font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 500; cursor: pointer; color: var(--text-muted); }
+.pm-seg-btn.active { background: var(--navy); color: #fff; }
+#pm-map { width: 100%; height: 560px; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+.pm-marker { border-radius: 50%; border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0,0,0,.3); display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; color: #fff; cursor: pointer; }
 .zone-list-panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); height: 560px; display: flex; flex-direction: column; overflow: hidden; }
 .zone-list-hdr  { padding: 10px 12px; border-bottom: 1px solid var(--border); display: flex; flex-direction: column; gap: 6px; flex-shrink: 0; }
 .zone-list-hdr span { font-size: 11px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: .05em; }
@@ -322,29 +359,25 @@ footer a:hover { color: var(--accent); }
   <div class="hdr-inner">
     <div class="brand">
       <h1>Plateforme Immobilière</h1>
-      <div class="sub">Casablanca · Modèles prédictifs</div>
     </div>
     <nav class="nav-tabs">
-      <button class="nav-tab active" data-tab="estimation">
-        <span class="t1">Estimation résidentielle</span>
-        <span class="t2">CatBoost · Prix au m²</span>
+      <div class="nav-tab-group">
+        <button class="nav-tab active" data-tab="estimation">
+          <span class="t1">Estimation</span>
+        </button>
+        <div class="nav-dropdown">
+          <button class="nav-dropdown-item active" data-tab="estimation">Appartements</button>
+          <button class="nav-dropdown-item" data-tab="villas">Villas</button>
+          <button class="nav-dropdown-item" data-tab="foncier">Terrains</button>
+        </div>
+      </div>
+      <button class="nav-tab" data-tab="pricemap">
+        <span class="t1">Carte des prix</span>
       </button>
       <button class="nav-tab" data-tab="score">
         <span class="t1">Score d'attractivité</span>
-        <span class="t2">Analyse hédonique · Carte</span>
       </button>
     </nav>
-    <div class="hdr-meta">
-      <div id="hdr-stats" style="text-align:right">
-        <div><strong id="stat-q">—</strong> quartiers &nbsp;|&nbsp; Baseline <strong id="stat-base">—</strong> DH/m²</div>
-        <div style="margin-top:3px">
-          <span class="status-pill">
-            <span class="status-dot loading" id="status-dot"></span>
-            <span id="status-txt">Connexion…</span>
-          </span>
-        </div>
-      </div>
-    </div>
   </div>
 </header>
 
@@ -385,21 +418,14 @@ footer a:hover { color: var(--accent); }
                 <select id="e-type"></select>
               </div>
               <div class="field">
-                <label for="e-etat">État</label>
+                <label for="e-etat">État du bien</label>
                 <select id="e-etat"></select>
-              </div>
-            </div>
-            <div class="field">
-              <label>Haut standing</label>
-              <div class="hs-toggle">
-                <button class="hs-btn active" id="hs-non" onclick="setHS('0')">Non</button>
-                <button class="hs-btn"        id="hs-oui" onclick="setHS('1')">Oui</button>
               </div>
             </div>
           </fieldset>
 
           <details>
-            <summary>Ajustements géographiques <span style="font-weight:400;font-size:10px;text-transform:none;letter-spacing:0">(optionnels — médianes quartier par défaut)</span></summary>
+            <summary>Détails du bien <span style="font-weight:400;font-size:10px;text-transform:none;letter-spacing:0">(optionnels — médianes quartier par défaut)</span></summary>
             <div class="row-2" id="geo-grid" style="margin-top:4px"></div>
           </details>
 
@@ -439,7 +465,6 @@ footer a:hover { color: var(--accent); }
               <dt>Surface</dt>    <dd id="s-surface">—</dd>
               <dt>Type</dt>       <dd id="s-type">—</dd>
               <dt>État</dt>       <dd id="s-etat">—</dd>
-              <dt>Standing</dt>   <dd id="s-stand">—</dd>
             </dl>
           </div>
 
@@ -456,7 +481,234 @@ footer a:hover { color: var(--accent); }
     </div>
   </div><!-- /panel-estimation -->
 
-  <!-- ── TAB 2 : SCORE ──────────────────────────────────────────────── -->
+  <!-- ── TAB 2 : ESTIMATION VILLAS ──────────────────────────────────── -->
+  <div class="panel" id="panel-villas">
+    <div class="estim-grid">
+
+      <!-- Formulaire -->
+      <section class="card">
+        <div class="card-header">
+          <h2>Caractéristiques de la villa</h2>
+          <span class="hint">Estimation mise à jour en temps réel</span>
+        </div>
+        <div class="card-body">
+
+          <fieldset>
+            <legend>Localisation &amp; surface</legend>
+            <div class="row-2">
+              <div class="field">
+                <label for="v-quartier">Quartier</label>
+                <select id="v-quartier"></select>
+              </div>
+              <div class="field">
+                <label for="v-surface">Surface (m²)</label>
+                <input type="number" id="v-surface" min="80" max="5000" step="10" value="300"/>
+              </div>
+            </div>
+          </fieldset>
+
+          <details open>
+            <summary>Détails du bien <span style="font-weight:400;font-size:10px;text-transform:none;letter-spacing:0">(optionnels — médianes quartier par défaut)</span></summary>
+            <div class="row-2" id="villa-geo-grid" style="margin-top:4px"></div>
+          </details>
+
+        </div>
+      </section>
+
+      <!-- Résultat -->
+      <aside>
+        <div class="card result-card">
+
+          <div class="result-hero">
+            <div class="lbl">Prix estimé au m²</div>
+            <div class="price-main">
+              <span id="v-price">—</span><span class="unit"> DH/m²</span>
+            </div>
+            <table class="price-table">
+              <thead><tr>
+                <th>Prix/m²</th><th>Fourchette (±20%)</th><th>Prix total</th>
+              </tr></thead>
+              <tbody>
+                <tr>
+                  <td id="v-t-m2">—</td>
+                  <td id="v-t-four" class="muted">—</td>
+                  <td id="v-t-total">—</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="recap">
+            <dl>
+              <dt>Quartier</dt>   <dd id="v-s-quartier">—</dd>
+              <dt>Surface</dt>    <dd id="v-s-surface">—</dd>
+              <dt>Baseline</dt>   <dd id="v-s-base">—</dd>
+            </dl>
+          </div>
+
+          <div class="contribs-section">
+            <h3>Facteurs d'influence (SHAP)</h3>
+            <div id="v-contribs">
+              <p class="placeholder">Remplissez le formulaire pour voir l'analyse</p>
+            </div>
+          </div>
+
+        </div>
+      </aside>
+
+    </div>
+  </div><!-- /panel-villas -->
+
+  <!-- ── TAB 3 : ESTIMATION FONCIÈRE ──────────────────────────────────── -->
+  <div class="panel" id="panel-foncier">
+    <div class="estim-grid">
+
+      <!-- Formulaire -->
+      <section class="card">
+        <div class="card-header">
+          <h2>Caractéristiques du terrain</h2>
+          <span class="hint">Estimation prix total</span>
+        </div>
+        <div class="card-body">
+
+          <fieldset>
+            <legend>Localisation &amp; surface</legend>
+            <div class="row-2">
+              <div class="field">
+                <label for="f-quartier">Quartier</label>
+                <select id="f-quartier"></select>
+              </div>
+              <div class="field">
+                <label for="f-surface">Surface (m²)</label>
+                <input type="number" id="f-surface" min="50" max="50000" step="10" value="200"/>
+              </div>
+            </div>
+          </fieldset>
+
+          <div id="f-quartier-stats" class="recap" style="display:none">
+            <dl>
+              <dt>Prix médian du quartier</dt><dd id="f-stat-prix">—</dd>
+              <dt>Surface médiane</dt><dd id="f-stat-surf">—</dd>
+            </dl>
+          </div>
+
+          <button class="btn btn-primary btn-full" style="margin-top:8px" onclick="runFoncierPredict()">Estimer le terrain</button>
+
+        </div>
+      </section>
+
+      <!-- Résultat -->
+      <aside>
+        <div class="card result-card">
+          <div class="result-hero">
+            <div class="lbl">Prix estimé au m² du terrain</div>
+            <div class="price-main">
+              <span id="f-price">—</span><span class="unit"> DH/m²</span>
+            </div>
+            <table class="price-table">
+              <thead><tr>
+                <th>Prix/m²</th><th>Fourchette (±20%)</th><th>Prix total</th>
+              </tr></thead>
+              <tbody>
+                <tr>
+                  <td id="f-t-m2">—</td>
+                  <td id="f-t-four" class="muted">—</td>
+                  <td id="f-t-total">—</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="recap">
+            <dl>
+              <dt>Quartier</dt>   <dd id="f-s-quartier">—</dd>
+              <dt>Surface</dt>    <dd id="f-s-surface">—</dd>
+              <dt>Baseline</dt>   <dd id="f-s-base">—</dd>
+            </dl>
+          </div>
+
+          <div class="contribs-section">
+            <p style="font-size:12px;color:var(--text-muted);line-height:1.6">
+              Modèle : CatBoost (Optuna) · Features : quartier, surface.
+            </p>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </div><!-- /panel-foncier -->
+
+  <!-- ── TAB : CARTE DES PRIX ─────────────────────────────────────────── -->
+  <div class="panel" id="panel-pricemap">
+    <div class="pm-layout">
+
+      <!-- Panneau latéral -->
+      <div class="pm-side" id="pm-side">
+        <div class="pm-search">
+          <label for="pm-quartier-search">Quartiers</label>
+          <input id="pm-quartier-search" type="text" placeholder="Chercher un quartier…" autocomplete="off"/>
+          <div id="pm-suggest" class="pm-suggest hidden"></div>
+        </div>
+
+        <div id="pm-empty" class="empty-state" style="margin-top:14px">
+          Sélectionnez un quartier sur la carte ou via la recherche pour voir le détail des prix.
+        </div>
+
+        <div id="pm-detail" class="hidden">
+          <a href="#" class="pm-back" id="pm-back">&larr; Retour à la carte des prix des quartiers</a>
+          <h2 id="pm-title">Prix de l'immobilier au m² Casablanca</h2>
+          <p class="pm-sub">Estimations issues des modèles CatBoost entraînés sur les annonces collectées.</p>
+
+          <div class="pm-cards">
+            <div class="pm-card">
+              <div class="pm-card-hdr">
+                <span class="pm-card-ic">🏢</span>
+                <span>Appartements</span>
+              </div>
+              <div class="pm-card-price" id="pm-a-median">—</div>
+              <div class="pm-card-sub">Prix m² médian</div>
+              <div class="pm-range">
+                <div class="pm-range-bar"><div class="pm-range-fill" id="pm-a-fill"></div><div class="pm-range-dot" id="pm-a-dot"></div></div>
+                <div class="pm-range-labels"><span id="pm-a-min">—</span><span id="pm-a-max">—</span></div>
+              </div>
+              <div class="pm-conf"><span>Annonces analysées</span><strong id="pm-a-n">—</strong></div>
+            </div>
+            <div class="pm-card">
+              <div class="pm-card-hdr">
+                <span class="pm-card-ic">🏠</span>
+                <span>Villas</span>
+              </div>
+              <div class="pm-card-price" id="pm-v-median">—</div>
+              <div class="pm-card-sub">Prix m² médian</div>
+              <div class="pm-range">
+                <div class="pm-range-bar"><div class="pm-range-fill" id="pm-v-fill"></div><div class="pm-range-dot" id="pm-v-dot"></div></div>
+                <div class="pm-range-labels"><span id="pm-v-min">—</span><span id="pm-v-max">—</span></div>
+              </div>
+              <div class="pm-conf"><span>Annonces analysées</span><strong id="pm-v-n">—</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carte -->
+      <div class="pm-map-wrap">
+        <div class="pm-map-toolbar">
+          <div class="pm-seg-toggle">
+            <button class="pm-seg-btn active" data-seg="apparts">Appartements</button>
+            <button class="pm-seg-btn" data-seg="villas">Villas</button>
+          </div>
+          <div class="legend" style="margin:0">
+            <div class="legend-bar"></div>
+            <div class="legend-scale"><span id="pm-leg-min">—</span><span id="pm-leg-max">—</span></div>
+          </div>
+        </div>
+        <div id="pm-map"></div>
+      </div>
+
+    </div>
+  </div><!-- /panel-pricemap -->
+
+  <!-- ── TAB 3 : SCORE ──────────────────────────────────────────────── -->
   <div class="panel" id="panel-score">
     <div class="score-wrap">
       <h2>Score d'attractivité résidentielle</h2>
@@ -532,9 +784,8 @@ function signed(n){ if(n==null||isNaN(+n))return"—"; const s=fmtN(Math.abs(n))
 async function apiFetch(path,opts={}){ const r=await fetch(path,opts); if(!r.ok){const t=await r.text();throw new Error(r.status+" — "+t)} return r.json() }
 
 function setStatus(state,text){
-  const dot=$id("status-dot"),txt=$id("status-txt")
-  dot.className="status-dot"+(state==="loading"?" loading":state==="error"?" error":"")
-  txt.textContent=text
+  // Barre de statut retirée du header ; on garde la fonction (no-op) pour ne pas
+  // casser les appels existants ailleurs dans le code.
 }
 
 /* ── couleur score ── */
@@ -550,14 +801,25 @@ function scoreColor(s){
 /* ══════════════════════════════════════════════════════════════
    NAVIGATION
    ══════════════════════════════════════════════════════════════ */
-let scoreInited=false
+let scoreInited=false, foncierInited=false, villasInited=false, pricemapInited=false
 
-document.querySelectorAll(".nav-tab").forEach(b=>b.addEventListener("click",()=>{
-  const tab=b.dataset.tab
-  document.querySelectorAll(".nav-tab").forEach(x=>x.classList.toggle("active",x===b))
+const ESTIM_SUBTABS=["estimation","villas","foncier"]
+
+function activateTab(tab){
+  const isEstim=ESTIM_SUBTABS.includes(tab)
+  document.querySelectorAll(".nav-tabs .nav-tab").forEach(x=>x.classList.toggle("active",x.dataset.tab===tab||(isEstim&&x.dataset.tab==="estimation")))
+  document.querySelectorAll(".nav-dropdown-item").forEach(x=>x.classList.toggle("active",x.dataset.tab===tab))
   document.querySelectorAll(".panel").forEach(p=>p.classList.toggle("active",p.id===`panel-${tab}`))
   if(tab==="score"&&!scoreInited){initScore();scoreInited=true}
+  if(tab==="foncier"&&!foncierInited){initFoncier();foncierInited=true}
+  if(tab==="villas"&&!villasInited){initVillas();villasInited=true}
+  if(tab==="pricemap"&&!pricemapInited){initPriceMap();pricemapInited=true}
   if(tab==="score"&&scoreState.map)setTimeout(()=>scoreState.map.invalidateSize(),60)
+  if(tab==="pricemap"&&pmState.map)setTimeout(()=>pmState.map.invalidateSize(),60)
+}
+
+document.querySelectorAll(".nav-tabs > .nav-tab, .nav-tab-group > .nav-tab, .nav-dropdown-item").forEach(b=>b.addEventListener("click",()=>{
+  activateTab(b.dataset.tab)
 }))
 
 document.querySelectorAll(".inner-tab").forEach(b=>b.addEventListener("click",()=>{
@@ -570,31 +832,31 @@ document.querySelectorAll(".inner-tab").forEach(b=>b.addEventListener("click",()
 /* ══════════════════════════════════════════════════════════════
    MODULE 1 — ESTIMATION
    ══════════════════════════════════════════════════════════════ */
-const GEO_LABELS = {
-  log_surface_m2:null,
-  temps_cfc_min:"Temps CFC (min)",
-  temps_centre_ville_min:"Temps centre-ville (min)",
-  temps_maarif_min:"Temps Maarif (min)",
-  distance_mer_m:"Distance mer (m)",
-  distance_tram_m:"Distance tram (m)",
-  intersections_500m:"Intersections 500m",
-  surface_verte_1km_m2:"Surface verte 1km (m²)",
-  nb_banques_1km:"Banques 1km",
-  /* noms alternatifs possibles */
-  dist_mer_m:"Distance mer (m)",
-  dist_tram_m:"Distance tram (m)",
-  tt_centre_min:"Trajet centre-ville (min)",
-  tt_maarif_min:"Trajet Maarif (min)",
+const DETAIL_LABELS = {
+  surface_m2: null,
+  chambres_total: "Chambres",
+  salles_de_bain: "Salles de bain",
+  etage_num: "Étage",
+  ascenseur: "Ascenseur (0/1)",
+  securite: "Sécurité (0/1)",
+  parking_places: "Places parking (0/1)",
+}
+const VILLA_DETAIL_LABELS = {
+  surface_m2: null,
+  chambres_total: "Chambres",
+  salles_de_bain: "Salles de bain",
+  piscine: "Piscine (0/1)",
+  jardin: "Jardin (0/1)",
+  garage: "Garage (0/1)",
+  securite: "Sécurité (0/1)",
 }
 
-let hsVal="0", debounceT=null, lastSurface=100
+let debounceT=null, lastSurface=100
 
 async function initEstimation(){
   setStatus("loading","Chargement…")
   try{
-    const [health,meta]=await Promise.all([apiFetch("/health"),apiFetch("/metadata")])
-    $id("stat-q").textContent=health.n_quartiers||"—"
-    $id("stat-base").textContent=fmtN(health.baseline_dh)
+    const [,meta]=await Promise.all([apiFetch("/health"),apiFetch("/metadata")])
 
     // Quartiers
     const qSel=$id("e-quartier")
@@ -604,12 +866,12 @@ async function initEstimation(){
     const tSel=$id("e-type")
     ;(meta.categorical_features?.type_bien||[]).forEach(v=>{const o=document.createElement("option");o.value=v;o.textContent=v;tSel.appendChild(o)})
 
-    // État
+    // État du bien
     const eSel=$id("e-etat")
-    ;(meta.categorical_features?.etat||[]).forEach(v=>{const o=document.createElement("option");o.value=v;o.textContent=v;eSel.appendChild(o)})
+    ;(meta.categorical_features?.etat_bien||[]).forEach(v=>{const o=document.createElement("option");o.value=v;o.textContent=v;eSel.appendChild(o)})
 
-    // Champs géo (NUM_FEATURES sauf log_surface_m2)
-    buildGeoGrid(meta.numeric_features||[])
+    // Champs détails (NUM_FEATURES sauf surface_m2)
+    buildGeoGrid("geo-grid","geo",meta.numeric_features||[],DETAIL_LABELS,schedulePred)
 
     // Autofill premier quartier
     await doAutofill(qSel.value)
@@ -627,21 +889,20 @@ async function initEstimation(){
   }
 }
 
-function buildGeoGrid(numFeats){
-  const grid=$id("geo-grid")
+function buildGeoGrid(gridId,fieldPrefix,numFeats,labels,onInput){
+  const grid=$id(gridId)
   grid.innerHTML=""
-  numFeats.filter(f=>f!=="log_surface_m2"&&GEO_LABELS[f]!==null).forEach(f=>{
-    const label=GEO_LABELS[f]||f.replace(/_/g," ")
-    if(label===undefined)return
+  numFeats.filter(f=>f!=="surface_m2"&&labels[f]!==null).forEach(f=>{
+    const label=labels[f]||f.replace(/_/g," ")
     const div=document.createElement("div")
     div.className="field"
     div.innerHTML=`<div class="label-row">
-      <label for="geo-${esc(f)}">${esc(label)}</label>
-      <span class="label-help" id="geo-hint-${esc(f)}">médiane</span>
+      <label for="${fieldPrefix}-${esc(f)}">${esc(label)}</label>
+      <span class="label-help" id="${fieldPrefix}-hint-${esc(f)}">médiane</span>
     </div>
-    <input type="number" step="any" id="geo-${esc(f)}" data-feat="${esc(f)}" />`
+    <input type="number" step="any" id="${fieldPrefix}-${esc(f)}" data-feat="${esc(f)}" />`
     grid.appendChild(div)
-    div.querySelector("input").addEventListener("input",schedulePred)
+    div.querySelector("input").addEventListener("input",onInput)
   })
 }
 
@@ -649,12 +910,9 @@ async function doAutofill(quartier){
   if(!quartier)return
   try{
     const d=await apiFetch(`/autofill?quartier=${encodeURIComponent(quartier)}`)
-    // Modal categoricals
-    if(d.modal_categorical?.type_bien) $id("e-type").value=d.modal_categorical.type_bien
-    if(d.modal_categorical?.etat)      $id("e-etat").value=d.modal_categorical.etat
-    const hs=d.modal_categorical?.["haut standing"]||"0"
-    setHS(hs,false)
-    // Médianes géo
+    if(d.modal_categorical?.type_bien)  $id("e-type").value=d.modal_categorical.type_bien
+    if(d.modal_categorical?.etat_bien)  $id("e-etat").value=d.modal_categorical.etat_bien
+    if(d.modal_categorical?.orientation)$id("e-orientation").value=d.modal_categorical.orientation
     Object.entries(d.median_features||{}).forEach(([f,v])=>{
       const el=$id(`geo-${f}`)
       if(el){el.value=Number(v).toFixed(1);const h=$id(`geo-hint-${f}`);if(h)h.textContent=`médiane : ${Number(v).toFixed(1)}`}
@@ -663,12 +921,6 @@ async function doAutofill(quartier){
   }catch(e){console.error("autofill",e)}
 }
 
-function setHS(v,schedule=true){
-  hsVal=v
-  $id("hs-non").classList.toggle("active",v==="0")
-  $id("hs-oui").classList.toggle("active",v==="1")
-  if(schedule)schedulePred()
-}
 
 function schedulePred(){
   clearTimeout(debounceT)
@@ -682,26 +934,20 @@ async function runPredict(){
   if(!quartier)return
   setStatus("loading","Calcul…")
 
-  const overrides={}
+  const body={
+    quartier,
+    type_bien:$id("e-type").value,
+    etat_bien:$id("e-etat").value,
+    surface_m2:surface,
+    top_k:8
+  }
   document.querySelectorAll("#geo-grid input[data-feat]").forEach(inp=>{
     const v=parseFloat(inp.value)
-    if(!isNaN(v))overrides[inp.dataset.feat]=v
+    if(!isNaN(v))body[inp.dataset.feat]=v
   })
 
   try{
-    const r=await apiFetch("/predict",{
-      method:"POST",
-      headers:{"Content-Type":"application/json"},
-      body:JSON.stringify({
-        quartier,
-        type_bien:$id("e-type").value,
-        etat:$id("e-etat").value,
-        haut_standing:hsVal,
-        surface_m2:surface,
-        feature_overrides:overrides,
-        top_k:8
-      })
-    })
+    const r=await apiFetch("/predict",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)})
     renderEstimResult(r)
     setStatus("ok","À jour")
   }catch(e){
@@ -723,10 +969,9 @@ function renderEstimResult(r){
   $id("t-four-total").textContent=`Total : [${fmtN(tLow)} — ${fmtN(tHigh)}] DH`
 
   $id("s-quartier").textContent=r.quartier||"—"
-  $id("s-surface").textContent=(surf)+" m²"
+  $id("s-surface").textContent=surf+" m²"
   $id("s-type").textContent=r.type_bien||"—"
-  $id("s-etat").textContent=r.etat||"—"
-  $id("s-stand").textContent=hsVal==="1"?"Haut standing":"Standard"
+  $id("s-etat").textContent=r.etat_bien||"—"
 
   // SHAP
   const container=$id("contribs")
@@ -903,6 +1148,269 @@ function buildZoneList(zones){
     const q=e.target.value.toLowerCase()
     render(sorted.filter(z=>(z.Zone||"").toLowerCase().includes(q)||(z["Code Zone"]||"").toLowerCase().includes(q)||(z.Arrondissement||"").toLowerCase().includes(q)))
   })
+}
+
+/* ══════════════════════════════════════════════════════════════
+   MODULE FONCIER (terrains)
+   ══════════════════════════════════════════════════════════════ */
+let foncierMeta=null
+
+async function initFoncier(){
+  try{
+    foncierMeta=await apiFetch("/terrain/metadata")
+    const qSel=$id("f-quartier")
+    ;(foncierMeta.quartiers||[]).forEach(q=>{const o=document.createElement("option");o.value=q;o.textContent=q;qSel.appendChild(o)})
+    qSel.addEventListener("change",()=>{updateFoncierStats();runFoncierPredict()})
+    $id("f-surface").addEventListener("input",()=>{clearTimeout(debounceT);debounceT=setTimeout(runFoncierPredict,200)})
+    updateFoncierStats()
+    runFoncierPredict()
+  }catch(e){console.error("initFoncier",e)}
+}
+
+function updateFoncierStats(){
+  const q=$id("f-quartier").value
+  const stats=foncierMeta?.quartier_stats?.[q]
+  if(!stats){$id("f-quartier-stats").style.display="none";return}
+  $id("f-stat-prix").textContent=fmtM2(stats.prix_m2_median)
+  $id("f-stat-surf").textContent=fmtN(stats.surface_median)+" m²"
+  $id("f-quartier-stats").style.display="block"
+}
+
+async function runFoncierPredict(){
+  const quartier=$id("f-quartier").value
+  const surface=parseFloat($id("f-surface").value)||200
+  if(!quartier)return
+  try{
+    const r=await apiFetch("/terrain/predict",{
+      method:"POST",
+      headers:{"Content-Type":"application/json"},
+      body:JSON.stringify({quartier,surface_m2:surface})
+    })
+    const m2=r.prix_m2_dh, low=m2*0.8, high=m2*1.2
+    $id("f-price").textContent=fmtN(m2)
+    $id("f-t-m2").textContent=fmtM2(m2)
+    $id("f-t-four").textContent=`[${fmtN(low)} — ${fmtN(high)}]`
+    $id("f-t-total").textContent=fmtDH(r.prix_total_dh)
+    $id("f-s-quartier").textContent=r.quartier
+    $id("f-s-surface").textContent=r.surface_m2+" m²"
+    $id("f-s-base").textContent=fmtM2(r.baseline_dh)
+  }catch(e){console.error(e);alert("Erreur estimation foncière : "+e.message)}
+}
+
+/* ══════════════════════════════════════════════════════════════
+   MODULE VILLAS
+   ══════════════════════════════════════════════════════════════ */
+let villaDebounceT=null, lastVillaSurface=300
+
+async function initVillas(){
+  try{
+    const [health,meta]=await Promise.all([apiFetch("/villa/health"),apiFetch("/villa/metadata")])
+    const qSel=$id("v-quartier")
+    ;(meta.quartiers||[]).forEach(q=>{const o=document.createElement("option");o.value=q;o.textContent=q;qSel.appendChild(o)})
+
+    buildGeoGrid("villa-geo-grid","vgeo",meta.numeric_features||[],VILLA_DETAIL_LABELS,scheduleVillaPred)
+
+    await doVillaAutofill(qSel.value)
+
+    qSel.addEventListener("change",()=>doVillaAutofill(qSel.value))
+    $id("v-surface").addEventListener("input",scheduleVillaPred)
+    $id("v-surface").addEventListener("change",scheduleVillaPred)
+  }catch(e){console.error("initVillas",e)}
+}
+
+async function doVillaAutofill(quartier){
+  if(!quartier)return
+  try{
+    const d=await apiFetch(`/villa/autofill?quartier=${encodeURIComponent(quartier)}`)
+    Object.entries(d.median_features||{}).forEach(([f,v])=>{
+      const el=$id(`vgeo-${f}`)
+      if(el){el.value=Number(v).toFixed(1);const h=$id(`vgeo-hint-${f}`);if(h)h.textContent=`médiane : ${Number(v).toFixed(1)}`}
+    })
+    scheduleVillaPred()
+  }catch(e){console.error("villa autofill",e)}
+}
+
+function scheduleVillaPred(){
+  clearTimeout(villaDebounceT)
+  villaDebounceT=setTimeout(runVillaPredict,200)
+}
+
+async function runVillaPredict(){
+  const quartier=$id("v-quartier").value
+  const surface=parseFloat($id("v-surface").value)||300
+  lastVillaSurface=surface
+  if(!quartier)return
+
+  const body={quartier,surface_m2:surface,top_k:8}
+  document.querySelectorAll("#villa-geo-grid input[data-feat]").forEach(inp=>{
+    const v=parseFloat(inp.value)
+    if(!isNaN(v))body[inp.dataset.feat]=v
+  })
+
+  try{
+    const r=await apiFetch("/villa/predict",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(body)})
+    renderVillaResult(r)
+  }catch(e){console.error(e);alert("Erreur estimation villa : "+e.message)}
+}
+
+function renderVillaResult(r){
+  const m2=r.prix_m2_dh||0
+  const surf=r.surface_m2||lastVillaSurface
+  const low=m2*0.8, high=m2*1.2
+
+  $id("v-price").textContent=fmtN(m2)
+  $id("v-t-m2").textContent=fmtM2(m2)
+  $id("v-t-four").textContent=`[${fmtN(low)} — ${fmtN(high)}]`
+  $id("v-t-total").textContent=fmtDH(r.prix_total_dh)
+
+  $id("v-s-quartier").textContent=r.quartier||"—"
+  $id("v-s-surface").textContent=surf+" m²"
+  $id("v-s-base").textContent=fmtM2(r.baseline_dh)
+
+  const container=$id("v-contribs")
+  const contribs=r.contributions||[]
+  if(!contribs.length){container.innerHTML='<p class="placeholder">Aucune contribution disponible.</p>';return}
+  const maxAbs=Math.max(...contribs.map(c=>Math.abs(c.impact_dh)),1)
+  container.innerHTML=contribs.map(c=>{
+    const pos=c.impact_dh>=0
+    const w=Math.min(100,Math.abs(c.impact_dh)/maxAbs*100)
+    const cls=pos?"pos":"neg"
+    return`<div class="contrib-row">
+      <div class="c-name">${esc(c.feature)}
+        <small>valeur : ${Number(c.value??0).toFixed(1)}</small>
+        <div class="contrib-bar"><span class="${cls}" style="width:${w}%"></span></div>
+      </div>
+      <div class="c-impact ${cls}">
+        ${(c.impact_dh>=0?"+":"−")+fmtN(Math.abs(c.impact_dh))+" DH"}
+      </div>
+    </div>`
+  }).join("")
+}
+
+/* ══════════════════════════════════════════════════════════════
+   MODULE — CARTE DES PRIX PAR QUARTIER
+   ══════════════════════════════════════════════════════════════ */
+const pmState={map:null,markers:{},segment:"apparts",data:{apparts:[],villas:[]},minMax:{apparts:[0,1],villas:[0,1]}}
+
+function priceColor(v,min,max){
+  const t=max>min?Math.max(0,Math.min(1,(v-min)/(max-min))):0.5
+  const stops=[{p:0,c:[140,58,46]},{p:.4,c:[216,185,106]},{p:.7,c:[95,165,126]},{p:1,c:[31,92,63]}]
+  let a=stops[0],b=stops[stops.length-1]
+  for(let i=0;i<stops.length-1;i++){if(t>=stops[i].p&&t<=stops[i+1].p){a=stops[i];b=stops[i+1];break}}
+  const k=(t-a.p)/(b.p-a.p||1)
+  return`rgb(${Math.round(a.c[0]+k*(b.c[0]-a.c[0]))},${Math.round(a.c[1]+k*(b.c[1]-a.c[1]))},${Math.round(a.c[2]+k*(b.c[2]-a.c[2]))})`
+}
+
+async function initPriceMap(){
+  pmState.map=L.map("pm-map").setView([33.57,-7.61],11)
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{
+    maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(pmState.map)
+
+  await Promise.all([loadPmSegment("apparts"),loadPmSegment("villas")])
+  renderPmMarkers()
+  buildPmSuggest()
+
+  document.querySelectorAll(".pm-seg-btn").forEach(b=>b.addEventListener("click",()=>{
+    document.querySelectorAll(".pm-seg-btn").forEach(x=>x.classList.toggle("active",x===b))
+    pmState.segment=b.dataset.seg
+    renderPmMarkers()
+  }))
+
+  $id("pm-back").addEventListener("click",e=>{e.preventDefault();showPmEmpty()})
+
+  const search=$id("pm-quartier-search")
+  search.addEventListener("input",()=>{
+    const q=search.value.trim().toLowerCase()
+    const suggest=$id("pm-suggest")
+    if(!q){suggest.classList.add("hidden");return}
+    const all=Array.from(new Set([...pmState.data.apparts,...pmState.data.villas].map(z=>z.quartier)))
+    const matches=all.filter(n=>n.toLowerCase().includes(q)).sort().slice(0,15)
+    suggest.innerHTML=matches.map(n=>`<div class="pm-suggest-item" data-q="${esc(n)}">${esc(n)}</div>`).join("")||'<div class="pm-suggest-item" style="color:var(--text-muted)">Aucun résultat</div>'
+    suggest.classList.remove("hidden")
+    suggest.querySelectorAll(".pm-suggest-item[data-q]").forEach(el=>{
+      el.addEventListener("click",()=>{
+        selectPmQuartier(el.dataset.q)
+        suggest.classList.add("hidden")
+        search.value=el.dataset.q
+      })
+    })
+  })
+  document.addEventListener("click",e=>{
+    if(!$id("pm-search-wrap")&&!e.target.closest(".pm-search"))$id("pm-suggest").classList.add("hidden")
+  })
+}
+
+async function loadPmSegment(seg){
+  const r=await apiFetch(`/map/quartiers?segment=${seg}`)
+  pmState.data[seg]=r.quartiers||[]
+  const vals=pmState.data[seg].map(z=>z.prix_m2_median)
+  pmState.minMax[seg]=[Math.min(...vals),Math.max(...vals)]
+}
+
+function buildPmSuggest(){ /* données déjà chargées dans pmState.data, suggestion calculée à la volée */ }
+
+function renderPmMarkers(){
+  Object.values(pmState.markers).forEach(m=>pmState.map.removeLayer(m))
+  pmState.markers={}
+  const seg=pmState.segment
+  const [min,max]=pmState.minMax[seg]
+  $id("pm-leg-min").textContent=fmtM2(min)
+  $id("pm-leg-max").textContent=fmtM2(max)
+
+  const grp=L.featureGroup()
+  pmState.data[seg].forEach(z=>{
+    const color=priceColor(z.prix_m2_median,min,max)
+    const radius=6+Math.min(10,Math.log10(z.n_annonces+1)*4)
+    const m=L.circleMarker([z.lat,z.lng],{radius,fillColor:color,color:"#0a2540",weight:1,opacity:1,fillOpacity:.85})
+    m.bindTooltip(`<strong>${esc(z.quartier)}</strong><br>${fmtM2(z.prix_m2_median)}`,{direction:"top"})
+    m.on("click",()=>selectPmQuartier(z.quartier))
+    m.addTo(pmState.map)
+    grp.addLayer(m)
+    pmState.markers[z.quartier]=m
+  })
+  if(grp.getLayers().length)pmState.map.fitBounds(grp.getBounds().pad(.1))
+}
+
+function showPmEmpty(){
+  $id("pm-empty").classList.remove("hidden")
+  $id("pm-detail").classList.add("hidden")
+}
+
+async function selectPmQuartier(quartier){
+  try{
+    const d=await apiFetch(`/map/quartiers/${encodeURIComponent(quartier)}`)
+    $id("pm-empty").classList.add("hidden")
+    $id("pm-detail").classList.remove("hidden")
+    $id("pm-title").textContent=`Prix de l'immobilier au m² Casablanca, ${quartier}`
+
+    fillPmCard("a",d.apparts)
+    fillPmCard("v",d.villas)
+
+    if(d.coord&&pmState.map){
+      pmState.map.setView(d.coord,14)
+      const m=pmState.markers[quartier]
+      if(m)m.openTooltip()
+    }
+  }catch(e){console.error("selectPmQuartier",e)}
+}
+
+function fillPmCard(prefix,stats){
+  if(!stats){
+    $id(`pm-${prefix}-median`).textContent="—"
+    $id(`pm-${prefix}-min`).textContent="—"
+    $id(`pm-${prefix}-max`).textContent="—"
+    $id(`pm-${prefix}-n`).textContent="—"
+    $id(`pm-${prefix}-dot`).style.left="50%"
+    return
+  }
+  $id(`pm-${prefix}-median`).textContent=fmtM2(stats.prix_m2_median)
+  $id(`pm-${prefix}-min`).textContent=fmtM2(stats.prix_m2_min)
+  $id(`pm-${prefix}-max`).textContent=fmtM2(stats.prix_m2_max)
+  $id(`pm-${prefix}-n`).textContent=stats.n_annonces
+  const span=stats.prix_m2_max-stats.prix_m2_min
+  const pct=span>0?Math.max(0,Math.min(100,(stats.prix_m2_median-stats.prix_m2_min)/span*100)):50
+  $id(`pm-${prefix}-dot`).style.left=pct+"%"
 }
 
 /* ── BOOT ── */
