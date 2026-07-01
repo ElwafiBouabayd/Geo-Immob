@@ -1,0 +1,24 @@
+{
+  "features": [
+    "quartier_clean",
+    "surface_m2"
+  ],
+  "cat_features": [
+    "quartier_clean"
+  ],
+  "target": "prix_m2",
+  "test_metrics": {
+    "MAE": 2915623.71,
+    "RMSE": 4526020.14,
+    "R2": 0.594
+  },
+  "best_params": {
+    "iterations": 1479,
+    "learning_rate": 0.08094991577483082,
+    "depth": 5,
+    "l2_leaf_reg": 9.955064057799708,
+    "bagging_temperature": 0.2158360407128856,
+    "random_strength": 1.369679137924054,
+    "border_count": 103
+  }
+}

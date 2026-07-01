@@ -1,0 +1,34 @@
+{
+  "features": [
+    "quartier",
+    "type_bien",
+    "etat_bien",
+    "surface_m2",
+    "chambres_total",
+    "salles_de_bain",
+    "etage_num",
+    "ascenseur",
+    "securite",
+    "parking_places"
+  ],
+  "cat_features": [
+    "quartier",
+    "type_bien",
+    "etat_bien"
+  ],
+  "target": "prix_m2",
+  "test_metrics": {
+    "MAE": 1973.49,
+    "RMSE": 2740.45,
+    "R2": 0.7193
+  },
+  "best_params": {
+    "iterations": 1505,
+    "learning_rate": 0.12982472033726944,
+    "depth": 5,
+    "l2_leaf_reg": 1.7303685224475978,
+    "bagging_temperature": 0.2671416984227821,
+    "random_strength": 0.7603654527722213,
+    "border_count": 178
+  }
+}
