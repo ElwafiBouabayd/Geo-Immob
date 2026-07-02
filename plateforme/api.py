@@ -19,6 +19,10 @@ from scoring import (
     score_from_variables,
 )
 
+GEOMARKETING_DIR = Path(__file__).parent.parent / "analyse geomarketing"
+sys.path.insert(0, str(GEOMARKETING_DIR))
+import geomarketing_agent
+
 class NumpyEncoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, np.integer): return int(obj)
@@ -130,10 +134,17 @@ class SegmentModel:
         return prix_m2, contribs
 
 
-# Mapping appliqué dans apparts.ipynb avant l'entraînement : le modèle ne connaît
-# que ces 3 catégories d'état du bien (confirmé par les categories_ de
-# ordinal_encoder_quartiers_apparts.pkl). Toute autre valeur passée au modèle
-# tomberait dans une catégorie inconnue et fausserait la prédiction.
+# Mapping applique UNE SEULE FOIS dans apparts.ipynb, avant l'entrainement : le
+# modele ne connait que 3 categories finales ("Neuf / Renove", "Bon etat",
+# "A renover"). data/apparts.xlsx contient deja ces categories post-mapping
+# (verifie : df['etat_bien'].value_counts() n'y montre que ces 3 valeurs + NaN).
+# Ne PAS reappliquer ce mapping sur apparts.xlsx dans load_segment() : comme ses
+# cles sont les valeurs BRUTES pre-mapping ("Bon etat / habitable", "Correct",
+# "Neuf", ...), un second passage transforme "Bon etat" et "Neuf / Renove"
+# (deja finaux, donc absents des cles) en NaN, et seul "A renover" survit car
+# c'est a la fois une cle et sa propre valeur cible. C'est ce qui faisait
+# n'afficher que "A renover" dans le select "Etat du bien" de la plateforme.
+# Conserve ici a titre de documentation du mapping d'origine.
 ETAT_BIEN_MAPPING = {
     "Neuf": "Neuf / Rénové",
     "Jamais habité / rénové": "Neuf / Rénové",
@@ -146,15 +157,28 @@ ETAT_BIEN_MAPPING = {
 }
 
 
+# Les fichiers data/apparts.xlsx et data/villas.xlsx contiennent des prix DEMANDES
+# (annonces), pas des prix de transaction reels. On applique une decote forfaitaire
+# pour approcher le prix reel de vente (marge de negociation typique).
+PRIX_DEMANDE_FACTOR = 0.85
+
+
 def load_segment(name: str, cbm_file: str, xlsx_file: str, quartier_col: str,
-                  price_total_col: Optional[str] = None, predicts_total_price: bool = False,
-                  etat_bien_mapping: Optional[dict] = None) -> SegmentModel:
+                  price_total_col: Optional[str] = None, price_m2_col: Optional[str] = None,
+                  predicts_total_price: bool = False, etat_bien_mapping: Optional[dict] = None,
+                  apply_demande_factor: bool = False) -> SegmentModel:
     df = pd.read_excel(DATA_DIR / xlsx_file)
-    if "prix_m2" not in df.columns:
+    if price_m2_col and price_m2_col in df.columns:
+        # Colonne prix/m2 deja presente dans le fichier (nom variable selon le segment :
+        # "prix_par_m2" pour apparts, "prix_m2" pour villas) -> utilisee telle quelle.
+        df["prix_m2"] = df[price_m2_col]
+    elif "prix_m2" not in df.columns:
         if price_total_col and price_total_col in df.columns and "surface_m2" in df.columns:
             df["prix_m2"] = df[price_total_col] / df["surface_m2"]
         else:
             raise ValueError(f"Impossible de déterminer prix_m2 pour le segment {name}")
+    if apply_demande_factor:
+        df["prix_m2"] = df["prix_m2"] * PRIX_DEMANDE_FACTOR
     if etat_bien_mapping and "etat_bien" in df.columns:
         df["etat_bien"] = df["etat_bien"].map(etat_bien_mapping)
     return SegmentModel(name, MODELS_DIR / cbm_file, df, quartier_col, predicts_total_price=predicts_total_price)
@@ -163,11 +187,12 @@ def load_segment(name: str, cbm_file: str, xlsx_file: str, quartier_col: str,
 # ── MODÈLES ─────────────────────────────────────────────────────────────────
 # apparts : modèle entraîné sur prix_par_m2*0.9 -> prédit un prix au m²
 APPARTS = load_segment("apparts", "catboost_prix_m2_apparts.cbm", "apparts.xlsx", "quartier",
-                        price_total_col="prix_mad", predicts_total_price=False,
-                        etat_bien_mapping=ETAT_BIEN_MAPPING)
+                        price_total_col="prix_mad", price_m2_col="prix_par_m2",
+                        predicts_total_price=False, apply_demande_factor=True)
 # villas/terrains : modèles entraînés sur prix_mad*0.9 / price_dh*0.9 -> prédisent un prix total
 VILLAS  = load_segment("villas", "catboost_prix_villa.cbm", "villas.xlsx", "quartier",
-                        price_total_col="prix_mad", predicts_total_price=True)
+                        price_total_col="prix_mad", price_m2_col="prix_m2",
+                        predicts_total_price=True, apply_demande_factor=True)
 TERRAINS = load_segment("terrains", "catboost_prix_terrains.cbm", "terrains.xlsx", "quartier_clean",
                          price_total_col="price_dh", predicts_total_price=True)
 
@@ -207,6 +232,10 @@ class TerrainRequest(BaseModel):
 
 class ScoreRequest(BaseModel):
     values: Dict[str, float]
+
+class GeomarketingRequest(BaseModel):
+    lat: float
+    lon: float
 
 
 def segment_endpoints(seg: SegmentModel, prefix: str, req_model):
@@ -374,6 +403,31 @@ def compute_score(req: ScoreRequest):
     except ValueError as e:
         raise HTTPException(400, str(e))
     return safe_json(result)
+
+# ── ENDPOINTS ANALYSE GEOMARKETING ────────────────────────────────────────────
+@app.post("/api/geomarketing/context")
+def geomarketing_context(req: GeomarketingRequest):
+    """Contexte structure (socio-demo HCP + POI OSM + accessibilite) pour un point.
+    Rapide : ne lit que des caches locaux, aucun appel reseau ni LLM."""
+    try:
+        context = geomarketing_agent.get_context(req.lat, req.lon)
+    except Exception as e:
+        raise HTTPException(500, f"Erreur calcul du contexte geomarketing : {e}")
+    return safe_json(context)
+
+@app.post("/api/geomarketing/analyse")
+def geomarketing_analyse(req: GeomarketingRequest):
+    """Contexte + analyse en langage naturel generee par l'API Claude
+    (necessite ANTHROPIC_API_KEY dans analyse geomarketing/.env)."""
+    try:
+        context = geomarketing_agent.get_context(req.lat, req.lon)
+    except Exception as e:
+        raise HTTPException(500, f"Erreur calcul du contexte geomarketing : {e}")
+    try:
+        analyse = geomarketing_agent.generate_analysis(context)
+    except Exception as e:
+        raise HTTPException(500, f"Erreur generation de l'analyse (verifiez ANTHROPIC_API_KEY) : {e}")
+    return safe_json({"context": context, "analyse": analyse})
 
 @app.get("/")
 def root():

@@ -3,3 +3,5 @@
 
 # Tous les dossiers CatBoost du projet
 **/catboost_info/
+# cle env
+**/.env
